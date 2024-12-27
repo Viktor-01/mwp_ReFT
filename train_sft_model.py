@@ -11,12 +11,22 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
 # See the License for the specific language governing permissions and 
 # limitations under the License. 
+
+# import debugpy
+# try:
+#     # 5678 is the default attach port in the VS Code debug configurations. Unless a host and port are specified, host defaults to 127.0.0.1
+#     debugpy.listen(("localhost", 9501))
+#     print("Waiting for debugger attach")
+#     debugpy.wait_for_client()
+# except Exception as e:
+#     pass  
+
 from accelerate import Accelerator, InitProcessGroupKwargs
 from accelerate.utils import pad_across_processes, broadcast
 from collections import defaultdict
 from dataclasses import dataclass, field, asdict
 from datasets import load_dataset, load_from_disk, DatasetDict, Dataset, concatenate_datasets
-from datetime import timedelta
+from datetime import datetime, time, timedelta
 from functools import partial
 import json
 import os
@@ -26,25 +36,26 @@ from src.utils import set_seed, floatify, compute_ETA
 from tqdm import tqdm
 import torch
 from torch.utils.data import DataLoader
-from transformers import AutoTokenizer, AutoModelForCausalLM, get_linear_schedule_with_warmup, AdamW, get_constant_schedule_with_warmup
+from transformers import AutoConfig, AutoTokenizer, AutoModelForCausalLM, get_linear_schedule_with_warmup, AdamW, get_constant_schedule_with_warmup
 import wandb
 import pandas as pd
 import shutil
 tqdm = partial(tqdm, ncols=0, leave=False)
+
 
 TIMEOUT = 10
 instruction=None
 cot_trigger=None
 answer_trigger=None
 def setup_cot(src_name):
-    assert src_name in ['gsm8k', 'mathqa', 'svamp', 'mathqa-numeric']
+    assert src_name in ['gsm8k', 'mathqa', 'svamp', 'mathqa-numeric', 'zhouyi']
     global instruction
     global cot_trigger
     global answer_trigger
     # Complete output is in this form: f'{instruction}{question.strip()}{cot_trigger}{answer_cot.strip()}'
     instruction = 'Question:\n'
     cot_trigger = '\nAnswer reasoning:\n'
-    answer_trigger = '\nTherefore, the answer is: '
+    answer_trigger = '\n因此，答案是：'
     return 
 
 post_process_final_answer_fn_mapper = {
@@ -52,6 +63,7 @@ post_process_final_answer_fn_mapper = {
     'svamp': lambda x: float(x.replace(',','').strip()),
     'mathqa': lambda x: x.lower().replace('"','').replace("'",'').strip(),
     'mathqa-numeric': lambda x: float(x),
+    'zhouyi': lambda x: x.strip(),
 }
 ### the answer_cot is a list of answer_cot
 post_process_answer_cot_fn_mapper = {
@@ -63,12 +75,14 @@ post_process_answer_cot_fn_mapper = {
     ('nl', 'svamp'): lambda answer_cot: [floatify(res.split(answer_trigger)[-1].strip()) for res in answer_cot],
     ('nl', 'mathqa'): lambda answer_cot: [res.split(answer_trigger)[-1].lower().replace('"','').replace("'",'').strip() for res in answer_cot],
     ('nl', 'mathqa-numeric'): lambda answer_cot: [floatify(res.split(answer_trigger)[-1].strip()) for res in answer_cot],
+    ('nl', 'zhouyi'): lambda answer_cot: [res.split(answer_trigger)[-1].strip() for res in answer_cot],
 }
 compare_answer_fn_mapper = {
     'gsm8k': lambda extracted_ans, target_answer: abs(extracted_ans - target_answer) <= 1e-2,
     'svamp': lambda extracted_ans, target_answer: abs(extracted_ans - target_answer) <= 1e-2,
     'mathqa': lambda extracted_ans, target_answer: extracted_ans == target_answer,
     'mathqa-numeric': lambda extracted_ans, target_answer: abs(extracted_ans - target_answer) <= 1e-2,
+    'zhouyi': lambda extracted_ans, target_answer: extracted_ans == target_answer,
 }
 
 def prepare_datasets_and_data_loaders(args, tokenizer):
@@ -203,17 +217,28 @@ def prepare_datasets_and_data_loaders(args, tokenizer):
                         
     return (tokenized_dataset['train'], train_dataloader), (tokenized_dataset['test'], test_dataloader)
 
-def do_checkpoint(args, model, tokenizer, save_path, most_recent_ckpts_paths=None):
-    os.makedirs(save_path, exist_ok=True)
-    unwrapped_model = accelerator.unwrap_model(model)
-    unwrapped_model.save_pretrained(save_path, is_main_process=accelerator.is_main_process, save_function=accelerator.save, state_dict=accelerator.get_state_dict(model))
-    tokenizer.save_pretrained(save_path)
-    if accelerator.is_main_process and most_recent_ckpts_paths is not None:
-        most_recent_ckpts_paths.append(save_path)
-        if args['keep_num_ckpt'] is not None and len(most_recent_ckpts_paths) > args['keep_num_ckpt']:
-            ckpt_to_be_removed = most_recent_ckpts_paths.pop(0)
-            # os.remove(ckpt_to_be_removed)
-            shutil.rmtree(ckpt_to_be_removed)
+def do_checkpoint(args, model, tokenizer, save_path, global_step, most_recent_ckpts_paths=None):
+    # return
+    
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    try:
+        # 创建新目录并保存模型
+        os.makedirs(save_path, exist_ok=True)
+        model.save_checkpoint(save_path)
+        accelerator.print(f"成功保存新的最佳checkpoint,时间: {timestamp} 路径: {save_path} step: {global_step}")
+    except Exception as e:
+        accelerator.print(f"保存checkpoint时发生错误: {e}, 时间: {timestamp}")
+        raise e
+
+    # unwrapped_model = accelerator.unwrap_model(model)
+    # unwrapped_model.save_pretrained(save_path, is_main_process=accelerator.is_main_process, save_function=accelerator.save, state_dict=accelerator.get_state_dict(model))
+    # tokenizer.save_pretrained(save_path)
+    # if accelerator.is_main_process and most_recent_ckpts_paths is not None:
+    #     most_recent_ckpts_paths.append(save_path)
+    #     if args['keep_num_ckpt'] is not None and len(most_recent_ckpts_paths) > args['keep_num_ckpt']:
+    #         ckpt_to_be_removed = most_recent_ckpts_paths.pop(0)
+    #         # os.remove(ckpt_to_be_removed)
+    #         shutil.rmtree(ckpt_to_be_removed)
 
 def train_one_epoch(args, model, train_dataset, train_dataloader, optimizer, scheduler, tokenizer,
                     global_step, test_dataset, test_dataloader, 
@@ -277,13 +302,13 @@ def train_one_epoch(args, model, train_dataset, train_dataloader, optimizer, sch
                     accelerator.print(f"{prefix}[E={epoch}/{args['n_epochs']}, S={global_step}] {log_dict}")
 
                 # Step saving
-                if saving_step_freq is not None and global_step % saving_step_freq == 0:
-                    if is_best:
-                        save_path = os.path.join(model_dir, f'best')
-                        do_checkpoint(args, model, tokenizer, save_path)
-                    if args['keep_num_ckpt'] > 0:
-                        save_path = os.path.join(model_dir, f'global_step_{str(global_step)}')
-                        do_checkpoint(args, model, tokenizer, save_path, most_recent_ckpts_paths)
+                # if saving_step_freq is not None and global_step % saving_step_freq == 0:
+                #     if is_best:
+                #         save_path = os.path.join(model_dir, f'best')
+                #         do_checkpoint(args, model, tokenizer, save_path)
+                    # if args['keep_num_ckpt'] > 0:
+                    #     save_path = os.path.join(model_dir, f'global_step_{str(global_step)}')
+                    #     do_checkpoint(args, model, tokenizer, save_path, most_recent_ckpts_paths)
 
                 # Keep only max_record items
                 for k, v in epoch_result_dict.items():
@@ -296,6 +321,13 @@ def train_one_epoch(args, model, train_dataset, train_dataloader, optimizer, sch
     return epoch_result_dict, global_step
 
 def evaluate_generation(args, model, dataset, dataloader, tokenizer):
+    if accelerator.is_main_process:
+        accelerator.print('Evaluating...')
+        accelerator.print(f'跳过evaluation，返回0')
+        return {'value_accuracy': 0} #TODO: 现在zero3返回的输出都是一样的，而且返回的输出和target格式不一致，需要修改，暂时略去
+    else:
+        return {'value_accuracy': -1.0}
+
     model.eval()
     predictions = []
     targets = []
@@ -324,7 +356,11 @@ def evaluate_generation(args, model, dataset, dataloader, tokenizer):
         predictions.extend(preds)
         target = [tokenizer.decode(t, skip_special_tokens=True, clean_up_tokenization_spaces=True).strip() for t in labels]
         targets.extend(target)
-
+        accelerator.print('preds[0]: ', preds[0])
+        accelerator.print('target[0]: ', target[0])
+        accelerator.print('\n\n')
+        accelerator.print('preds: ', preds)
+        accelerator.print('target: ', target)
     predictions = predictions[:len(dataset)]
     targets = targets[:len(dataset)]
 
@@ -382,18 +418,49 @@ def evaluate_generation(args, model, dataset, dataloader, tokenizer):
     model.train()
     return {'value_accuracy': value_accuracy}
 
+
 def main(args):
     set_seed(args['seed'] + accelerator.process_index)
     if torch.distributed.get_rank() == 0 and args['wandb_log']:
         wandb.init(project=args['wandb_project'], name=args['wandb_run_name'])
         wandb.config.update(args)
         
-    tokenizer = AutoTokenizer.from_pretrained(args['tokenizer_name_or_path'], use_fast=True)
-    tokenizer.pad_token_id = 1
-    tokenizer.eos_token_id = 2
+    tokenizer = AutoTokenizer.from_pretrained(
+        args['tokenizer_name_or_path'],
+        trust_remote_code=True,
+        padding_side='left',  # ChatGLM 使用左侧填充
+        eos_token='<|endoftext|>',  # 设置 EOS token
+        pad_token='<|endoftext|>',  # 设置 PAD token
+    )
+    
+    # 确保 tokenizer 有必要的特殊 token
+    special_tokens_dict = {
+        'pad_token': '<|endoftext|>',
+        'eos_token': '<|endoftext|>',
+        'bos_token': '<|startoftext|>',
+    }
+    tokenizer.add_special_tokens(special_tokens_dict)
 
     (train_dataset, train_dataloader), (test_dataset, test_dataloader) = prepare_datasets_and_data_loaders(args, tokenizer)
-    model = AutoModelForCausalLM.from_pretrained(args['model_name_or_path'], low_cpu_mem_usage=True, torch_dtype=torch.bfloat16)
+    config = AutoConfig.from_pretrained(
+        args['model_name_or_path'],
+        trust_remote_code=True
+    )
+    
+    # 添加缺失的配置
+    config._attn_implementation = "eager"  # 添加注意力实现方式
+    
+    # 加载模型
+    model = AutoModelForCausalLM.from_pretrained(
+        args['model_name_or_path'],
+        config=config,
+        trust_remote_code=True,
+        torch_dtype=torch.bfloat16,
+    )
+    
+    # 确保模型参数是 bf16 类型
+    model = model.bfloat16()
+    
     accelerator.print(f'[Vocab size]: {len(tokenizer)}')    
     model.resize_token_embeddings(len(tokenizer))
 
@@ -442,6 +509,7 @@ def main(args):
     summary_log_dict = {}
     os.makedirs(model_dir, exist_ok=True)
     most_recent_ckpts_paths = []
+    lowest_loss = None
     with tqdm(range(1, n_epochs+1), total=n_epochs, disable=False) as t:
         for epoch in t:
             kwargs = {
@@ -465,16 +533,24 @@ def main(args):
 
             eval_log_dict = {}
             is_best = False
-            if evaluating_epoch_freq is not None and epoch % evaluating_epoch_freq == 0:
-                evaluate_result_dict = {f'Eval.Gen.{k}':  v for k, v in evaluate_generation(args, model, test_dataset, test_dataloader, tokenizer).items()}
-                eval_log_dict.update(evaluate_result_dict)
-                if eval_log_dict['Eval.Gen.value_accuracy'] > best_eval_log_dict.get('Eval.Gen.value_accuracy_best', 0):
-                    is_best = True
-                    best_eval_log_dict['Eval.Gen.value_accuracy_best'] = eval_log_dict['Eval.Gen.value_accuracy']
-                if 'Eval.Gen.value_accuracy' not in summary_log_dict:
-                    summary_log_dict['Eval.Gen.value_accuracy'] = []
-                summary_log_dict['Eval.Gen.value_accuracy'].append(eval_log_dict['Eval.Gen.value_accuracy'])
-
+            
+            accelerator.print(f'跳过evaluation')
+            # if evaluating_epoch_freq is not None and epoch % evaluating_epoch_freq == 0:
+            #     evaluate_result_dict = {f'Eval.Gen.{k}':  v for k, v in evaluate_generation(args, model, test_dataset, test_dataloader, tokenizer).items()}
+            #     eval_log_dict.update(evaluate_result_dict)
+            #     if eval_log_dict['Eval.Gen.value_accuracy'] > best_eval_log_dict.get('Eval.Gen.value_accuracy_best', 0):
+            #         is_best = True
+            #         best_eval_log_dict['Eval.Gen.value_accuracy_best'] = eval_log_dict['Eval.Gen.value_accuracy']
+            #     if 'Eval.Gen.value_accuracy' not in summary_log_dict:
+            #         summary_log_dict['Eval.Gen.value_accuracy'] = []
+            #     summary_log_dict['Eval.Gen.value_accuracy'].append(eval_log_dict['Eval.Gen.value_accuracy'])
+            if lowest_loss is None:
+                lowest_loss = train_epoch_result_dict["loss"]
+                is_best = True
+            elif train_epoch_result_dict["loss"] < lowest_loss:
+                lowest_loss = train_epoch_result_dict["loss"]
+                is_best = True
+                
             train_log_dict = {}
             if logging_epoch_freq is not None and epoch % logging_epoch_freq == 0:
                 train_log_dict = {f'T.{k}': sum(v)/len(v) if isinstance(v, list) else v for k, v in train_epoch_result_dict.items()}
@@ -487,13 +563,26 @@ def main(args):
                 log_dict = {k: f'{v:.5g}' if isinstance(v, float) else v for k,v in log_dict.items()}
                 accelerator.print(f"[E={epoch}/{args['n_epochs']}, S={global_step}] {log_dict}")
 
-            if saving_epoch_freq is not None and epoch % saving_epoch_freq == 0:
-                if is_best:
-                    save_path = os.path.join(model_dir, f'best')
-                    do_checkpoint(args, model, tokenizer, save_path)
-                if args['keep_num_ckpt'] > 0:
-                    save_path=os.path.join(args['model_dir'], f'global_step_{str(global_step)}_epoch_{epoch}')
-                    do_checkpoint(args, model, tokenizer, save_path, most_recent_ckpts_paths)
+            # if saving_epoch_freq is not None and epoch % saving_epoch_freq == 0:
+            if is_best:
+                save_path = os.path.join(model_dir, f'best')
+                if not  accelerator.is_main_process:
+                    pass
+                else:
+                    # 如果目录已存在,先清空
+                    if os.path.exists(save_path):
+                        accelerator.print(f"目录已存在, 清空目录: {save_path}")
+                        shutil.rmtree(save_path)
+                    os.makedirs(save_path, exist_ok=True)
+                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    accelerator.print(f"开始保存新的最佳checkpoint... 时间: {timestamp}")
+                
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                do_checkpoint(args, model, tokenizer, save_path, global_step)
+                time.sleep(10)
+                # if args['keep_num_ckpt'] > 0:
+                #     save_path=os.path.join(args['model_dir'], f'global_step_{str(global_step)}_epoch_{epoch}')
+                #     do_checkpoint(args, model, tokenizer, save_path, most_recent_ckpts_paths)
 
     return 
 if __name__ == '__main__':
@@ -523,6 +612,7 @@ if __name__ == '__main__':
         saving_step_freq: int = field(default=NONE_INT)
         seed: int = field(default=42)
         max_input_length: int = field(default=700)
+        max_gen_length: int = field(default=512)
         gradient_accumulation_steps: int = field(default=1)
         keep_num_ckpt: int = field(default=1)
         # wandb stuff
@@ -530,7 +620,7 @@ if __name__ == '__main__':
         wandb_project: str = field(default='tmp_anvfupsadfn')
         wandb_run_name: str = field(default='default_run_name')
         ###
-        engine: str = field(default='python')
+        engine: str = field(default='nl')
 
     parser = HfArgumentParser(Arguments)
     (args,) = parser.parse_args_into_dataclasses()

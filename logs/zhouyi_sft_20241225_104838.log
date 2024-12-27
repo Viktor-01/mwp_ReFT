@@ -1,0 +1,695 @@
+no change     /home/wangxinrong/miniconda3/condabin/conda
+no change     /home/wangxinrong/miniconda3/bin/conda
+no change     /home/wangxinrong/miniconda3/bin/conda-env
+no change     /home/wangxinrong/miniconda3/bin/activate
+no change     /home/wangxinrong/miniconda3/bin/deactivate
+no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.sh
+no change     /home/wangxinrong/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/wangxinrong/miniconda3/shell/condabin/Conda.psm1
+no change     /home/wangxinrong/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/wangxinrong/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.csh
+no change     /home/wangxinrong/.bashrc
+No action taken.
+
+CondaError: Run 'conda init' before 'conda activate'
+
+[2024-12-25 10:48:42,357] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+[2024-12-25 10:48:46,654] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-25 10:48:46,691] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-25 10:48:46,696] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-25 10:48:46,697] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-25 10:48:46,706] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-25 10:48:46,717] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-25 10:48:46,733] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-25 10:48:46,758] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-25 10:48:49,249] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-25 10:48:49,270] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-12-25 10:48:49,272] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-25 10:48:49,309] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-25 10:48:49,311] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-12-25 10:48:49,312] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-12-25 10:48:49,327] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-25 10:48:49,391] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-25 10:48:49,452] [INFO] [comm.py:637:init_distributed] cdb=None
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+{'model_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'tokenizer_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'model_dir': '/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/', 'train_file': 'data/my_data/zhouyi_train.json', 'test_file': 'data/my_data/zhouyi_test.json', 'batch_size': 1, 'eval_batch_size': 1, 'n_epochs': 40, 'num_workers': 8, 'learning_rate': 1e-05, 'weight_decay': 0.0, 'warmup_step': None, 'clip_grad_norm': 1.0, 'evaluating_epoch_freq': 1, 'logging_epoch_freq': 1, 'saving_epoch_freq': 1, 'evaluating_step_freq': None, 'logging_step_freq': 10, 'saving_step_freq': None, 'seed': 42, 'max_input_length': 128, 'max_gen_length': 512, 'gradient_accumulation_steps': 2, 'keep_num_ckpt': 1, 'wandb_log': False, 'wandb_project': 'ReFT', 'wandb_run_name': 'zhouyi_glm4_sft', 'engine': 'nl'}
+{
+  "model_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
+  "tokenizer_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
+  "model_dir": "/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/",
+  "train_file": "data/my_data/zhouyi_train.json",
+  "test_file": "data/my_data/zhouyi_test.json",
+  "batch_size": 1,
+  "eval_batch_size": 1,
+  "n_epochs": 40,
+  "num_workers": 8,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.0,
+  "warmup_step": null,
+  "clip_grad_norm": 1.0,
+  "evaluating_epoch_freq": 1,
+  "logging_epoch_freq": 1,
+  "saving_epoch_freq": 1,
+  "evaluating_step_freq": null,
+  "logging_step_freq": 10,
+  "saving_step_freq": null,
+  "seed": 42,
+  "max_input_length": 128,
+  "max_gen_length": 512,
+  "gradient_accumulation_steps": 2,
+  "keep_num_ckpt": 1,
+  "wandb_log": false,
+  "wandb_project": "ReFT",
+  "wandb_run_name": "zhouyi_glm4_sft",
+  "engine": "nl"
+}
+Raw data: DatasetDict({
+    train: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
+        num_rows: 12
+    })
+    test: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
+        num_rows: 1
+    })
+})
+Using instruction: Question:
+
+Using cot_trigger: 
+Answer reasoning:
+
+Using answer_trigger: 
+因此，答案是：
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.50 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.70 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.60 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:04<00:02,  1.71 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:05<00:02,  1.46 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:06<00:01,  1.30 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:07<00:00,  1.18 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:08<00:00,  1.12 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.32 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 117.44 examples/s]
+Processed data: DatasetDict({
+    train: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
+        num_rows: 12
+    })
+    test: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
+        num_rows: 1
+    })
+})
+train train_input_ids_max_length 846
+test test_input_ids_max_length 840
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.45 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.44 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.42 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.41 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.43 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.44 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.40 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.65 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.63 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.60 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.62 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.64 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.62 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.57 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.54 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.52 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.54 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.52 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.53 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:04,  1.48 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.49 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:04<00:02,  1.64 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.63 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:04<00:02,  1.64 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:04<00:02,  1.64 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.63 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.60 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.60 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.40 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.40 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.37 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.36 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.36 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.36 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.38 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.25 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.25 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.24 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.22 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.22 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.21 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.22 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.15 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.14 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.14 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.13 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.12 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.11 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.10 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.10 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.08 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.06 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.27 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.06 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.06 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.27 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.26 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.25 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.04 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.26 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.04 examples/s]num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.24 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.23 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 105.13 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 80.76 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 104.16 examples/s]
+Map: 100%|██████████| 1/1 [00:00<00:00, 108.55 examples/s]
+Map: 100%|██████████| 1/1 [00:00<00:00, 93.84 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 79.38 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 90.21 examples/s]
+[2024-12-25 10:49:23,556] [INFO] [partition_parameters.py:347:__exit__] finished initializing model - num_params = 283, num_elems = 9.40B
+Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.92s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.96s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.96s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.96s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.96s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.96s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.96s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.98s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.84s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.84s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.85s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.84s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.84s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.84s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.85s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.87s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.88s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.89s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.88s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.88s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.90s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.90s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.90s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.91s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.89s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.89s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.89s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.89s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.89s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.89s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.90s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.90s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.86s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.86s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.85s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.86s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.86s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.86s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.86s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.87s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.88s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.88s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.88s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.88s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.88s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.90s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.89s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.90s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.89s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.89s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.89s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.89s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.89s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.89s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.89s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.91s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.86s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.87s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.87s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.87s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.86s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.86s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.87s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.88s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:16<00:01,  1.89s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:16<00:01,  1.88s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:16<00:01,  1.88s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:16<00:01,  1.89s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:16<00:01,  1.89s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:16<00:01,  1.89s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:16<00:01,  1.88s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.89s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.86s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.86s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.86s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.86s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.86s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.86s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.86s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:18<00:00,  1.86s/it]
+[Vocab size]: 151344
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 12
+  Num Epochs = 40
+  Instantaneous batch size per device = 1
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Total optimization steps = 20
+  Warm up step: 2
+  Learning rate: 1e-05
+
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.4865167140960693 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.4958293437957764 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.545376777648926 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.571162700653076 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.5865137577056885 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.6678431034088135 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.7481775283813477 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.7749509811401367 seconds
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+[2024-12-25 10:49:49,644] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.11.1, git-hash=unknown, git-branch=unknown
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+[2024-12-25 10:49:49,781] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2024-12-25 10:49:49,785] [INFO] [logging.py:96:log_dist] [Rank 0] Using client Optimizer as basic optimizer
+[2024-12-25 10:49:49,785] [INFO] [logging.py:96:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
+[2024-12-25 10:49:49,805] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = DeepSpeedCPUAdam
+[2024-12-25 10:49:49,805] [INFO] [utils.py:56:is_zero_supported_optimizer] Checking ZeRO support for optimizer=DeepSpeedCPUAdam type=<class 'deepspeed.ops.adam.cpu_adam.DeepSpeedCPUAdam'>
+[2024-12-25 10:49:49,805] [INFO] [logging.py:96:log_dist] [Rank 0] Creating fp16 ZeRO stage 3 optimizer, MiCS is enabled False, Hierarchical params gather False
+[2024-12-25 10:49:49,805] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.bfloat16 ZeRO stage 3 optimizer
+[2024-12-25 10:49:50,018] [INFO] [utils.py:802:see_memory_usage] Stage 3 initialize beginning
+[2024-12-25 10:49:50,019] [INFO] [utils.py:803:see_memory_usage] MA 1.15 GB         Max_MA 3.47 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-25 10:49:50,019] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 106.66 GB, percent = 28.3%
+[2024-12-25 10:49:50,021] [INFO] [stage3.py:126:__init__] Reduce bucket size 500,000,000
+[2024-12-25 10:49:50,021] [INFO] [stage3.py:127:__init__] Prefetch bucket size 50,000,000
+[2024-12-25 10:49:50,213] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
+[2024-12-25 10:49:50,214] [INFO] [utils.py:803:see_memory_usage] MA 1.15 GB         Max_MA 1.15 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-25 10:49:50,214] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 106.66 GB, percent = 28.3%
+Parameter Offload: Total persistent parameters: 516096 in 121 params
+[2024-12-25 10:49:50,831] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
+[2024-12-25 10:49:50,831] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 1.15 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-25 10:49:50,831] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 107.83 GB, percent = 28.7%
+[2024-12-25 10:49:50,964] [INFO] [utils.py:802:see_memory_usage] Before creating fp16 partitions
+[2024-12-25 10:49:50,965] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-25 10:49:50,965] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 107.85 GB, percent = 28.7%
+[2024-12-25 10:49:55,861] [INFO] [utils.py:802:see_memory_usage] After creating fp16 partitions: 3
+[2024-12-25 10:49:55,862] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-25 10:49:55,862] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 132.65 GB, percent = 35.2%
+[2024-12-25 10:49:56,028] [INFO] [utils.py:802:see_memory_usage] Before creating fp32 partitions
+[2024-12-25 10:49:56,029] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-25 10:49:56,029] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 132.32 GB, percent = 35.2%
+[2024-12-25 10:50:00,929] [INFO] [utils.py:802:see_memory_usage] After creating fp32 partitions
+[2024-12-25 10:50:00,930] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-25 10:50:00,930] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 164.4 GB, percent = 43.7%
+[2024-12-25 10:50:01,636] [INFO] [utils.py:802:see_memory_usage] Before initializing optimizer states
+[2024-12-25 10:50:01,637] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-25 10:50:01,637] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 166.98 GB, percent = 44.4%
+[2024-12-25 10:50:16,040] [INFO] [utils.py:802:see_memory_usage] After initializing optimizer states
+[2024-12-25 10:50:16,041] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-25 10:50:16,041] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 273.77 GB, percent = 72.7%
+[2024-12-25 10:50:16,802] [INFO] [stage3.py:459:_setup_for_real_optimizer] optimizer state initialized
+  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s][2024-12-25 10:50:23,223] [INFO] [utils.py:802:see_memory_usage] After initializing ZeRO optimizer
+[2024-12-25 10:50:23,224] [INFO] [utils.py:803:see_memory_usage] MA 0.93 GB         Max_MA 3.24 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-25 10:50:23,224] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 287.7 GB, percent = 76.4%
+[2024-12-25 10:50:23,224] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = DeepSpeedCPUAdam
+[2024-12-25 10:50:23,224] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using client LR scheduler
+[2024-12-25 10:50:23,224] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = None
+[2024-12-25 10:50:23,224] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[0.0, 0.0], mom=[(0.9, 0.999), (0.9, 0.999)]
+[2024-12-25 10:50:23,225] [INFO] [config.py:968:print] DeepSpeedEngine configuration:
+[2024-12-25 10:50:23,225] [INFO] [config.py:972:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2024-12-25 10:50:23,225] [INFO] [config.py:972:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True}
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   amp_enabled .................. False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   amp_params ................... False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   bfloat16_enabled ............. True
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   checkpoint_parallel_write_pipeline  False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   checkpoint_tag_validation_enabled  True
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   checkpoint_tag_validation_fail  False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7f17c0b5ab60>
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   communication_data_type ...... None
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   curriculum_enabled_legacy .... False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   curriculum_params_legacy ..... False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   data_efficiency_enabled ...... False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   dataloader_drop_last ......... False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   disable_allgather ............ False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   dump_state ................... False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   dynamic_loss_scale_args ...... None
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   eigenvalue_enabled ........... False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   eigenvalue_gas_boundary_resolution  1
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   eigenvalue_layer_num ......... 0
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   eigenvalue_max_iter .......... 100
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   eigenvalue_stability ......... 1e-06
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   eigenvalue_tol ............... 0.01
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   eigenvalue_verbose ........... False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   elasticity_enabled ........... False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 1, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   fp16_auto_cast ............... None
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   fp16_enabled ................. False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   fp16_master_weights_and_gradients  False
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   global_rank .................. 0
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   grad_accum_dtype ............. None
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   gradient_accumulation_steps .. 8
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   gradient_clipping ............ 1.0
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   gradient_predivide_factor .... 1.0
+[2024-12-25 10:50:23,226] [INFO] [config.py:972:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   initial_dynamic_scale ........ 1
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   load_universal_checkpoint .... False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   loss_scale ................... 1.0
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   memory_breakdown ............. False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   mics_hierarchial_params_gather  False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   mics_shard_size .............. -1
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') enabled=False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   optimizer_legacy_fusion ...... False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   optimizer_name ............... None
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   optimizer_params ............. None
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0}
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   pld_enabled .................. False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   pld_params ................... False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   prescale_gradients ........... False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   scheduler_name ............... None
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   scheduler_params ............. None
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   sparse_attention ............. None
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   sparse_gradients_enabled ..... False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   steps_per_print .............. inf
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   train_batch_size ............. 64
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   train_micro_batch_size_per_gpu  1
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   use_node_local_storage ....... False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   wall_clock_breakdown ......... False
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   weight_quantization_config ... None
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   world_size ................... 8
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   zero_allow_untested_optimizer  True
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500,000,000 allgather_partitions=True allgather_bucket_size=500,000,000 overlap_comm=True load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='cpu', nvme_path=None, buffer_count=5, buffer_size=100,000,000, max_in_cpu=1,000,000,000, pin_memory=False) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='cpu', nvme_path=None, buffer_count=4, pin_memory=False, pipeline=False, pipeline_read=False, pipeline_write=False, fast_init=False) sub_group_size=1,000,000,000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50,000,000 param_persistence_threshold=100,000 model_persistence_threshold=sys.maxsize max_live_parameters=1,000,000,000 max_reuse_distance=1,000,000,000 gather_16bit_weights_on_model_save=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   zero_enabled ................. True
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   zero_force_ds_cpu_optimizer .. True
+[2024-12-25 10:50:23,227] [INFO] [config.py:972:print]   zero_optimization_stage ...... 3
+[2024-12-25 10:50:23,227] [INFO] [config.py:958:print_user_config]   json = {
+    "train_batch_size": 64, 
+    "train_micro_batch_size_per_gpu": 1, 
+    "gradient_accumulation_steps": 8, 
+    "zero_optimization": {
+        "stage": 3, 
+        "offload_optimizer": {
+            "device": "cpu", 
+            "nvme_path": null
+        }, 
+        "offload_param": {
+            "device": "cpu", 
+            "nvme_path": null
+        }, 
+        "stage3_gather_16bit_weights_on_model_save": false
+    }, 
+    "gradient_clipping": 1.0, 
+    "steps_per_print": inf, 
+    "bf16": {
+        "enabled": true
+    }, 
+    "fp16": {
+        "enabled": false
+    }, 
+    "zero_allow_untested_optimizer": true
+}
+  0% 0/40 [00:00<?, ?it/s]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:21<00:21, 21.38s/it][A
+Train Loop: 100% 2/2 [00:36<00:00, 17.59s/it][A
+                                             [A
+Evaluation Gen Loop:   0% 0/1 [00:00<?, ?it/s][A/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+['Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽']
+['此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的']
+['Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽']
+['此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的']
+['Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽']
+['此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的']
+['Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽']
+['此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的']
+['Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽']
+['此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的']
+['Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽']
+['此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的']
+['Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽']
+['Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽']['此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的']
+
+['此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的']
+
+Evaluation Gen Loop: 100% 1/1 [05:55<00:00, 355.98s/it][A
+                                                       [A[Eval Info] value_accuracy: 0%
+[E=1/40, S=1] {'lr': '5e-06', 'T.loss': '2.9844', 'Eval.Gen.value_accuracy': '0', 'Eval.Gen.value_accuracy_best': '0'}
+目录已存在, 清空目录: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best
+保存新的最佳checkpoint... 时间: 20241225_105655
+[2024-12-25 10:56:55,559] [INFO] [logging.py:96:log_dist] [Rank 0] [Torch] Checkpoint global_step0 is about to be saved!
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+[2024-12-25 10:56:55,582] [INFO] [logging.py:96:log_dist] [Rank 0] Saving model checkpoint: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2024-12-25 10:56:55,582] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2024-12-25 10:56:55,588] [INFO] [logging.py:96:log_dist] [Rank 1] Saving model checkpoint: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_1_mp_rank_00_model_states.pt
+[2024-12-25 10:56:55,588] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_1_mp_rank_00_model_states.pt...
+[2024-12-25 10:56:55,588] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_4_mp_rank_00_model_states.pt...
+[2024-12-25 10:56:55,588] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_7_mp_rank_00_model_states.pt...
+[2024-12-25 10:56:55,590] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_6_mp_rank_00_model_states.pt...
+[2024-12-25 10:56:55,590] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_3_mp_rank_00_model_states.pt...
+[2024-12-25 10:56:55,590] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_2_mp_rank_00_model_states.pt...
+[2024-12-25 10:56:55,591] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_5_mp_rank_00_model_states.pt...
+[2024-12-25 10:56:55,598] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2024-12-25 10:56:55,607] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_4_mp_rank_00_model_states.pt.
+[2024-12-25 10:56:55,607] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_7_mp_rank_00_model_states.pt.
+[2024-12-25 10:56:55,608] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_3_mp_rank_00_model_states.pt.
+[2024-12-25 10:56:55,608] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_1_mp_rank_00_model_states.pt.
+[2024-12-25 10:56:55,608] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_2_mp_rank_00_model_states.pt.
+[2024-12-25 10:56:55,608] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_5_mp_rank_00_model_states.pt.
+[2024-12-25 10:56:55,608] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/zero_pp_rank_6_mp_rank_00_model_states.pt.
+[2024-12-25 10:56:55,611] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_1_mp_rank_00_optim_states.pt...
+[2024-12-25 10:56:55,611] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_6_mp_rank_00_optim_states.pt...
+[2024-12-25 10:56:55,611] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_5_mp_rank_00_optim_states.pt...
+[2024-12-25 10:56:55,611] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_3_mp_rank_00_optim_states.pt...
+[2024-12-25 10:56:55,611] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_4_mp_rank_00_optim_states.pt...
+[2024-12-25 10:56:55,611] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_7_mp_rank_00_optim_states.pt...
+[2024-12-25 10:56:55,611] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_2_mp_rank_00_optim_states.pt...
+[2024-12-25 10:56:55,611] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2024-12-25 11:06:17,367] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_3_mp_rank_00_optim_states.pt.
+[2024-12-25 11:06:17,368] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_3_mp_rank_00_optim_states.pt
+[2024-12-25 11:06:17,536] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2024-12-25 11:06:17,556] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2024-12-25 11:06:17,957] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_4_mp_rank_00_optim_states.pt.
+[2024-12-25 11:06:17,958] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_4_mp_rank_00_optim_states.pt
+[2024-12-25 11:06:18,026] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_5_mp_rank_00_optim_states.pt.
+[2024-12-25 11:06:18,027] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_5_mp_rank_00_optim_states.pt
+[2024-12-25 11:06:21,782] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_6_mp_rank_00_optim_states.pt.
+[2024-12-25 11:06:21,782] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_6_mp_rank_00_optim_states.pt
+[2024-12-25 11:06:21,783] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_2_mp_rank_00_optim_states.pt.
+[2024-12-25 11:06:21,783] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_2_mp_rank_00_optim_states.pt
+[2024-12-25 11:06:22,019] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_1_mp_rank_00_optim_states.pt.
+[2024-12-25 11:06:22,018] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_7_mp_rank_00_optim_states.pt.
+[2024-12-25 11:06:22,019] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_1_mp_rank_00_optim_states.pt
+[2024-12-25 11:06:22,019] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step0/bf16_zero_pp_rank_7_mp_rank_00_optim_states.pt
+[2024-12-25 11:06:22,069] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step0 is ready now!
+[2024-12-25 11:06:22,068] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step0 is ready now!
+[2024-12-25 11:06:22,069] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step0 is ready now!
+[2024-12-25 11:06:22,069] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step0 is ready now!
+[2024-12-25 11:06:22,069] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step0 is ready now!
+[2024-12-25 11:06:22,069] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step0 is ready now!
+[2024-12-25 11:06:22,070] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step0 is ready now!
+[2024-12-25 11:06:22,070] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step0 is ready now!
+保存checkpoint时发生错误: local variable 'timestamp' referenced before assignment
+保存checkpoint时发生错误: local variable 'timestamp' referenced before assignment保存checkpoint时发生错误: local variable 'timestamp' referenced before assignment
+保存checkpoint时发生错误: local variable 'timestamp' referenced before assignment
+
+保存checkpoint时发生错误: local variable 'timestamp' referenced before assignment保存checkpoint时发生错误: local variable 'timestamp' referenced before assignment保存checkpoint时发生错误: local variable 'timestamp' referenced before assignment
+
+
+                                                                                                        成功保存新的最佳checkpoint,时间: 20241225_105655
+                                                                                2% 1/40 [15:58<10:23:14, 958.84s/it]Traceback (most recent call last):
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 610, in <module>
+    main(args)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 558, in main
+    do_checkpoint(args, model, tokenizer, save_path)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 239, in do_checkpoint
+    raise e
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 236, in do_checkpoint
+    print(f"成功保存新的最佳checkpoint,时间: {timestamp}")
+UnboundLocalError: local variable 'timestamp' referenced before assignment
+Traceback (most recent call last):
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 610, in <module>
+    main(args)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 558, in main
+    do_checkpoint(args, model, tokenizer, save_path)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 239, in do_checkpoint
+    raise e
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 236, in do_checkpoint
+    print(f"成功保存新的最佳checkpoint,时间: {timestamp}")
+UnboundLocalError: local variable 'timestamp' referenced before assignment
+Traceback (most recent call last):
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 610, in <module>
+    main(args)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 558, in main
+    do_checkpoint(args, model, tokenizer, save_path)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 239, in do_checkpoint
+    raise e
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 236, in do_checkpoint
+    print(f"成功保存新的最佳checkpoint,时间: {timestamp}")
+UnboundLocalError: local variable 'timestamp' referenced before assignment
+Traceback (most recent call last):
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 610, in <module>
+    main(args)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 558, in main
+    do_checkpoint(args, model, tokenizer, save_path)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 239, in do_checkpoint
+    raise e
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 236, in do_checkpoint
+    print(f"成功保存新的最佳checkpoint,时间: {timestamp}")
+UnboundLocalError: local variable 'timestamp' referenced before assignment
+Traceback (most recent call last):
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 610, in <module>
+    main(args)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 558, in main
+    do_checkpoint(args, model, tokenizer, save_path)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 239, in do_checkpoint
+    raise e
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 236, in do_checkpoint
+    print(f"成功保存新的最佳checkpoint,时间: {timestamp}")
+UnboundLocalError: local variable 'timestamp' referenced before assignment
+Traceback (most recent call last):
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 610, in <module>
+    main(args)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 558, in main
+    do_checkpoint(args, model, tokenizer, save_path)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 239, in do_checkpoint
+    raise e
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 236, in do_checkpoint
+    print(f"成功保存新的最佳checkpoint,时间: {timestamp}")
+UnboundLocalError: local variable 'timestamp' referenced before assignment
+Traceback (most recent call last):
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 610, in <module>
+    main(args)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 558, in main
+    do_checkpoint(args, model, tokenizer, save_path)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 239, in do_checkpoint
+    raise e
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 236, in do_checkpoint
+    print(f"成功保存新的最佳checkpoint,时间: {timestamp}")
+UnboundLocalError: local variable 'timestamp' referenced before assignment
+
+Train Loop:   0% 0/2 [00:00<?, ?it/s][AWARNING:torch.distributed.elastic.multiprocessing.api:Sending process 2964578 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 2964580 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 2964581 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 2964582 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 2964583 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 2964584 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 2964585 closing signal SIGTERM
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 1 (pid: 2964579) of binary: /home/wangxinrong/miniconda3/envs/cuda-11.7/bin/python
+Traceback (most recent call last):
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/accelerate_cli.py", line 48, in main
+    args.func(args)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/launch.py", line 1153, in launch_command
+    deepspeed_launcher(args)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/launch.py", line 846, in deepspeed_launcher
+    distrib_run.run(args)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/run.py", line 785, in run
+    elastic_launch(
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 250, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train_sft_model.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-12-25_11:06:26
+  host      : HS-DSS8440-009
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 2964579)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

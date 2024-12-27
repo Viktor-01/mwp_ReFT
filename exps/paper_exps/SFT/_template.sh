@@ -11,20 +11,20 @@ tokenizer_name_or_path=${tokenizer_name_or_path:-''}
 n_epochs=${n_epochs:-''}
 
 ### Default variables
-model_dir="ppo_paper_final_new/_models_outputs_sft/${exp_name}/"
-config_file="./default_config_deepspeed_ga2.yaml"
-
-batch_size="3"
-eval_batch_size="3"
+model_dir="/share/finetune/ppo_paper_final_new/_models_outputs_sft/${exp_name}/"
+config_file="/home/wangxinrong/workspace/reft/divination/mwp_ReFT/default_config_deepspeed_ga2.yaml"
+batch_size="1"
+eval_batch_size="1"
 gradient_accumulation_steps="2"
-max_input_length="1024"
+max_input_length="512"
+max_gen_length="512"
 num_workers="8"
 learning_rate="1e-5"
 weight_decay="0"
 warmup_step="-100"
 clip_grad_norm="1"
 seed="42"
-keep_num_ckpt='40'
+keep_num_ckpt='1'
 
 logging_epoch_freq="1"
 evaluating_epoch_freq="1"
@@ -34,7 +34,7 @@ logging_step_freq="10"
 evaluating_step_freq="-100"
 saving_step_freq="-100"
 
-wandb_log="True"
+wandb_log="False"
 wandb_project="ReFT"
 wandb_run_name="${exp_name}"
 #########
@@ -47,7 +47,7 @@ accelerate launch \
             --config_file "${config_file}" \
             --num_processes=${num_processes} \
             --main_process_port=${main_process_port} \
-    train_sft_model.py \
+        train_sft_model.py \
             --model_name_or_path "${model_name_or_path}" \
             --tokenizer_name_or_path "${tokenizer_name_or_path}" \
             --train_file "${train_file}" \

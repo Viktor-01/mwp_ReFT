@@ -1,0 +1,693 @@
+no change     /home/wangxinrong/miniconda3/condabin/conda
+no change     /home/wangxinrong/miniconda3/bin/conda
+no change     /home/wangxinrong/miniconda3/bin/conda-env
+no change     /home/wangxinrong/miniconda3/bin/activate
+no change     /home/wangxinrong/miniconda3/bin/deactivate
+no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.sh
+no change     /home/wangxinrong/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/wangxinrong/miniconda3/shell/condabin/Conda.psm1
+no change     /home/wangxinrong/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/wangxinrong/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.csh
+no change     /home/wangxinrong/.bashrc
+No action taken.
+
+CondaError: Run 'conda init' before 'conda activate'
+
+[2024-12-26 06:33:23,788] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+[2024-12-26 06:33:28,255] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 06:33:28,312] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 06:33:28,339] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 06:33:28,344] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 06:33:28,345] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 06:33:28,346] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 06:33:28,347] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 06:33:28,351] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 06:33:31,124] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-12-26 06:33:31,124] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-12-26 06:33:31,130] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-12-26 06:33:31,134] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 06:33:31,224] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 06:33:31,261] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 06:33:31,284] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 06:33:31,315] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 06:33:31,352] [INFO] [comm.py:637:init_distributed] cdb=None
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+{'model_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'tokenizer_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'model_dir': '/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/', 'train_file': 'data/my_data/zhouyi_train.json', 'test_file': 'data/my_data/zhouyi_test.json', 'batch_size': 1, 'eval_batch_size': 1, 'n_epochs': 40, 'num_workers': 8, 'learning_rate': 1e-05, 'weight_decay': 0.0, 'warmup_step': None, 'clip_grad_norm': 1.0, 'evaluating_epoch_freq': 1, 'logging_epoch_freq': 1, 'saving_epoch_freq': 1, 'evaluating_step_freq': None, 'logging_step_freq': 10, 'saving_step_freq': None, 'seed': 42, 'max_input_length': 896, 'max_gen_length': 512, 'gradient_accumulation_steps': 2, 'keep_num_ckpt': 1, 'wandb_log': False, 'wandb_project': 'ReFT', 'wandb_run_name': 'zhouyi_glm4_sft', 'engine': 'nl'}
+{
+  "model_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
+  "tokenizer_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
+  "model_dir": "/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/",
+  "train_file": "data/my_data/zhouyi_train.json",
+  "test_file": "data/my_data/zhouyi_test.json",
+  "batch_size": 1,
+  "eval_batch_size": 1,
+  "n_epochs": 40,
+  "num_workers": 8,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.0,
+  "warmup_step": null,
+  "clip_grad_norm": 1.0,
+  "evaluating_epoch_freq": 1,
+  "logging_epoch_freq": 1,
+  "saving_epoch_freq": 1,
+  "evaluating_step_freq": null,
+  "logging_step_freq": 10,
+  "saving_step_freq": null,
+  "seed": 42,
+  "max_input_length": 896,
+  "max_gen_length": 512,
+  "gradient_accumulation_steps": 2,
+  "keep_num_ckpt": 1,
+  "wandb_log": false,
+  "wandb_project": "ReFT",
+  "wandb_run_name": "zhouyi_glm4_sft",
+  "engine": "nl"
+}
+Raw data: DatasetDict({
+    train: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
+        num_rows: 12
+    })
+    test: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
+        num_rows: 1
+    })
+})
+Using instruction: Question:
+
+Using cot_trigger: 
+Answer reasoning:
+
+Using answer_trigger: 
+因此，答案是：
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.48 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.66 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.58 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:04<00:02,  1.67 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:05<00:02,  1.42 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.26 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.15 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.09 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.29 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 102.61 examples/s]
+Processed data: DatasetDict({
+    train: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
+        num_rows: 12
+    })
+    test: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
+        num_rows: 1
+    })
+})
+train train_input_ids_max_length 846
+test test_input_ids_max_length 840
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.34 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.33 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.32 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.33 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.30 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.31 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.30 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.53 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.51 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.52 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.53 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.48 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.48 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.47 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.44 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.43 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.44 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.40 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.42 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.45 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.43 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.54 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.53 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.50 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.48 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.52 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.51 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.46 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.30 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.30 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.28 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.28 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.27 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.28 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.28 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.15 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.14 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.13 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.11 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.15 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.09 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.11 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.05 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.05 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.05 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:00,  1.02 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:00,  1.02 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:00,  1.03 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:01,  1.00s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.01s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.02s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.02s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.01s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.17 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.04s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.17 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.16 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.17 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.04s/ examples]num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.15 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.06s/ examples]num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.15 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.13 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 93.69 examples/s]
+Map: 100%|██████████| 1/1 [00:00<00:00, 99.24 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 89.87 examples/s]
+Map: 100%|██████████| 1/1 [00:00<00:00, 74.47 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 100.41 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 77.66 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 68.45 examples/s]
+[2024-12-26 06:34:07,176] [INFO] [partition_parameters.py:347:__exit__] finished initializing model - num_params = 283, num_elems = 9.40B
+Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.99s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:18,  2.00s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:18,  2.02s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:18,  2.02s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:18,  2.03s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:18,  2.03s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:18,  2.03s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:18,  2.07s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.92s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.92s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.92s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.92s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.91s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.92s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.94s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.94s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.96s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.96s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.96s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.96s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.96s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.96s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.98s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.97s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.96s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.96s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.96s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.96s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.96s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.96s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.97s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.97s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.92s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.92s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.92s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.92s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.92s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.92s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.93s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.94s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.95s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.95s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.94s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.95s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.95s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.94s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.95s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.96s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.95s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.95s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.95s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.95s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.95s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.96s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.95s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.97s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.93s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.92s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.93s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.93s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.93s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.93s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.92s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.95s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.95s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.94s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.95s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.95s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.95s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.95s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.95s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.92s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.92s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.92s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.92s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.92s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.92s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.93s/it]
+[Vocab size]: 151344
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.88s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.93s/it]
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 12
+  Num Epochs = 40
+  Instantaneous batch size per device = 1
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Total optimization steps = 20
+  Warm up step: 2
+  Learning rate: 1e-05
+
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.579383611679077 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.6696605682373047 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.6830532550811768 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Time to load cpu_adam op: 2.74025297164917 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.7476818561553955 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.7779669761657715 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.857077121734619 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.8655266761779785 seconds
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+[2024-12-26 06:34:34,139] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.11.1, git-hash=unknown, git-branch=unknown
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+[2024-12-26 06:34:34,273] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2024-12-26 06:34:34,277] [INFO] [logging.py:96:log_dist] [Rank 0] Using client Optimizer as basic optimizer
+[2024-12-26 06:34:34,277] [INFO] [logging.py:96:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
+[2024-12-26 06:34:34,297] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = DeepSpeedCPUAdam
+[2024-12-26 06:34:34,297] [INFO] [utils.py:56:is_zero_supported_optimizer] Checking ZeRO support for optimizer=DeepSpeedCPUAdam type=<class 'deepspeed.ops.adam.cpu_adam.DeepSpeedCPUAdam'>
+[2024-12-26 06:34:34,297] [INFO] [logging.py:96:log_dist] [Rank 0] Creating fp16 ZeRO stage 3 optimizer, MiCS is enabled False, Hierarchical params gather False
+[2024-12-26 06:34:34,297] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.bfloat16 ZeRO stage 3 optimizer
+[2024-12-26 06:34:34,440] [INFO] [utils.py:802:see_memory_usage] Stage 3 initialize beginning
+[2024-12-26 06:34:34,441] [INFO] [utils.py:803:see_memory_usage] MA 1.15 GB         Max_MA 3.47 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 06:34:34,441] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 111.8 GB, percent = 29.7%
+[2024-12-26 06:34:34,442] [INFO] [stage3.py:126:__init__] Reduce bucket size 500,000,000
+[2024-12-26 06:34:34,443] [INFO] [stage3.py:127:__init__] Prefetch bucket size 50,000,000
+[2024-12-26 06:34:34,572] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
+[2024-12-26 06:34:34,573] [INFO] [utils.py:803:see_memory_usage] MA 1.15 GB         Max_MA 1.15 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 06:34:34,573] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 111.8 GB, percent = 29.7%
+Parameter Offload: Total persistent parameters: 516096 in 121 params
+[2024-12-26 06:34:35,165] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
+[2024-12-26 06:34:35,165] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 1.15 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 06:34:35,165] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 112.97 GB, percent = 30.0%
+[2024-12-26 06:34:35,299] [INFO] [utils.py:802:see_memory_usage] Before creating fp16 partitions
+[2024-12-26 06:34:35,299] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 06:34:35,299] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 112.97 GB, percent = 30.0%
+[2024-12-26 06:34:40,449] [INFO] [utils.py:802:see_memory_usage] After creating fp16 partitions: 3
+[2024-12-26 06:34:40,450] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 06:34:40,450] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 136.36 GB, percent = 36.2%
+[2024-12-26 06:34:40,629] [INFO] [utils.py:802:see_memory_usage] Before creating fp32 partitions
+[2024-12-26 06:34:40,630] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 06:34:40,630] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 137.32 GB, percent = 36.5%
+[2024-12-26 06:34:45,380] [INFO] [utils.py:802:see_memory_usage] After creating fp32 partitions
+[2024-12-26 06:34:45,381] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 06:34:45,381] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 170.12 GB, percent = 45.2%
+[2024-12-26 06:34:45,554] [INFO] [utils.py:802:see_memory_usage] Before initializing optimizer states
+[2024-12-26 06:34:45,554] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 06:34:45,554] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 172.04 GB, percent = 45.7%
+[2024-12-26 06:35:03,481] [INFO] [utils.py:802:see_memory_usage] After initializing optimizer states
+[2024-12-26 06:35:03,482] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 06:35:03,482] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 279.19 GB, percent = 74.2%
+[2024-12-26 06:35:04,051] [INFO] [stage3.py:459:_setup_for_real_optimizer] optimizer state initialized
+  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s][2024-12-26 06:35:10,720] [INFO] [utils.py:802:see_memory_usage] After initializing ZeRO optimizer
+[2024-12-26 06:35:10,720] [INFO] [utils.py:803:see_memory_usage] MA 0.93 GB         Max_MA 3.24 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 06:35:10,721] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 293.05 GB, percent = 77.9%
+[2024-12-26 06:35:10,721] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = DeepSpeedCPUAdam
+[2024-12-26 06:35:10,721] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using client LR scheduler
+[2024-12-26 06:35:10,721] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = None
+[2024-12-26 06:35:10,721] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[0.0, 0.0], mom=[(0.9, 0.999), (0.9, 0.999)]
+[2024-12-26 06:35:10,722] [INFO] [config.py:968:print] DeepSpeedEngine configuration:
+[2024-12-26 06:35:10,722] [INFO] [config.py:972:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2024-12-26 06:35:10,722] [INFO] [config.py:972:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True}
+[2024-12-26 06:35:10,722] [INFO] [config.py:972:print]   amp_enabled .................. False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   amp_params ................... False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   bfloat16_enabled ............. True
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   checkpoint_parallel_write_pipeline  False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   checkpoint_tag_validation_enabled  True
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   checkpoint_tag_validation_fail  False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7fa25ce1ee00>
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   communication_data_type ...... None
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   curriculum_enabled_legacy .... False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   curriculum_params_legacy ..... False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   data_efficiency_enabled ...... False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   dataloader_drop_last ......... False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   disable_allgather ............ False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   dump_state ................... False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   dynamic_loss_scale_args ...... None
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   eigenvalue_enabled ........... False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   eigenvalue_gas_boundary_resolution  1
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   eigenvalue_layer_num ......... 0
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   eigenvalue_max_iter .......... 100
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   eigenvalue_stability ......... 1e-06
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   eigenvalue_tol ............... 0.01
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   eigenvalue_verbose ........... False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   elasticity_enabled ........... False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 1, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   fp16_auto_cast ............... None
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   fp16_enabled ................. False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   fp16_master_weights_and_gradients  False
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   global_rank .................. 0
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   grad_accum_dtype ............. None
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   gradient_accumulation_steps .. 8
+[2024-12-26 06:35:10,723] [INFO] [config.py:972:print]   gradient_clipping ............ 1.0
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   gradient_predivide_factor .... 1.0
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   initial_dynamic_scale ........ 1
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   load_universal_checkpoint .... False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   loss_scale ................... 1.0
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   memory_breakdown ............. False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   mics_hierarchial_params_gather  False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   mics_shard_size .............. -1
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') enabled=False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   optimizer_legacy_fusion ...... False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   optimizer_name ............... None
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   optimizer_params ............. None
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0}
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   pld_enabled .................. False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   pld_params ................... False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   prescale_gradients ........... False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   scheduler_name ............... None
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   scheduler_params ............. None
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   sparse_attention ............. None
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   sparse_gradients_enabled ..... False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   steps_per_print .............. inf
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   train_batch_size ............. 64
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   train_micro_batch_size_per_gpu  1
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   use_node_local_storage ....... False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   wall_clock_breakdown ......... False
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   weight_quantization_config ... None
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   world_size ................... 8
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   zero_allow_untested_optimizer  True
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500,000,000 allgather_partitions=True allgather_bucket_size=500,000,000 overlap_comm=True load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='cpu', nvme_path=None, buffer_count=5, buffer_size=100,000,000, max_in_cpu=1,000,000,000, pin_memory=False) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='cpu', nvme_path=None, buffer_count=4, pin_memory=False, pipeline=False, pipeline_read=False, pipeline_write=False, fast_init=False) sub_group_size=1,000,000,000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50,000,000 param_persistence_threshold=100,000 model_persistence_threshold=sys.maxsize max_live_parameters=1,000,000,000 max_reuse_distance=1,000,000,000 gather_16bit_weights_on_model_save=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   zero_enabled ................. True
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   zero_force_ds_cpu_optimizer .. True
+[2024-12-26 06:35:10,724] [INFO] [config.py:972:print]   zero_optimization_stage ...... 3
+[2024-12-26 06:35:10,724] [INFO] [config.py:958:print_user_config]   json = {
+    "train_batch_size": 64, 
+    "train_micro_batch_size_per_gpu": 1, 
+    "gradient_accumulation_steps": 8, 
+    "zero_optimization": {
+        "stage": 3, 
+        "offload_optimizer": {
+            "device": "cpu", 
+            "nvme_path": null
+        }, 
+        "offload_param": {
+            "device": "cpu", 
+            "nvme_path": null
+        }, 
+        "stage3_gather_16bit_weights_on_model_save": false
+    }, 
+    "gradient_clipping": 1.0, 
+    "steps_per_print": inf, 
+    "bf16": {
+        "enabled": true
+    }, 
+    "fp16": {
+        "enabled": false
+    }, 
+    "zero_allow_untested_optimizer": true
+}
+  0% 0/40 [00:00<?, ?it/s]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:25<00:25, 25.41s/it][A
+Train Loop: 100% 2/2 [00:44<00:00, 21.80s/it][A
+                                             [A
+Evaluation Gen Loop:   0% 0/1 [00:00<?, ?it/s][A/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+preds[0]:  Question:
+我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。
+Answer reasoning:
+1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。
+
+2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。
+
+3. **积极心态**: 尽管有这些担忧，保持积极的心态是非常重要的。以下是一些建议：
+
+   - **沟通**: 和你的对象进行开放和诚实的沟通，了解彼此的期望和担忧。
+   - **支持**: 寻求家人和朋友的支持，他们可以提供情感上的安慰和实际的帮助。
+   - **专业帮助**: 如果你的焦虑和压力变得难以控制，考虑寻求心理咨询师的帮助。
+   - **自我照顾**: 保持健康的生活习惯，如规律的饮食、适量的运动和充足的睡眠。
+
+4. **时间因素**: 关系的发展需要时间，不要因为短期的困难而放弃。今年可能只是你们关系中的一个过渡期。
+
+5. **未来展望**: 虽然你担心今年，但重要的是要看到未来的可能性。保持乐观，相信你们能够克服任何困难。
+
+总结：虽然你担心今年可能会遇到困难，但通过保持积极的心态、有效的沟通和寻求支持，你们可以增加顺利度过这一年的机会。记住，关系的发展需要时间，保持耐心和信心。祝你们好运！
+```python
+def can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective):
+    # 分析各个因素对关系的影响
+    factors = {
+        "weight_loss": weight_loss,
+        "mother_divination": mother_divination,
+        "positive_mindset": positive_mindset,
+        "communication": communication,
+        "support": support,
+        "self_care": self_care,
+        "time_factor": time_factor,
+        "future_perspective": future_perspective
+    }
+    
+    # 计算总分
+    total_score = sum(factors.values())
+    
+    # 根据总分判断关系是否能够顺利度过今年
+    if total_score > 10:
+        return "你们可以顺利度过今年。"
+    else:
+        return "今年可能会有些挑战，但你们有能力克服。"
+
+# 输入参数
+year = 2023
+weight_loss = True  # 为这个事掉了好几斤肉
+mother_divination = False  # 祈祷我妈不要再去给我算卦
+positive_mindset = True  # 保持积极的心态
+communication = True  # 和对象进行开放和诚实的沟通
+support = True  # 寻求家人和朋友的支持
+self_care = True  # 保持健康的生活习惯
+time_factor = True  # 关系的发展需要时间
+future_perspective = True  # 看到未来的可能性
+
+# 调用函数
+result = can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective)
+print(result)
+```This Python function `can_couple_survive_year` takes various factors into account to determine whether a couple can successfully navigate through a challenging year. The function assigns a value to each factor based on the given scenario and calculates a total score. The total score is then used to make a judgment about the couple's ability to survive the year. The factors considered include weight loss, mother's divination, positive mindset, communication, support, self-care, time factor, and future perspective. The function returns a message indicating whether the couple can successfully survive the year or if they may face challenges but have the potential to overcome them. The example provided uses a set of predefined values for these factors and prints the result. This approach allows for a structured analysis of the couple's situation and provides a clear output based on the input factors.```python
+def can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_c
+target[0]:  此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的。如果在一个卦象中子孙爻发动或旺相，往往都代表了忧患不实的现实意义。
+### 卜得卦象：
+　巳月　　　　　壬子日 (旬空:寅卯)
+
+　坤－泽天夬　　　坤－雷天大壮(六冲)
+
+六 伏爻　本　卦　　　变　卦
+
+白　　　　兄未土　　　 兄戌土
+
+螣　　　　孙酉金 世○→孙申金
+
+勾　　　　财亥水　　　　父午火 世
+
+朱　　　　兄辰土　　　　兄辰土
+
+青　父巳火官寅木 应　　 官寅木
+
+玄　　　　财子水　　　　财子水 应
+
+###卦象分析：
+对于此卦，我发到了朋友圈，很多会占卜的朋友表示不认可我断法，虽然没有说原因，但我估计可能的原因是测婚以官鬼爻为用神，官鬼爻空而不旺是为真空了，而且卦中忌神持世，且发动克官鬼。此卦如果是事卦的话，上面的分析是有道理，但我把此卦判定为心态卦。判定为心态卦的方法不外乎有两个办法：
+
+第一：从卦主的叙述中就可以作出判定，从卦主告诉我的背景就明显感觉卦主的心态。
+
+第二：从卦象结构特征去判定，在这里不详细叙述。
+
+当然，从上面的卦，完全符合上面的两个方法。
+
+因此，上面的卦判定为心态卦是没有问题的。
+
+依心态卦判断，代表忧患的官鬼不旺且空，代表快乐的子孙爻虽然也不旺，但发动了，按野鹤老人所言：神机在于动。故可以判断此卦是吉利的。同时估计有朋友会问，但子孙爻化退啊，这里需要回答的是，心态卦中用神(子孙或官鬼用进退也)。
+
+在此，我引用《增删卜易》中的一个心态卦作为本文的结束。
+
+午月甲申日为防水涨冲了自家麦田，问何日雨停放晴，占得“同人之革”
+
+干支：午月 甲申日 (旬空：午未)
+
+　离宫：天火同人　　坎宫：泽火革
+
+六 【本卦】　　　　【变卦】
+
+玄　　孙戌土　应○→孙未土　
+
+白　　财申金　　　　财酉金　
+
+螣　　兄午火　　　　官亥水　世
+
+勾　　官亥水　世　　官亥水　
+
+朱　　孙丑土　　　　孙丑土　
+
+青　　父卯木　　　　父卯木　应
+
+原注：或疑戌土孙，一爻独发，昨日丙戌，定应大晴，如何迄今犹雨？
+
+余曰：彼前占卦，忧麦被水冲耳，神以孙发动，克去身边之鬼，令彼勿忧，非应晴也。虽然目下未晴，决不至于涨水，即以此卦决阴晴，亦在卯日方大晴也。
+
+或曰：何也？余曰：动而逢合之日也。果卯日大晴。
+因此，答案是：吉
+
+
+
+preds:  ['Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽管有这些担忧，保持积极的心态是非常重要的。以下是一些建议：\n\n   - **沟通**: 和你的对象进行开放和诚实的沟通，了解彼此的期望和担忧。\n   - **支持**: 寻求家人和朋友的支持，他们可以提供情感上的安慰和实际的帮助。\n   - **专业帮助**: 如果你的焦虑和压力变得难以控制，考虑寻求心理咨询师的帮助。\n   - **自我照顾**: 保持健康的生活习惯，如规律的饮食、适量的运动和充足的睡眠。\n\n4. **时间因素**: 关系的发展需要时间，不要因为短期的困难而放弃。今年可能只是你们关系中的一个过渡期。\n\n5. **未来展望**: 虽然你担心今年，但重要的是要看到未来的可能性。保持乐观，相信你们能够克服任何困难。\n\n总结：虽然你担心今年可能会遇到困难，但通过保持积极的心态、有效的沟通和寻求支持，你们可以增加顺利度过这一年的机会。记住，关系的发展需要时间，保持耐心和信心。祝你们好运！\n```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective):\n    # 分析各个因素对关系的影响\n    factors = {\n        "weight_loss": weight_loss,\n        "mother_divination": mother_divination,\n        "positive_mindset": positive_mindset,\n        "communication": communication,\n        "support": support,\n        "self_care": self_care,\n        "time_factor": time_factor,\n        "future_perspective": future_perspective\n    }\n    \n    # 计算总分\n    total_score = sum(factors.values())\n    \n    # 根据总分判断关系是否能够顺利度过今年\n    if total_score > 10:\n        return "你们可以顺利度过今年。"\n    else:\n        return "今年可能会有些挑战，但你们有能力克服。"\n\n# 输入参数\nyear = 2023\nweight_loss = True  # 为这个事掉了好几斤肉\nmother_divination = False  # 祈祷我妈不要再去给我算卦\npositive_mindset = True  # 保持积极的心态\ncommunication = True  # 和对象进行开放和诚实的沟通\nsupport = True  # 寻求家人和朋友的支持\nself_care = True  # 保持健康的生活习惯\ntime_factor = True  # 关系的发展需要时间\nfuture_perspective = True  # 看到未来的可能性\n\n# 调用函数\nresult = can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective)\nprint(result)\n```This Python function `can_couple_survive_year` takes various factors into account to determine whether a couple can successfully navigate through a challenging year. The function assigns a value to each factor based on the given scenario and calculates a total score. The total score is then used to make a judgment about the couple\'s ability to survive the year. The factors considered include weight loss, mother\'s divination, positive mindset, communication, support, self-care, time factor, and future perspective. The function returns a message indicating whether the couple can successfully survive the year or if they may face challenges but have the potential to overcome them. The example provided uses a set of predefined values for these factors and prints the result. This approach allows for a structured analysis of the couple\'s situation and provides a clear output based on the input factors.```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_c', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽管有这些担忧，保持积极的心态是非常重要的。以下是一些建议：\n\n   - **沟通**: 和你的对象进行开放和诚实的沟通，了解彼此的期望和担忧。\n   - **支持**: 寻求家人和朋友的支持，他们可以提供情感上的安慰和实际的帮助。\n   - **专业帮助**: 如果你的焦虑和压力变得难以控制，考虑寻求心理咨询师的帮助。\n   - **自我照顾**: 保持健康的生活习惯，如规律的饮食、适量的运动和充足的睡眠。\n\n4. **时间因素**: 关系的发展需要时间，不要因为短期的困难而放弃。今年可能只是你们关系中的一个过渡期。\n\n5. **未来展望**: 虽然你担心今年，但重要的是要看到未来的可能性。保持乐观，相信你们能够克服任何困难。\n\n总结：虽然你担心今年可能会遇到困难，但通过保持积极的心态、有效的沟通和寻求支持，你们可以增加顺利度过这一年的机会。记住，关系的发展需要时间，保持耐心和信心。祝你们好运！\n```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective):\n    # 分析各个因素对关系的影响\n    factors = {\n        "weight_loss": weight_loss,\n        "mother_divination": mother_divination,\n        "positive_mindset": positive_mindset,\n        "communication": communication,\n        "support": support,\n        "self_care": self_care,\n        "time_factor": time_factor,\n        "future_perspective": future_perspective\n    }\n    \n    # 计算总分\n    total_score = sum(factors.values())\n    \n    # 根据总分判断关系是否能够顺利度过今年\n    if total_score > 10:\n        return "你们可以顺利度过今年。"\n    else:\n        return "今年可能会有些挑战，但你们有能力克服。"\n\n# 输入参数\nyear = 2023\nweight_loss = True  # 为这个事掉了好几斤肉\nmother_divination = False  # 祈祷我妈不要再去给我算卦\npositive_mindset = True  # 保持积极的心态\ncommunication = True  # 和对象进行开放和诚实的沟通\nsupport = True  # 寻求家人和朋友的支持\nself_care = True  # 保持健康的生活习惯\ntime_factor = True  # 关系的发展需要时间\nfuture_perspective = True  # 看到未来的可能性\n\n# 调用函数\nresult = can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective)\nprint(result)\n```This Python function `can_couple_survive_year` takes various factors into account to determine whether a couple can successfully navigate through a challenging year. The function assigns a value to each factor based on the given scenario and calculates a total score. The total score is then used to make a judgment about the couple\'s ability to survive the year. The factors considered include weight loss, mother\'s divination, positive mindset, communication, support, self-care, time factor, and future perspective. The function returns a message indicating whether the couple can successfully survive the year or if they may face challenges but have the potential to overcome them. The example provided uses a set of predefined values for these factors and prints the result. This approach allows for a structured analysis of the couple\'s situation and provides a clear output based on the input factors.```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_c', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽管有这些担忧，保持积极的心态是非常重要的。以下是一些建议：\n\n   - **沟通**: 和你的对象进行开放和诚实的沟通，了解彼此的期望和担忧。\n   - **支持**: 寻求家人和朋友的支持，他们可以提供情感上的安慰和实际的帮助。\n   - **专业帮助**: 如果你的焦虑和压力变得难以控制，考虑寻求心理咨询师的帮助。\n   - **自我照顾**: 保持健康的生活习惯，如规律的饮食、适量的运动和充足的睡眠。\n\n4. **时间因素**: 关系的发展需要时间，不要因为短期的困难而放弃。今年可能只是你们关系中的一个过渡期。\n\n5. **未来展望**: 虽然你担心今年，但重要的是要看到未来的可能性。保持乐观，相信你们能够克服任何困难。\n\n总结：虽然你担心今年可能会遇到困难，但通过保持积极的心态、有效的沟通和寻求支持，你们可以增加顺利度过这一年的机会。记住，关系的发展需要时间，保持耐心和信心。祝你们好运！\n```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective):\n    # 分析各个因素对关系的影响\n    factors = {\n        "weight_loss": weight_loss,\n        "mother_divination": mother_divination,\n        "positive_mindset": positive_mindset,\n        "communication": communication,\n        "support": support,\n        "self_care": self_care,\n        "time_factor": time_factor,\n        "future_perspective": future_perspective\n    }\n    \n    # 计算总分\n    total_score = sum(factors.values())\n    \n    # 根据总分判断关系是否能够顺利度过今年\n    if total_score > 10:\n        return "你们可以顺利度过今年。"\n    else:\n        return "今年可能会有些挑战，但你们有能力克服。"\n\n# 输入参数\nyear = 2023\nweight_loss = True  # 为这个事掉了好几斤肉\nmother_divination = False  # 祈祷我妈不要再去给我算卦\npositive_mindset = True  # 保持积极的心态\ncommunication = True  # 和对象进行开放和诚实的沟通\nsupport = True  # 寻求家人和朋友的支持\nself_care = True  # 保持健康的生活习惯\ntime_factor = True  # 关系的发展需要时间\nfuture_perspective = True  # 看到未来的可能性\n\n# 调用函数\nresult = can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective)\nprint(result)\n```This Python function `can_couple_survive_year` takes various factors into account to determine whether a couple can successfully navigate through a challenging year. The function assigns a value to each factor based on the given scenario and calculates a total score. The total score is then used to make a judgment about the couple\'s ability to survive the year. The factors considered include weight loss, mother\'s divination, positive mindset, communication, support, self-care, time factor, and future perspective. The function returns a message indicating whether the couple can successfully survive the year or if they may face challenges but have the potential to overcome them. The example provided uses a set of predefined values for these factors and prints the result. This approach allows for a structured analysis of the couple\'s situation and provides a clear output based on the input factors.```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_c', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽管有这些担忧，保持积极的心态是非常重要的。以下是一些建议：\n\n   - **沟通**: 和你的对象进行开放和诚实的沟通，了解彼此的期望和担忧。\n   - **支持**: 寻求家人和朋友的支持，他们可以提供情感上的安慰和实际的帮助。\n   - **专业帮助**: 如果你的焦虑和压力变得难以控制，考虑寻求心理咨询师的帮助。\n   - **自我照顾**: 保持健康的生活习惯，如规律的饮食、适量的运动和充足的睡眠。\n\n4. **时间因素**: 关系的发展需要时间，不要因为短期的困难而放弃。今年可能只是你们关系中的一个过渡期。\n\n5. **未来展望**: 虽然你担心今年，但重要的是要看到未来的可能性。保持乐观，相信你们能够克服任何困难。\n\n总结：虽然你担心今年可能会遇到困难，但通过保持积极的心态、有效的沟通和寻求支持，你们可以增加顺利度过这一年的机会。记住，关系的发展需要时间，保持耐心和信心。祝你们好运！\n```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective):\n    # 分析各个因素对关系的影响\n    factors = {\n        "weight_loss": weight_loss,\n        "mother_divination": mother_divination,\n        "positive_mindset": positive_mindset,\n        "communication": communication,\n        "support": support,\n        "self_care": self_care,\n        "time_factor": time_factor,\n        "future_perspective": future_perspective\n    }\n    \n    # 计算总分\n    total_score = sum(factors.values())\n    \n    # 根据总分判断关系是否能够顺利度过今年\n    if total_score > 10:\n        return "你们可以顺利度过今年。"\n    else:\n        return "今年可能会有些挑战，但你们有能力克服。"\n\n# 输入参数\nyear = 2023\nweight_loss = True  # 为这个事掉了好几斤肉\nmother_divination = False  # 祈祷我妈不要再去给我算卦\npositive_mindset = True  # 保持积极的心态\ncommunication = True  # 和对象进行开放和诚实的沟通\nsupport = True  # 寻求家人和朋友的支持\nself_care = True  # 保持健康的生活习惯\ntime_factor = True  # 关系的发展需要时间\nfuture_perspective = True  # 看到未来的可能性\n\n# 调用函数\nresult = can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective)\nprint(result)\n```This Python function `can_couple_survive_year` takes various factors into account to determine whether a couple can successfully navigate through a challenging year. The function assigns a value to each factor based on the given scenario and calculates a total score. The total score is then used to make a judgment about the couple\'s ability to survive the year. The factors considered include weight loss, mother\'s divination, positive mindset, communication, support, self-care, time factor, and future perspective. The function returns a message indicating whether the couple can successfully survive the year or if they may face challenges but have the potential to overcome them. The example provided uses a set of predefined values for these factors and prints the result. This approach allows for a structured analysis of the couple\'s situation and provides a clear output based on the input factors.```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_c', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽管有这些担忧，保持积极的心态是非常重要的。以下是一些建议：\n\n   - **沟通**: 和你的对象进行开放和诚实的沟通，了解彼此的期望和担忧。\n   - **支持**: 寻求家人和朋友的支持，他们可以提供情感上的安慰和实际的帮助。\n   - **专业帮助**: 如果你的焦虑和压力变得难以控制，考虑寻求心理咨询师的帮助。\n   - **自我照顾**: 保持健康的生活习惯，如规律的饮食、适量的运动和充足的睡眠。\n\n4. **时间因素**: 关系的发展需要时间，不要因为短期的困难而放弃。今年可能只是你们关系中的一个过渡期。\n\n5. **未来展望**: 虽然你担心今年，但重要的是要看到未来的可能性。保持乐观，相信你们能够克服任何困难。\n\n总结：虽然你担心今年可能会遇到困难，但通过保持积极的心态、有效的沟通和寻求支持，你们可以增加顺利度过这一年的机会。记住，关系的发展需要时间，保持耐心和信心。祝你们好运！\n```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective):\n    # 分析各个因素对关系的影响\n    factors = {\n        "weight_loss": weight_loss,\n        "mother_divination": mother_divination,\n        "positive_mindset": positive_mindset,\n        "communication": communication,\n        "support": support,\n        "self_care": self_care,\n        "time_factor": time_factor,\n        "future_perspective": future_perspective\n    }\n    \n    # 计算总分\n    total_score = sum(factors.values())\n    \n    # 根据总分判断关系是否能够顺利度过今年\n    if total_score > 10:\n        return "你们可以顺利度过今年。"\n    else:\n        return "今年可能会有些挑战，但你们有能力克服。"\n\n# 输入参数\nyear = 2023\nweight_loss = True  # 为这个事掉了好几斤肉\nmother_divination = False  # 祈祷我妈不要再去给我算卦\npositive_mindset = True  # 保持积极的心态\ncommunication = True  # 和对象进行开放和诚实的沟通\nsupport = True  # 寻求家人和朋友的支持\nself_care = True  # 保持健康的生活习惯\ntime_factor = True  # 关系的发展需要时间\nfuture_perspective = True  # 看到未来的可能性\n\n# 调用函数\nresult = can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective)\nprint(result)\n```This Python function `can_couple_survive_year` takes various factors into account to determine whether a couple can successfully navigate through a challenging year. The function assigns a value to each factor based on the given scenario and calculates a total score. The total score is then used to make a judgment about the couple\'s ability to survive the year. The factors considered include weight loss, mother\'s divination, positive mindset, communication, support, self-care, time factor, and future perspective. The function returns a message indicating whether the couple can successfully survive the year or if they may face challenges but have the potential to overcome them. The example provided uses a set of predefined values for these factors and prints the result. This approach allows for a structured analysis of the couple\'s situation and provides a clear output based on the input factors.```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_c', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽管有这些担忧，保持积极的心态是非常重要的。以下是一些建议：\n\n   - **沟通**: 和你的对象进行开放和诚实的沟通，了解彼此的期望和担忧。\n   - **支持**: 寻求家人和朋友的支持，他们可以提供情感上的安慰和实际的帮助。\n   - **专业帮助**: 如果你的焦虑和压力变得难以控制，考虑寻求心理咨询师的帮助。\n   - **自我照顾**: 保持健康的生活习惯，如规律的饮食、适量的运动和充足的睡眠。\n\n4. **时间因素**: 关系的发展需要时间，不要因为短期的困难而放弃。今年可能只是你们关系中的一个过渡期。\n\n5. **未来展望**: 虽然你担心今年，但重要的是要看到未来的可能性。保持乐观，相信你们能够克服任何困难。\n\n总结：虽然你担心今年可能会遇到困难，但通过保持积极的心态、有效的沟通和寻求支持，你们可以增加顺利度过这一年的机会。记住，关系的发展需要时间，保持耐心和信心。祝你们好运！\n```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective):\n    # 分析各个因素对关系的影响\n    factors = {\n        "weight_loss": weight_loss,\n        "mother_divination": mother_divination,\n        "positive_mindset": positive_mindset,\n        "communication": communication,\n        "support": support,\n        "self_care": self_care,\n        "time_factor": time_factor,\n        "future_perspective": future_perspective\n    }\n    \n    # 计算总分\n    total_score = sum(factors.values())\n    \n    # 根据总分判断关系是否能够顺利度过今年\n    if total_score > 10:\n        return "你们可以顺利度过今年。"\n    else:\n        return "今年可能会有些挑战，但你们有能力克服。"\n\n# 输入参数\nyear = 2023\nweight_loss = True  # 为这个事掉了好几斤肉\nmother_divination = False  # 祈祷我妈不要再去给我算卦\npositive_mindset = True  # 保持积极的心态\ncommunication = True  # 和对象进行开放和诚实的沟通\nsupport = True  # 寻求家人和朋友的支持\nself_care = True  # 保持健康的生活习惯\ntime_factor = True  # 关系的发展需要时间\nfuture_perspective = True  # 看到未来的可能性\n\n# 调用函数\nresult = can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective)\nprint(result)\n```This Python function `can_couple_survive_year` takes various factors into account to determine whether a couple can successfully navigate through a challenging year. The function assigns a value to each factor based on the given scenario and calculates a total score. The total score is then used to make a judgment about the couple\'s ability to survive the year. The factors considered include weight loss, mother\'s divination, positive mindset, communication, support, self-care, time factor, and future perspective. The function returns a message indicating whether the couple can successfully survive the year or if they may face challenges but have the potential to overcome them. The example provided uses a set of predefined values for these factors and prints the result. This approach allows for a structured analysis of the couple\'s situation and provides a clear output based on the input factors.```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_c', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽管有这些担忧，保持积极的心态是非常重要的。以下是一些建议：\n\n   - **沟通**: 和你的对象进行开放和诚实的沟通，了解彼此的期望和担忧。\n   - **支持**: 寻求家人和朋友的支持，他们可以提供情感上的安慰和实际的帮助。\n   - **专业帮助**: 如果你的焦虑和压力变得难以控制，考虑寻求心理咨询师的帮助。\n   - **自我照顾**: 保持健康的生活习惯，如规律的饮食、适量的运动和充足的睡眠。\n\n4. **时间因素**: 关系的发展需要时间，不要因为短期的困难而放弃。今年可能只是你们关系中的一个过渡期。\n\n5. **未来展望**: 虽然你担心今年，但重要的是要看到未来的可能性。保持乐观，相信你们能够克服任何困难。\n\n总结：虽然你担心今年可能会遇到困难，但通过保持积极的心态、有效的沟通和寻求支持，你们可以增加顺利度过这一年的机会。记住，关系的发展需要时间，保持耐心和信心。祝你们好运！\n```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective):\n    # 分析各个因素对关系的影响\n    factors = {\n        "weight_loss": weight_loss,\n        "mother_divination": mother_divination,\n        "positive_mindset": positive_mindset,\n        "communication": communication,\n        "support": support,\n        "self_care": self_care,\n        "time_factor": time_factor,\n        "future_perspective": future_perspective\n    }\n    \n    # 计算总分\n    total_score = sum(factors.values())\n    \n    # 根据总分判断关系是否能够顺利度过今年\n    if total_score > 10:\n        return "你们可以顺利度过今年。"\n    else:\n        return "今年可能会有些挑战，但你们有能力克服。"\n\n# 输入参数\nyear = 2023\nweight_loss = True  # 为这个事掉了好几斤肉\nmother_divination = False  # 祈祷我妈不要再去给我算卦\npositive_mindset = True  # 保持积极的心态\ncommunication = True  # 和对象进行开放和诚实的沟通\nsupport = True  # 寻求家人和朋友的支持\nself_care = True  # 保持健康的生活习惯\ntime_factor = True  # 关系的发展需要时间\nfuture_perspective = True  # 看到未来的可能性\n\n# 调用函数\nresult = can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective)\nprint(result)\n```This Python function `can_couple_survive_year` takes various factors into account to determine whether a couple can successfully navigate through a challenging year. The function assigns a value to each factor based on the given scenario and calculates a total score. The total score is then used to make a judgment about the couple\'s ability to survive the year. The factors considered include weight loss, mother\'s divination, positive mindset, communication, support, self-care, time factor, and future perspective. The function returns a message indicating whether the couple can successfully survive the year or if they may face challenges but have the potential to overcome them. The example provided uses a set of predefined values for these factors and prints the result. This approach allows for a structured analysis of the couple\'s situation and provides a clear output based on the input factors.```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_c', 'Question:\n我想的是我和我对象能不能顺利度过今年。背景：为这个事我都掉了好几斤肉了，我现在祈祷我妈不要再去给我算卦了，我妈说我和他过不去今年，只要过去今年就能成。\nAnswer reasoning:\n1. **心理压力**: 你提到因为担心和对象的关系，你掉了好几斤肉，这表明你承受了很大的心理压力。这种压力可能会影响你的健康和情绪。\n\n2. **母亲的算卦**: 你提到你妈妈给你算卦，并说你们过不去今年。这种说法可能会增加你的焦虑和不安。\n\n3. **积极心态**: 尽管有这些担忧，保持积极的心态是非常重要的。以下是一些建议：\n\n   - **沟通**: 和你的对象进行开放和诚实的沟通，了解彼此的期望和担忧。\n   - **支持**: 寻求家人和朋友的支持，他们可以提供情感上的安慰和实际的帮助。\n   - **专业帮助**: 如果你的焦虑和压力变得难以控制，考虑寻求心理咨询师的帮助。\n   - **自我照顾**: 保持健康的生活习惯，如规律的饮食、适量的运动和充足的睡眠。\n\n4. **时间因素**: 关系的发展需要时间，不要因为短期的困难而放弃。今年可能只是你们关系中的一个过渡期。\n\n5. **未来展望**: 虽然你担心今年，但重要的是要看到未来的可能性。保持乐观，相信你们能够克服任何困难。\n\n总结：虽然你担心今年可能会遇到困难，但通过保持积极的心态、有效的沟通和寻求支持，你们可以增加顺利度过这一年的机会。记住，关系的发展需要时间，保持耐心和信心。祝你们好运！\n```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective):\n    # 分析各个因素对关系的影响\n    factors = {\n        "weight_loss": weight_loss,\n        "mother_divination": mother_divination,\n        "positive_mindset": positive_mindset,\n        "communication": communication,\n        "support": support,\n        "self_care": self_care,\n        "time_factor": time_factor,\n        "future_perspective": future_perspective\n    }\n    \n    # 计算总分\n    total_score = sum(factors.values())\n    \n    # 根据总分判断关系是否能够顺利度过今年\n    if total_score > 10:\n        return "你们可以顺利度过今年。"\n    else:\n        return "今年可能会有些挑战，但你们有能力克服。"\n\n# 输入参数\nyear = 2023\nweight_loss = True  # 为这个事掉了好几斤肉\nmother_divination = False  # 祈祷我妈不要再去给我算卦\npositive_mindset = True  # 保持积极的心态\ncommunication = True  # 和对象进行开放和诚实的沟通\nsupport = True  # 寻求家人和朋友的支持\nself_care = True  # 保持健康的生活习惯\ntime_factor = True  # 关系的发展需要时间\nfuture_perspective = True  # 看到未来的可能性\n\n# 调用函数\nresult = can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_care, time_factor, future_perspective)\nprint(result)\n```This Python function `can_couple_survive_year` takes various factors into account to determine whether a couple can successfully navigate through a challenging year. The function assigns a value to each factor based on the given scenario and calculates a total score. The total score is then used to make a judgment about the couple\'s ability to survive the year. The factors considered include weight loss, mother\'s divination, positive mindset, communication, support, self-care, time factor, and future perspective. The function returns a message indicating whether the couple can successfully survive the year or if they may face challenges but have the potential to overcome them. The example provided uses a set of predefined values for these factors and prints the result. This approach allows for a structured analysis of the couple\'s situation and provides a clear output based on the input factors.```python\ndef can_couple_survive_year(year, weight_loss, mother_divination, positive_mindset, communication, support, self_c']
+target:  ['此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的。如果在一个卦象中子孙爻发动或旺相，往往都代表了忧患不实的现实意义。\n### 卜得卦象：\n\u3000巳月\u3000\u3000\u3000\u3000\u3000壬子日 (旬空:寅卯)\n\n\u3000坤－泽天夬\u3000\u3000\u3000坤－雷天大壮(六冲)\n\n六 伏爻\u3000本\u3000卦\u3000\u3000\u3000变\u3000卦\n\n白\u3000\u3000\u3000\u3000兄未土\u3000\u3000\u3000 兄戌土\n\n螣\u3000\u3000\u3000\u3000孙酉金 世○→孙申金\n\n勾\u3000\u3000\u3000\u3000财亥水\u3000\u3000\u3000\u3000父午火 世\n\n朱\u3000\u3000\u3000\u3000兄辰土\u3000\u3000\u3000\u3000兄辰土\n\n青\u3000父巳火官寅木 应\u3000\u3000 官寅木\n\n玄\u3000\u3000\u3000\u3000财子水\u3000\u3000\u3000\u3000财子水 应\n\n###卦象分析：\n对于此卦，我发到了朋友圈，很多会占卜的朋友表示不认可我断法，虽然没有说原因，但我估计可能的原因是测婚以官鬼爻为用神，官鬼爻空而不旺是为真空了，而且卦中忌神持世，且发动克官鬼。此卦如果是事卦的话，上面的分析是有道理，但我把此卦判定为心态卦。判定为心态卦的方法不外乎有两个办法：\n\n第一：从卦主的叙述中就可以作出判定，从卦主告诉我的背景就明显感觉卦主的心态。\n\n第二：从卦象结构特征去判定，在这里不详细叙述。\n\n当然，从上面的卦，完全符合上面的两个方法。\n\n因此，上面的卦判定为心态卦是没有问题的。\n\n依心态卦判断，代表忧患的官鬼不旺且空，代表快乐的子孙爻虽然也不旺，但发动了，按野鹤老人所言：神机在于动。故可以判断此卦是吉利的。同时估计有朋友会问，但子孙爻化退啊，这里需要回答的是，心态卦中用神(子孙或官鬼用进退也)。\n\n在此，我引用《增删卜易》中的一个心态卦作为本文的结束。\n\n午月甲申日为防水涨冲了自家麦田，问何日雨停放晴，占得“同人之革”\n\n干支：午月 甲申日 (旬空：午未)\n\n\u3000离宫：天火同人\u3000\u3000坎宫：泽火革\n\n六 【本卦】\u3000\u3000\u3000\u3000【变卦】\n\n玄\u3000\u3000孙戌土\u3000应○→孙未土\u3000\n\n白\u3000\u3000财申金\u3000\u3000\u3000\u3000财酉金\u3000\n\n螣\u3000\u3000兄午火\u3000\u3000\u3000\u3000官亥水\u3000世\n\n勾\u3000\u3000官亥水\u3000世\u3000\u3000官亥水\u3000\n\n朱\u3000\u3000孙丑土\u3000\u3000\u3000\u3000孙丑土\u3000\n\n青\u3000\u3000父卯木\u3000\u3000\u3000\u3000父卯木\u3000应\n\n原注：或疑戌土孙，一爻独发，昨日丙戌，定应大晴，如何迄今犹雨？\n\n余曰：彼前占卦，忧麦被水冲耳，神以孙发动，克去身边之鬼，令彼勿忧，非应晴也。虽然目下未晴，决不至于涨水，即以此卦决阴晴，亦在卯日方大晴也。\n\n或曰：何也？余曰：动而逢合之日也。果卯日大晴。\n因此，答案是：吉', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的。如果在一个卦象中子孙爻发动或旺相，往往都代表了忧患不实的现实意义。\n### 卜得卦象：\n\u3000巳月\u3000\u3000\u3000\u3000\u3000壬子日 (旬空:寅卯)\n\n\u3000坤－泽天夬\u3000\u3000\u3000坤－雷天大壮(六冲)\n\n六 伏爻\u3000本\u3000卦\u3000\u3000\u3000变\u3000卦\n\n白\u3000\u3000\u3000\u3000兄未土\u3000\u3000\u3000 兄戌土\n\n螣\u3000\u3000\u3000\u3000孙酉金 世○→孙申金\n\n勾\u3000\u3000\u3000\u3000财亥水\u3000\u3000\u3000\u3000父午火 世\n\n朱\u3000\u3000\u3000\u3000兄辰土\u3000\u3000\u3000\u3000兄辰土\n\n青\u3000父巳火官寅木 应\u3000\u3000 官寅木\n\n玄\u3000\u3000\u3000\u3000财子水\u3000\u3000\u3000\u3000财子水 应\n\n###卦象分析：\n对于此卦，我发到了朋友圈，很多会占卜的朋友表示不认可我断法，虽然没有说原因，但我估计可能的原因是测婚以官鬼爻为用神，官鬼爻空而不旺是为真空了，而且卦中忌神持世，且发动克官鬼。此卦如果是事卦的话，上面的分析是有道理，但我把此卦判定为心态卦。判定为心态卦的方法不外乎有两个办法：\n\n第一：从卦主的叙述中就可以作出判定，从卦主告诉我的背景就明显感觉卦主的心态。\n\n第二：从卦象结构特征去判定，在这里不详细叙述。\n\n当然，从上面的卦，完全符合上面的两个方法。\n\n因此，上面的卦判定为心态卦是没有问题的。\n\n依心态卦判断，代表忧患的官鬼不旺且空，代表快乐的子孙爻虽然也不旺，但发动了，按野鹤老人所言：神机在于动。故可以判断此卦是吉利的。同时估计有朋友会问，但子孙爻化退啊，这里需要回答的是，心态卦中用神(子孙或官鬼用进退也)。\n\n在此，我引用《增删卜易》中的一个心态卦作为本文的结束。\n\n午月甲申日为防水涨冲了自家麦田，问何日雨停放晴，占得“同人之革”\n\n干支：午月 甲申日 (旬空：午未)\n\n\u3000离宫：天火同人\u3000\u3000坎宫：泽火革\n\n六 【本卦】\u3000\u3000\u3000\u3000【变卦】\n\n玄\u3000\u3000孙戌土\u3000应○→孙未土\u3000\n\n白\u3000\u3000财申金\u3000\u3000\u3000\u3000财酉金\u3000\n\n螣\u3000\u3000兄午火\u3000\u3000\u3000\u3000官亥水\u3000世\n\n勾\u3000\u3000官亥水\u3000世\u3000\u3000官亥水\u3000\n\n朱\u3000\u3000孙丑土\u3000\u3000\u3000\u3000孙丑土\u3000\n\n青\u3000\u3000父卯木\u3000\u3000\u3000\u3000父卯木\u3000应\n\n原注：或疑戌土孙，一爻独发，昨日丙戌，定应大晴，如何迄今犹雨？\n\n余曰：彼前占卦，忧麦被水冲耳，神以孙发动，克去身边之鬼，令彼勿忧，非应晴也。虽然目下未晴，决不至于涨水，即以此卦决阴晴，亦在卯日方大晴也。\n\n或曰：何也？余曰：动而逢合之日也。果卯日大晴。\n因此，答案是：吉', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的。如果在一个卦象中子孙爻发动或旺相，往往都代表了忧患不实的现实意义。\n### 卜得卦象：\n\u3000巳月\u3000\u3000\u3000\u3000\u3000壬子日 (旬空:寅卯)\n\n\u3000坤－泽天夬\u3000\u3000\u3000坤－雷天大壮(六冲)\n\n六 伏爻\u3000本\u3000卦\u3000\u3000\u3000变\u3000卦\n\n白\u3000\u3000\u3000\u3000兄未土\u3000\u3000\u3000 兄戌土\n\n螣\u3000\u3000\u3000\u3000孙酉金 世○→孙申金\n\n勾\u3000\u3000\u3000\u3000财亥水\u3000\u3000\u3000\u3000父午火 世\n\n朱\u3000\u3000\u3000\u3000兄辰土\u3000\u3000\u3000\u3000兄辰土\n\n青\u3000父巳火官寅木 应\u3000\u3000 官寅木\n\n玄\u3000\u3000\u3000\u3000财子水\u3000\u3000\u3000\u3000财子水 应\n\n###卦象分析：\n对于此卦，我发到了朋友圈，很多会占卜的朋友表示不认可我断法，虽然没有说原因，但我估计可能的原因是测婚以官鬼爻为用神，官鬼爻空而不旺是为真空了，而且卦中忌神持世，且发动克官鬼。此卦如果是事卦的话，上面的分析是有道理，但我把此卦判定为心态卦。判定为心态卦的方法不外乎有两个办法：\n\n第一：从卦主的叙述中就可以作出判定，从卦主告诉我的背景就明显感觉卦主的心态。\n\n第二：从卦象结构特征去判定，在这里不详细叙述。\n\n当然，从上面的卦，完全符合上面的两个方法。\n\n因此，上面的卦判定为心态卦是没有问题的。\n\n依心态卦判断，代表忧患的官鬼不旺且空，代表快乐的子孙爻虽然也不旺，但发动了，按野鹤老人所言：神机在于动。故可以判断此卦是吉利的。同时估计有朋友会问，但子孙爻化退啊，这里需要回答的是，心态卦中用神(子孙或官鬼用进退也)。\n\n在此，我引用《增删卜易》中的一个心态卦作为本文的结束。\n\n午月甲申日为防水涨冲了自家麦田，问何日雨停放晴，占得“同人之革”\n\n干支：午月 甲申日 (旬空：午未)\n\n\u3000离宫：天火同人\u3000\u3000坎宫：泽火革\n\n六 【本卦】\u3000\u3000\u3000\u3000【变卦】\n\n玄\u3000\u3000孙戌土\u3000应○→孙未土\u3000\n\n白\u3000\u3000财申金\u3000\u3000\u3000\u3000财酉金\u3000\n\n螣\u3000\u3000兄午火\u3000\u3000\u3000\u3000官亥水\u3000世\n\n勾\u3000\u3000官亥水\u3000世\u3000\u3000官亥水\u3000\n\n朱\u3000\u3000孙丑土\u3000\u3000\u3000\u3000孙丑土\u3000\n\n青\u3000\u3000父卯木\u3000\u3000\u3000\u3000父卯木\u3000应\n\n原注：或疑戌土孙，一爻独发，昨日丙戌，定应大晴，如何迄今犹雨？\n\n余曰：彼前占卦，忧麦被水冲耳，神以孙发动，克去身边之鬼，令彼勿忧，非应晴也。虽然目下未晴，决不至于涨水，即以此卦决阴晴，亦在卯日方大晴也。\n\n或曰：何也？余曰：动而逢合之日也。果卯日大晴。\n因此，答案是：吉', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的。如果在一个卦象中子孙爻发动或旺相，往往都代表了忧患不实的现实意义。\n### 卜得卦象：\n\u3000巳月\u3000\u3000\u3000\u3000\u3000壬子日 (旬空:寅卯)\n\n\u3000坤－泽天夬\u3000\u3000\u3000坤－雷天大壮(六冲)\n\n六 伏爻\u3000本\u3000卦\u3000\u3000\u3000变\u3000卦\n\n白\u3000\u3000\u3000\u3000兄未土\u3000\u3000\u3000 兄戌土\n\n螣\u3000\u3000\u3000\u3000孙酉金 世○→孙申金\n\n勾\u3000\u3000\u3000\u3000财亥水\u3000\u3000\u3000\u3000父午火 世\n\n朱\u3000\u3000\u3000\u3000兄辰土\u3000\u3000\u3000\u3000兄辰土\n\n青\u3000父巳火官寅木 应\u3000\u3000 官寅木\n\n玄\u3000\u3000\u3000\u3000财子水\u3000\u3000\u3000\u3000财子水 应\n\n###卦象分析：\n对于此卦，我发到了朋友圈，很多会占卜的朋友表示不认可我断法，虽然没有说原因，但我估计可能的原因是测婚以官鬼爻为用神，官鬼爻空而不旺是为真空了，而且卦中忌神持世，且发动克官鬼。此卦如果是事卦的话，上面的分析是有道理，但我把此卦判定为心态卦。判定为心态卦的方法不外乎有两个办法：\n\n第一：从卦主的叙述中就可以作出判定，从卦主告诉我的背景就明显感觉卦主的心态。\n\n第二：从卦象结构特征去判定，在这里不详细叙述。\n\n当然，从上面的卦，完全符合上面的两个方法。\n\n因此，上面的卦判定为心态卦是没有问题的。\n\n依心态卦判断，代表忧患的官鬼不旺且空，代表快乐的子孙爻虽然也不旺，但发动了，按野鹤老人所言：神机在于动。故可以判断此卦是吉利的。同时估计有朋友会问，但子孙爻化退啊，这里需要回答的是，心态卦中用神(子孙或官鬼用进退也)。\n\n在此，我引用《增删卜易》中的一个心态卦作为本文的结束。\n\n午月甲申日为防水涨冲了自家麦田，问何日雨停放晴，占得“同人之革”\n\n干支：午月 甲申日 (旬空：午未)\n\n\u3000离宫：天火同人\u3000\u3000坎宫：泽火革\n\n六 【本卦】\u3000\u3000\u3000\u3000【变卦】\n\n玄\u3000\u3000孙戌土\u3000应○→孙未土\u3000\n\n白\u3000\u3000财申金\u3000\u3000\u3000\u3000财酉金\u3000\n\n螣\u3000\u3000兄午火\u3000\u3000\u3000\u3000官亥水\u3000世\n\n勾\u3000\u3000官亥水\u3000世\u3000\u3000官亥水\u3000\n\n朱\u3000\u3000孙丑土\u3000\u3000\u3000\u3000孙丑土\u3000\n\n青\u3000\u3000父卯木\u3000\u3000\u3000\u3000父卯木\u3000应\n\n原注：或疑戌土孙，一爻独发，昨日丙戌，定应大晴，如何迄今犹雨？\n\n余曰：彼前占卦，忧麦被水冲耳，神以孙发动，克去身边之鬼，令彼勿忧，非应晴也。虽然目下未晴，决不至于涨水，即以此卦决阴晴，亦在卯日方大晴也。\n\n或曰：何也？余曰：动而逢合之日也。果卯日大晴。\n因此，答案是：吉', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的。如果在一个卦象中子孙爻发动或旺相，往往都代表了忧患不实的现实意义。\n### 卜得卦象：\n\u3000巳月\u3000\u3000\u3000\u3000\u3000壬子日 (旬空:寅卯)\n\n\u3000坤－泽天夬\u3000\u3000\u3000坤－雷天大壮(六冲)\n\n六 伏爻\u3000本\u3000卦\u3000\u3000\u3000变\u3000卦\n\n白\u3000\u3000\u3000\u3000兄未土\u3000\u3000\u3000 兄戌土\n\n螣\u3000\u3000\u3000\u3000孙酉金 世○→孙申金\n\n勾\u3000\u3000\u3000\u3000财亥水\u3000\u3000\u3000\u3000父午火 世\n\n朱\u3000\u3000\u3000\u3000兄辰土\u3000\u3000\u3000\u3000兄辰土\n\n青\u3000父巳火官寅木 应\u3000\u3000 官寅木\n\n玄\u3000\u3000\u3000\u3000财子水\u3000\u3000\u3000\u3000财子水 应\n\n###卦象分析：\n对于此卦，我发到了朋友圈，很多会占卜的朋友表示不认可我断法，虽然没有说原因，但我估计可能的原因是测婚以官鬼爻为用神，官鬼爻空而不旺是为真空了，而且卦中忌神持世，且发动克官鬼。此卦如果是事卦的话，上面的分析是有道理，但我把此卦判定为心态卦。判定为心态卦的方法不外乎有两个办法：\n\n第一：从卦主的叙述中就可以作出判定，从卦主告诉我的背景就明显感觉卦主的心态。\n\n第二：从卦象结构特征去判定，在这里不详细叙述。\n\n当然，从上面的卦，完全符合上面的两个方法。\n\n因此，上面的卦判定为心态卦是没有问题的。\n\n依心态卦判断，代表忧患的官鬼不旺且空，代表快乐的子孙爻虽然也不旺，但发动了，按野鹤老人所言：神机在于动。故可以判断此卦是吉利的。同时估计有朋友会问，但子孙爻化退啊，这里需要回答的是，心态卦中用神(子孙或官鬼用进退也)。\n\n在此，我引用《增删卜易》中的一个心态卦作为本文的结束。\n\n午月甲申日为防水涨冲了自家麦田，问何日雨停放晴，占得“同人之革”\n\n干支：午月 甲申日 (旬空：午未)\n\n\u3000离宫：天火同人\u3000\u3000坎宫：泽火革\n\n六 【本卦】\u3000\u3000\u3000\u3000【变卦】\n\n玄\u3000\u3000孙戌土\u3000应○→孙未土\u3000\n\n白\u3000\u3000财申金\u3000\u3000\u3000\u3000财酉金\u3000\n\n螣\u3000\u3000兄午火\u3000\u3000\u3000\u3000官亥水\u3000世\n\n勾\u3000\u3000官亥水\u3000世\u3000\u3000官亥水\u3000\n\n朱\u3000\u3000孙丑土\u3000\u3000\u3000\u3000孙丑土\u3000\n\n青\u3000\u3000父卯木\u3000\u3000\u3000\u3000父卯木\u3000应\n\n原注：或疑戌土孙，一爻独发，昨日丙戌，定应大晴，如何迄今犹雨？\n\n余曰：彼前占卦，忧麦被水冲耳，神以孙发动，克去身边之鬼，令彼勿忧，非应晴也。虽然目下未晴，决不至于涨水，即以此卦决阴晴，亦在卯日方大晴也。\n\n或曰：何也？余曰：动而逢合之日也。果卯日大晴。\n因此，答案是：吉', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的。如果在一个卦象中子孙爻发动或旺相，往往都代表了忧患不实的现实意义。\n### 卜得卦象：\n\u3000巳月\u3000\u3000\u3000\u3000\u3000壬子日 (旬空:寅卯)\n\n\u3000坤－泽天夬\u3000\u3000\u3000坤－雷天大壮(六冲)\n\n六 伏爻\u3000本\u3000卦\u3000\u3000\u3000变\u3000卦\n\n白\u3000\u3000\u3000\u3000兄未土\u3000\u3000\u3000 兄戌土\n\n螣\u3000\u3000\u3000\u3000孙酉金 世○→孙申金\n\n勾\u3000\u3000\u3000\u3000财亥水\u3000\u3000\u3000\u3000父午火 世\n\n朱\u3000\u3000\u3000\u3000兄辰土\u3000\u3000\u3000\u3000兄辰土\n\n青\u3000父巳火官寅木 应\u3000\u3000 官寅木\n\n玄\u3000\u3000\u3000\u3000财子水\u3000\u3000\u3000\u3000财子水 应\n\n###卦象分析：\n对于此卦，我发到了朋友圈，很多会占卜的朋友表示不认可我断法，虽然没有说原因，但我估计可能的原因是测婚以官鬼爻为用神，官鬼爻空而不旺是为真空了，而且卦中忌神持世，且发动克官鬼。此卦如果是事卦的话，上面的分析是有道理，但我把此卦判定为心态卦。判定为心态卦的方法不外乎有两个办法：\n\n第一：从卦主的叙述中就可以作出判定，从卦主告诉我的背景就明显感觉卦主的心态。\n\n第二：从卦象结构特征去判定，在这里不详细叙述。\n\n当然，从上面的卦，完全符合上面的两个方法。\n\n因此，上面的卦判定为心态卦是没有问题的。\n\n依心态卦判断，代表忧患的官鬼不旺且空，代表快乐的子孙爻虽然也不旺，但发动了，按野鹤老人所言：神机在于动。故可以判断此卦是吉利的。同时估计有朋友会问，但子孙爻化退啊，这里需要回答的是，心态卦中用神(子孙或官鬼用进退也)。\n\n在此，我引用《增删卜易》中的一个心态卦作为本文的结束。\n\n午月甲申日为防水涨冲了自家麦田，问何日雨停放晴，占得“同人之革”\n\n干支：午月 甲申日 (旬空：午未)\n\n\u3000离宫：天火同人\u3000\u3000坎宫：泽火革\n\n六 【本卦】\u3000\u3000\u3000\u3000【变卦】\n\n玄\u3000\u3000孙戌土\u3000应○→孙未土\u3000\n\n白\u3000\u3000财申金\u3000\u3000\u3000\u3000财酉金\u3000\n\n螣\u3000\u3000兄午火\u3000\u3000\u3000\u3000官亥水\u3000世\n\n勾\u3000\u3000官亥水\u3000世\u3000\u3000官亥水\u3000\n\n朱\u3000\u3000孙丑土\u3000\u3000\u3000\u3000孙丑土\u3000\n\n青\u3000\u3000父卯木\u3000\u3000\u3000\u3000父卯木\u3000应\n\n原注：或疑戌土孙，一爻独发，昨日丙戌，定应大晴，如何迄今犹雨？\n\n余曰：彼前占卦，忧麦被水冲耳，神以孙发动，克去身边之鬼，令彼勿忧，非应晴也。虽然目下未晴，决不至于涨水，即以此卦决阴晴，亦在卯日方大晴也。\n\n或曰：何也？余曰：动而逢合之日也。果卯日大晴。\n因此，答案是：吉', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的。如果在一个卦象中子孙爻发动或旺相，往往都代表了忧患不实的现实意义。\n### 卜得卦象：\n\u3000巳月\u3000\u3000\u3000\u3000\u3000壬子日 (旬空:寅卯)\n\n\u3000坤－泽天夬\u3000\u3000\u3000坤－雷天大壮(六冲)\n\n六 伏爻\u3000本\u3000卦\u3000\u3000\u3000变\u3000卦\n\n白\u3000\u3000\u3000\u3000兄未土\u3000\u3000\u3000 兄戌土\n\n螣\u3000\u3000\u3000\u3000孙酉金 世○→孙申金\n\n勾\u3000\u3000\u3000\u3000财亥水\u3000\u3000\u3000\u3000父午火 世\n\n朱\u3000\u3000\u3000\u3000兄辰土\u3000\u3000\u3000\u3000兄辰土\n\n青\u3000父巳火官寅木 应\u3000\u3000 官寅木\n\n玄\u3000\u3000\u3000\u3000财子水\u3000\u3000\u3000\u3000财子水 应\n\n###卦象分析：\n对于此卦，我发到了朋友圈，很多会占卜的朋友表示不认可我断法，虽然没有说原因，但我估计可能的原因是测婚以官鬼爻为用神，官鬼爻空而不旺是为真空了，而且卦中忌神持世，且发动克官鬼。此卦如果是事卦的话，上面的分析是有道理，但我把此卦判定为心态卦。判定为心态卦的方法不外乎有两个办法：\n\n第一：从卦主的叙述中就可以作出判定，从卦主告诉我的背景就明显感觉卦主的心态。\n\n第二：从卦象结构特征去判定，在这里不详细叙述。\n\n当然，从上面的卦，完全符合上面的两个方法。\n\n因此，上面的卦判定为心态卦是没有问题的。\n\n依心态卦判断，代表忧患的官鬼不旺且空，代表快乐的子孙爻虽然也不旺，但发动了，按野鹤老人所言：神机在于动。故可以判断此卦是吉利的。同时估计有朋友会问，但子孙爻化退啊，这里需要回答的是，心态卦中用神(子孙或官鬼用进退也)。\n\n在此，我引用《增删卜易》中的一个心态卦作为本文的结束。\n\n午月甲申日为防水涨冲了自家麦田，问何日雨停放晴，占得“同人之革”\n\n干支：午月 甲申日 (旬空：午未)\n\n\u3000离宫：天火同人\u3000\u3000坎宫：泽火革\n\n六 【本卦】\u3000\u3000\u3000\u3000【变卦】\n\n玄\u3000\u3000孙戌土\u3000应○→孙未土\u3000\n\n白\u3000\u3000财申金\u3000\u3000\u3000\u3000财酉金\u3000\n\n螣\u3000\u3000兄午火\u3000\u3000\u3000\u3000官亥水\u3000世\n\n勾\u3000\u3000官亥水\u3000世\u3000\u3000官亥水\u3000\n\n朱\u3000\u3000孙丑土\u3000\u3000\u3000\u3000孙丑土\u3000\n\n青\u3000\u3000父卯木\u3000\u3000\u3000\u3000父卯木\u3000应\n\n原注：或疑戌土孙，一爻独发，昨日丙戌，定应大晴，如何迄今犹雨？\n\n余曰：彼前占卦，忧麦被水冲耳，神以孙发动，克去身边之鬼，令彼勿忧，非应晴也。虽然目下未晴，决不至于涨水，即以此卦决阴晴，亦在卯日方大晴也。\n\n或曰：何也？余曰：动而逢合之日也。果卯日大晴。\n因此，答案是：吉', '此问题属于心态卦，心态卦也称为忧患卦，是一种有别于普通事卦的一种卦象，因此心态卦的判断方法就有别于事卦。在心态卦中，用神有两个，一者是代表快乐、喜悦的子孙爻，二者是代表忧愁的官鬼爻，可见卦中子孙爻和官鬼爻是相对立的。如果在一个卦象中子孙爻发动或旺相，往往都代表了忧患不实的现实意义。\n### 卜得卦象：\n\u3000巳月\u3000\u3000\u3000\u3000\u3000壬子日 (旬空:寅卯)\n\n\u3000坤－泽天夬\u3000\u3000\u3000坤－雷天大壮(六冲)\n\n六 伏爻\u3000本\u3000卦\u3000\u3000\u3000变\u3000卦\n\n白\u3000\u3000\u3000\u3000兄未土\u3000\u3000\u3000 兄戌土\n\n螣\u3000\u3000\u3000\u3000孙酉金 世○→孙申金\n\n勾\u3000\u3000\u3000\u3000财亥水\u3000\u3000\u3000\u3000父午火 世\n\n朱\u3000\u3000\u3000\u3000兄辰土\u3000\u3000\u3000\u3000兄辰土\n\n青\u3000父巳火官寅木 应\u3000\u3000 官寅木\n\n玄\u3000\u3000\u3000\u3000财子水\u3000\u3000\u3000\u3000财子水 应\n\n###卦象分析：\n对于此卦，我发到了朋友圈，很多会占卜的朋友表示不认可我断法，虽然没有说原因，但我估计可能的原因是测婚以官鬼爻为用神，官鬼爻空而不旺是为真空了，而且卦中忌神持世，且发动克官鬼。此卦如果是事卦的话，上面的分析是有道理，但我把此卦判定为心态卦。判定为心态卦的方法不外乎有两个办法：\n\n第一：从卦主的叙述中就可以作出判定，从卦主告诉我的背景就明显感觉卦主的心态。\n\n第二：从卦象结构特征去判定，在这里不详细叙述。\n\n当然，从上面的卦，完全符合上面的两个方法。\n\n因此，上面的卦判定为心态卦是没有问题的。\n\n依心态卦判断，代表忧患的官鬼不旺且空，代表快乐的子孙爻虽然也不旺，但发动了，按野鹤老人所言：神机在于动。故可以判断此卦是吉利的。同时估计有朋友会问，但子孙爻化退啊，这里需要回答的是，心态卦中用神(子孙或官鬼用进退也)。\n\n在此，我引用《增删卜易》中的一个心态卦作为本文的结束。\n\n午月甲申日为防水涨冲了自家麦田，问何日雨停放晴，占得“同人之革”\n\n干支：午月 甲申日 (旬空：午未)\n\n\u3000离宫：天火同人\u3000\u3000坎宫：泽火革\n\n六 【本卦】\u3000\u3000\u3000\u3000【变卦】\n\n玄\u3000\u3000孙戌土\u3000应○→孙未土\u3000\n\n白\u3000\u3000财申金\u3000\u3000\u3000\u3000财酉金\u3000\n\n螣\u3000\u3000兄午火\u3000\u3000\u3000\u3000官亥水\u3000世\n\n勾\u3000\u3000官亥水\u3000世\u3000\u3000官亥水\u3000\n\n朱\u3000\u3000孙丑土\u3000\u3000\u3000\u3000孙丑土\u3000\n\n青\u3000\u3000父卯木\u3000\u3000\u3000\u3000父卯木\u3000应\n\n原注：或疑戌土孙，一爻独发，昨日丙戌，定应大晴，如何迄今犹雨？\n\n余曰：彼前占卦，忧麦被水冲耳，神以孙发动，克去身边之鬼，令彼勿忧，非应晴也。虽然目下未晴，决不至于涨水，即以此卦决阴晴，亦在卯日方大晴也。\n\n或曰：何也？余曰：动而逢合之日也。果卯日大晴。\n因此，答案是：吉']
+
+Evaluation Gen Loop: 100% 1/1 [1:04:35<00:00, 3875.23s/it][A
+                                                          [A[Eval Info] value_accuracy: 0%
+[E=1/40, S=1] {'lr': '5e-06', 'T.loss': '2.6406', 'Eval.Gen.value_accuracy': '0'}
+  2% 1/40 [1:05:19<42:27:57, 3919.94s/it]  2% 1/40 [1:05:20<42:28:03, 3920.09s/it]  2% 1/40 [1:05:20<42:28:03, 3920.09s/it]  2% 1/40 [1:05:20<42:28:03, 3920.09s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A  2% 1/40 [1:05:20<42:28:03, 3920.10s/it]  2% 1/40 [1:05:20<42:28:03, 3920.10s/it]  2% 1/40 [1:05:20<42:28:03, 3920.10s/it]  2% 1/40 [1:05:20<42:28:03, 3920.10s/it]                                         Traceback (most recent call last):
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 619, in <module>
+    main(args)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 534, in main
+    train_epoch_result_dict, global_step = train_one_epoch(**kwargs)
+  File "/home/wangxinrong/workspace/reft/divination/mwp_ReFT/train_sft_model.py", line 270, in train_one_epoch
+    accelerator.backward(loss)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/accelerator.py", line 2240, in backward
+    self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/utils/deepspeed.py", line 246, in backward
+    self.engine.backward(loss, **kwargs)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1929, in backward
+    self.optimizer.backward(loss, retain_graph=retain_graph)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py", line 2091, in backward
+    self.loss_scaler.backward(loss.float(), retain_graph=retain_graph)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/deepspeed/runtime/fp16/loss_scaler.py", line 63, in backward
+    scaled_loss.backward(retain_graph=retain_graph)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/autograd/function.py", line 274, in apply
+    return user_fn(self, *args)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/cuda/amp/autocast_mode.py", line 123, in decorate_bwd
+    return bwd(*args, **kwargs)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/deepspeed/runtime/zero/linear.py", line 91, in backward
+    grad_output.shape[-1]).t().matmul(input.reshape(-1, input.shape[-1]))
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.16 GiB (GPU 5; 23.69 GiB total capacity; 18.39 GiB already allocated; 1.03 GiB free; 22.24 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3251988 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3251989 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3251990 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3251991 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3251992 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3251994 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3251995 closing signal SIGTERM
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 5 (pid: 3251993) of binary: /home/wangxinrong/miniconda3/envs/cuda-11.7/bin/python
+Traceback (most recent call last):
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/accelerate_cli.py", line 48, in main
+    args.func(args)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/launch.py", line 1153, in launch_command
+    deepspeed_launcher(args)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/launch.py", line 846, in deepspeed_launcher
+    distrib_run.run(args)
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/run.py", line 785, in run
+    elastic_launch(
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 250, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train_sft_model.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-12-26_07:40:42
+  host      : HS-DSS8440-009
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 3251993)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

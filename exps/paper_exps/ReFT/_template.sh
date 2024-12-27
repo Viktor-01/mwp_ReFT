@@ -13,7 +13,7 @@ n_epochs=${n_epochs:-''}
 kl_coef=${kl_coef:-''} # For NL should put 0.05, For Python put 0.01
 
 ### Default variables
-model_dir="ppo_paper_final_new/_models_outputs_rl/${exp_name}/"
+model_dir="/share/finetune/ppo_paper_final_new/_models_outputs_rl/${exp_name}/"
 config_file="./default_config_deepspeed.yaml"
 
 batch_size="4"

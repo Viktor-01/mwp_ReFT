@@ -1,0 +1,657 @@
+no change     /home/wangxinrong/miniconda3/condabin/conda
+no change     /home/wangxinrong/miniconda3/bin/conda
+no change     /home/wangxinrong/miniconda3/bin/conda-env
+no change     /home/wangxinrong/miniconda3/bin/activate
+no change     /home/wangxinrong/miniconda3/bin/deactivate
+no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.sh
+no change     /home/wangxinrong/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/wangxinrong/miniconda3/shell/condabin/Conda.psm1
+no change     /home/wangxinrong/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/wangxinrong/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.csh
+no change     /home/wangxinrong/.bashrc
+No action taken.
+
+CondaError: Run 'conda init' before 'conda activate'
+
+[2024-12-26 09:43:08,725] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+[2024-12-26 09:43:13,425] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 09:43:13,435] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 09:43:13,440] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 09:43:13,442] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 09:43:13,454] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 09:43:13,454] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 09:43:13,481] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-26 09:43:13,617] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 09:43:16,149] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 09:43:16,188] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 09:43:16,241] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 09:43:16,321] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 09:43:16,345] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 09:43:16,358] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-12-26 09:43:16,358] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 09:43:16,377] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-26 09:43:16,412] [INFO] [comm.py:637:init_distributed] cdb=None
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+{'model_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'tokenizer_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'model_dir': '/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/', 'train_file': 'data/my_data/zhouyi_train.json', 'test_file': 'data/my_data/zhouyi_test.json', 'batch_size': 1, 'eval_batch_size': 1, 'n_epochs': 40, 'num_workers': 8, 'learning_rate': 1e-05, 'weight_decay': 0.0, 'warmup_step': None, 'clip_grad_norm': 1.0, 'evaluating_epoch_freq': 1, 'logging_epoch_freq': 1, 'saving_epoch_freq': 1, 'evaluating_step_freq': None, 'logging_step_freq': 10, 'saving_step_freq': None, 'seed': 42, 'max_input_length': 640, 'max_gen_length': 512, 'gradient_accumulation_steps': 2, 'keep_num_ckpt': 1, 'wandb_log': False, 'wandb_project': 'ReFT', 'wandb_run_name': 'zhouyi_glm4_sft', 'engine': 'nl'}
+{
+  "model_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
+  "tokenizer_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
+  "model_dir": "/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/",
+  "train_file": "data/my_data/zhouyi_train.json",
+  "test_file": "data/my_data/zhouyi_test.json",
+  "batch_size": 1,
+  "eval_batch_size": 1,
+  "n_epochs": 40,
+  "num_workers": 8,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.0,
+  "warmup_step": null,
+  "clip_grad_norm": 1.0,
+  "evaluating_epoch_freq": 1,
+  "logging_epoch_freq": 1,
+  "saving_epoch_freq": 1,
+  "evaluating_step_freq": null,
+  "logging_step_freq": 10,
+  "saving_step_freq": null,
+  "seed": 42,
+  "max_input_length": 640,
+  "max_gen_length": 512,
+  "gradient_accumulation_steps": 2,
+  "keep_num_ckpt": 1,
+  "wandb_log": false,
+  "wandb_project": "ReFT",
+  "wandb_run_name": "zhouyi_glm4_sft",
+  "engine": "nl"
+}
+Raw data: DatasetDict({
+    train: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
+        num_rows: 12
+    })
+    test: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
+        num_rows: 1
+    })
+})
+Using instruction: Question:
+
+Using cot_trigger: 
+Answer reasoning:
+
+Using answer_trigger: 
+因此，答案是：
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.50 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.68 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.59 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:04<00:02,  1.69 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:05<00:02,  1.43 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:06<00:01,  1.27 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.15 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.09 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.30 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 100.36 examples/s]
+Processed data: DatasetDict({
+    train: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
+        num_rows: 12
+    })
+    test: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
+        num_rows: 1
+    })
+})
+train train_input_ids_max_length 846
+test test_input_ids_max_length 840
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.32 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.33 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.33 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.35 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.29 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.31 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:08,  1.25 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.60 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.51 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.48 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.49 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.48 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.50 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.47 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.44 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.44 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.44 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.44 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.44 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.42 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.40 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.51 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.52 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.53 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.53 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.51 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.52 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.51 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.31 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.26 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.29 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.31 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.30 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.29 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.29 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.17 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.16 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.17 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.12 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.15 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.13 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.14 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.07 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.07 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.05 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:00,  1.02 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.05 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.04 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.04 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.01 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.01 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.19 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.02s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.19 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.01s/ examples]num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.02s/ examples]num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.01s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.16 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.17 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.03s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.17 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.17 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.16 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 96.48 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 83.97 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 77.21 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 98.00 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 99.64 examples/s]
+Map: 100%|██████████| 1/1 [00:00<00:00, 75.35 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 100.75 examples/s]
+[2024-12-26 09:43:51,819] [INFO] [partition_parameters.py:347:__exit__] finished initializing model - num_params = 283, num_elems = 9.40B
+Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:16,  1.87s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:16,  1.88s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:16,  1.88s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:16,  1.88s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.90s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.91s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.90s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.95s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.85s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.85s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.85s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.84s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.84s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.84s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.84s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:14,  1.86s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.87s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.88s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.88s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.88s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.88s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.88s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.88s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.89s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:08<00:14,  2.42s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:08<00:14,  2.42s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:08<00:14,  2.42s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:08<00:14,  2.42s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:08<00:14,  2.42s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:08<00:14,  2.42s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:08<00:14,  2.44s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:08<00:14,  2.43s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:10<00:10,  2.19s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:10<00:11,  2.20s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:10<00:11,  2.20s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:10<00:11,  2.20s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:10<00:11,  2.20s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:10<00:11,  2.20s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:10<00:11,  2.21s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:10<00:11,  2.20s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:12<00:08,  2.09s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:12<00:08,  2.10s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:12<00:08,  2.10s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:12<00:08,  2.10s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:12<00:08,  2.10s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:12<00:08,  2.10s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:12<00:08,  2.10s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:12<00:08,  2.10s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:14<00:06,  2.02s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:14<00:06,  2.03s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:14<00:06,  2.03s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:14<00:06,  2.02s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:14<00:06,  2.03s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:14<00:06,  2.02s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:14<00:06,  2.02s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:14<00:06,  2.04s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:16<00:03,  1.95s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:16<00:03,  1.95s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:16<00:03,  1.95s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:16<00:03,  1.95s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:16<00:03,  1.95s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:16<00:03,  1.95s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:16<00:03,  1.96s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:16<00:03,  1.95s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:18<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:18<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:18<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:18<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:18<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:18<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:18<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:18<00:01,  1.93s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.83s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.97s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.83s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.97s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.83s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.97s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.83s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.97s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.83s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.98s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.83s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.98s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.83s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.97s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.84s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.98s/it]
+[Vocab size]: 151344
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 12
+  Num Epochs = 40
+  Instantaneous batch size per device = 1
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Total optimization steps = 20
+  Warm up step: 2
+  Learning rate: 1e-05
+
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.6109583377838135 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.6598377227783203 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.6928415298461914 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.7437965869903564 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.808820962905884 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.8608951568603516 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.933689832687378 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.943206548690796 seconds
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+[2024-12-26 09:44:19,538] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.11.1, git-hash=unknown, git-branch=unknown
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+[2024-12-26 09:44:19,568] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2024-12-26 09:44:19,570] [INFO] [logging.py:96:log_dist] [Rank 0] Using client Optimizer as basic optimizer
+[2024-12-26 09:44:19,570] [INFO] [logging.py:96:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
+[2024-12-26 09:44:19,587] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = DeepSpeedCPUAdam
+[2024-12-26 09:44:19,587] [INFO] [utils.py:56:is_zero_supported_optimizer] Checking ZeRO support for optimizer=DeepSpeedCPUAdam type=<class 'deepspeed.ops.adam.cpu_adam.DeepSpeedCPUAdam'>
+[2024-12-26 09:44:19,587] [INFO] [logging.py:96:log_dist] [Rank 0] Creating fp16 ZeRO stage 3 optimizer, MiCS is enabled False, Hierarchical params gather False
+[2024-12-26 09:44:19,587] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.bfloat16 ZeRO stage 3 optimizer
+[2024-12-26 09:44:19,728] [INFO] [utils.py:802:see_memory_usage] Stage 3 initialize beginning
+[2024-12-26 09:44:19,729] [INFO] [utils.py:803:see_memory_usage] MA 1.15 GB         Max_MA 3.47 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 09:44:19,729] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 116.66 GB, percent = 31.0%
+[2024-12-26 09:44:19,731] [INFO] [stage3.py:126:__init__] Reduce bucket size 500,000,000
+[2024-12-26 09:44:19,731] [INFO] [stage3.py:127:__init__] Prefetch bucket size 50,000,000
+[2024-12-26 09:44:19,859] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
+[2024-12-26 09:44:19,859] [INFO] [utils.py:803:see_memory_usage] MA 1.15 GB         Max_MA 1.15 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 09:44:19,860] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 116.66 GB, percent = 31.0%
+Parameter Offload: Total persistent parameters: 516096 in 121 params
+[2024-12-26 09:44:20,455] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
+[2024-12-26 09:44:20,455] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 1.15 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 09:44:20,456] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 117.82 GB, percent = 31.3%
+[2024-12-26 09:44:20,590] [INFO] [utils.py:802:see_memory_usage] Before creating fp16 partitions
+[2024-12-26 09:44:20,590] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 09:44:20,591] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 117.82 GB, percent = 31.3%
+[2024-12-26 09:44:25,783] [INFO] [utils.py:802:see_memory_usage] After creating fp16 partitions: 3
+[2024-12-26 09:44:25,784] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 09:44:25,784] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 141.58 GB, percent = 37.6%
+[2024-12-26 09:44:25,961] [INFO] [utils.py:802:see_memory_usage] Before creating fp32 partitions
+[2024-12-26 09:44:25,962] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 09:44:25,962] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 142.66 GB, percent = 37.9%
+[2024-12-26 09:44:30,640] [INFO] [utils.py:802:see_memory_usage] After creating fp32 partitions
+[2024-12-26 09:44:30,641] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 09:44:30,641] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 174.92 GB, percent = 46.5%
+[2024-12-26 09:44:31,026] [INFO] [utils.py:802:see_memory_usage] Before initializing optimizer states
+[2024-12-26 09:44:31,026] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 09:44:31,027] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 176.79 GB, percent = 47.0%
+[2024-12-26 09:44:47,912] [INFO] [utils.py:802:see_memory_usage] After initializing optimizer states
+[2024-12-26 09:44:47,913] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 09:44:47,913] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 280.23 GB, percent = 74.5%
+[2024-12-26 09:44:47,932] [INFO] [stage3.py:459:_setup_for_real_optimizer] optimizer state initialized
+  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s][2024-12-26 09:44:54,424] [INFO] [utils.py:802:see_memory_usage] After initializing ZeRO optimizer
+[2024-12-26 09:44:54,425] [INFO] [utils.py:803:see_memory_usage] MA 0.93 GB         Max_MA 3.24 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-26 09:44:54,425] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 297.8 GB, percent = 79.1%
+[2024-12-26 09:44:54,425] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = DeepSpeedCPUAdam
+[2024-12-26 09:44:54,426] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using client LR scheduler
+[2024-12-26 09:44:54,426] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = None
+[2024-12-26 09:44:54,426] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[0.0, 0.0], mom=[(0.9, 0.999), (0.9, 0.999)]
+[2024-12-26 09:44:54,427] [INFO] [config.py:968:print] DeepSpeedEngine configuration:
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True}
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   amp_enabled .................. False
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   amp_params ................... False
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   bfloat16_enabled ............. True
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   checkpoint_parallel_write_pipeline  False
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   checkpoint_tag_validation_enabled  True
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   checkpoint_tag_validation_fail  False
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7fc9c53a2e00>
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   communication_data_type ...... None
+[2024-12-26 09:44:54,427] [INFO] [config.py:972:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   curriculum_enabled_legacy .... False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   curriculum_params_legacy ..... False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   data_efficiency_enabled ...... False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   dataloader_drop_last ......... False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   disable_allgather ............ False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   dump_state ................... False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   dynamic_loss_scale_args ...... None
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   eigenvalue_enabled ........... False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   eigenvalue_gas_boundary_resolution  1
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   eigenvalue_layer_num ......... 0
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   eigenvalue_max_iter .......... 100
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   eigenvalue_stability ......... 1e-06
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   eigenvalue_tol ............... 0.01
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   eigenvalue_verbose ........... False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   elasticity_enabled ........... False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 1, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   fp16_auto_cast ............... None
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   fp16_enabled ................. False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   fp16_master_weights_and_gradients  False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   global_rank .................. 0
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   grad_accum_dtype ............. None
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   gradient_accumulation_steps .. 8
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   gradient_clipping ............ 1.0
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   gradient_predivide_factor .... 1.0
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   initial_dynamic_scale ........ 1
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   load_universal_checkpoint .... False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   loss_scale ................... 1.0
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   memory_breakdown ............. False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   mics_hierarchial_params_gather  False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   mics_shard_size .............. -1
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') enabled=False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   optimizer_legacy_fusion ...... False
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   optimizer_name ............... None
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   optimizer_params ............. None
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0}
+[2024-12-26 09:44:54,428] [INFO] [config.py:972:print]   pld_enabled .................. False
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   pld_params ................... False
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   prescale_gradients ........... False
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   scheduler_name ............... None
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   scheduler_params ............. None
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   sparse_attention ............. None
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   sparse_gradients_enabled ..... False
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   steps_per_print .............. inf
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   train_batch_size ............. 64
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   train_micro_batch_size_per_gpu  1
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   use_node_local_storage ....... False
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   wall_clock_breakdown ......... False
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   weight_quantization_config ... None
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   world_size ................... 8
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   zero_allow_untested_optimizer  True
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500,000,000 allgather_partitions=True allgather_bucket_size=500,000,000 overlap_comm=True load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='cpu', nvme_path=None, buffer_count=5, buffer_size=100,000,000, max_in_cpu=1,000,000,000, pin_memory=False) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='cpu', nvme_path=None, buffer_count=4, pin_memory=False, pipeline=False, pipeline_read=False, pipeline_write=False, fast_init=False) sub_group_size=1,000,000,000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50,000,000 param_persistence_threshold=100,000 model_persistence_threshold=sys.maxsize max_live_parameters=1,000,000,000 max_reuse_distance=1,000,000,000 gather_16bit_weights_on_model_save=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   zero_enabled ................. True
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   zero_force_ds_cpu_optimizer .. True
+[2024-12-26 09:44:54,429] [INFO] [config.py:972:print]   zero_optimization_stage ...... 3
+[2024-12-26 09:44:54,429] [INFO] [config.py:958:print_user_config]   json = {
+    "train_batch_size": 64, 
+    "train_micro_batch_size_per_gpu": 1, 
+    "gradient_accumulation_steps": 8, 
+    "zero_optimization": {
+        "stage": 3, 
+        "offload_optimizer": {
+            "device": "cpu", 
+            "nvme_path": null
+        }, 
+        "offload_param": {
+            "device": "cpu", 
+            "nvme_path": null
+        }, 
+        "stage3_gather_16bit_weights_on_model_save": false
+    }, 
+    "gradient_clipping": 1.0, 
+    "steps_per_print": inf, 
+    "bf16": {
+        "enabled": true
+    }, 
+    "fp16": {
+        "enabled": false
+    }, 
+    "zero_allow_untested_optimizer": true
+}
+  0% 0/40 [00:00<?, ?it/s]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:23<00:23, 23.05s/it][A
+Train Loop: 100% 2/2 [00:39<00:00, 19.22s/it][A
+                                             [A  2% 1/40 [00:39<25:50, 39.75s/it]  2% 1/40 [00:39<25:50, 39.75s/it][E=1/40, S=1] {'lr': '5e-06', 'T.loss': '2.5469', 'Eval.Gen.value_accuracy': 0}
+  2% 1/40 [00:39<25:50, 39.75s/it]  2% 1/40 [00:39<25:44, 39.60s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A  2% 1/40 [00:39<25:50, 39.76s/it]  2% 1/40 [00:39<25:57, 39.93s/it]  2% 1/40 [00:39<25:57, 39.94s/it]  2% 1/40 [00:39<25:57, 39.95s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.96s/it][A  5% 2/40 [01:16<23:52, 37.70s/it]  5% 2/40 [01:16<23:51, 37.67s/it]  5% 2/40 [01:16<23:52, 37.71s/it]  5% 2/40 [01:16<23:51, 37.67s/it]  5% 2/40 [01:16<23:51, 37.67s/it]  5% 2/40 [01:16<23:54, 37.74s/it]  5% 2/40 [01:16<23:57, 37.82s/it]
+Train Loop: 100% 2/2 [00:36<00:00, 17.93s/it][A
+                                             [A[E=2/40, S=2] {'lr': '1e-05', 'T.loss': '2.5469', 'Eval.Gen.value_accuracy': 0}
+  5% 2/40 [01:16<23:55, 37.76s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.53s/it][A  8% 3/40 [01:51<22:43, 36.84s/it]  8% 3/40 [01:51<22:45, 36.90s/it]  8% 3/40 [01:52<22:47, 36.96s/it]
+Train Loop: 100% 2/2 [00:35<00:00, 17.65s/it][A
+                                             [A  8% 3/40 [01:52<22:47, 36.95s/it][E=3/40, S=3] {'lr': '9.4444e-06', 'T.loss': '2.5469', 'Eval.Gen.value_accuracy': 0}
+  8% 3/40 [01:51<22:45, 36.90s/it]  8% 3/40 [01:52<22:47, 36.95s/it]  8% 3/40 [01:52<22:47, 36.97s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A  8% 3/40 [01:52<22:47, 36.96s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.52s/it][A[2024-12-26 09:47:59,848] [WARNING] [stage3.py:1947:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+
+Train Loop: 100% 2/2 [01:13<00:00, 39.76s/it][A
+                                             [A 10% 4/40 [03:05<30:48, 51.36s/it] 10% 4/40 [03:05<30:49, 51.36s/it] 10% 4/40 [03:05<30:49, 51.37s/it][E=4/40, S=4] {'lr': '8.8889e-06', 'T.loss': '2.5469', 'Eval.Gen.value_accuracy': 0}
+ 10% 4/40 [03:05<30:49, 51.36s/it] 10% 4/40 [03:05<30:49, 51.38s/it] 10% 4/40 [03:05<30:49, 51.38s/it] 10% 4/40 [03:05<30:49, 51.38s/it] 10% 4/40 [03:05<30:48, 51.34s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.43s/it][A 12% 5/40 [03:43<27:05, 46.45s/it] 12% 5/40 [03:43<27:05, 46.44s/it] 12% 5/40 [03:43<27:05, 46.45s/it] 12% 5/40 [03:43<27:05, 46.44s/it] 12% 5/40 [03:43<27:05, 46.46s/it] 12% 5/40 [03:43<27:06, 46.47s/it] 12% 5/40 [03:43<27:06, 46.48s/it]
+Train Loop: 100% 2/2 [00:37<00:00, 18.68s/it][A
+                                             [A[E=5/40, S=5] {'lr': '8.3333e-06', 'T.loss': '2.4531', 'Eval.Gen.value_accuracy': 0}
+ 12% 5/40 [03:43<27:07, 46.49s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.94s/it][A 15% 6/40 [04:20<24:29, 43.23s/it] 15% 6/40 [04:20<24:29, 43.22s/it] 15% 6/40 [04:20<24:29, 43.22s/it] 15% 6/40 [04:20<24:29, 43.23s/it] 15% 6/40 [04:20<24:30, 43.24s/it]
+Train Loop: 100% 2/2 [00:36<00:00, 18.16s/it][A
+                                             [A 15% 6/40 [04:20<24:30, 43.24s/it][E=6/40, S=6] {'lr': '7.7778e-06', 'T.loss': '2.4531', 'Eval.Gen.value_accuracy': 0}
+ 15% 6/40 [04:20<24:29, 43.21s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 15% 6/40 [04:20<24:30, 43.24s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.87s/it][A 18% 7/40 [04:57<22:43, 41.31s/it] 18% 7/40 [04:57<22:43, 41.31s/it] 18% 7/40 [04:57<22:43, 41.33s/it]
+Train Loop: 100% 2/2 [00:37<00:00, 18.48s/it][A
+                                             [A[E=7/40, S=7] {'lr': '7.2222e-06', 'T.loss': '2.125', 'Eval.Gen.value_accuracy': 0}
+ 18% 7/40 [04:57<22:43, 41.31s/it] 18% 7/40 [04:57<22:44, 41.34s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 18% 7/40 [04:57<22:44, 41.34s/it] 18% 7/40 [04:57<22:43, 41.33s/it] 18% 7/40 [04:57<22:43, 41.32s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.11s/it][A
+Train Loop: 100% 2/2 [01:17<00:00, 42.08s/it][A
+                                             [A 20% 8/40 [06:15<28:12, 52.88s/it] 20% 8/40 [06:15<28:12, 52.88s/it][E=8/40, S=8] {'lr': '6.6667e-06', 'T.loss': '2.125', 'Eval.Gen.value_accuracy': 0}
+ 20% 8/40 [06:15<28:12, 52.88s/it] 20% 8/40 [06:15<28:11, 52.86s/it] 20% 8/40 [06:15<28:11, 52.86s/it] 20% 8/40 [06:15<28:11, 52.87s/it] 20% 8/40 [06:15<28:12, 52.88s/it] 20% 8/40 [06:15<28:11, 52.87s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.87s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.55s/it][A
+                                             [A 22% 9/40 [06:53<24:52, 48.16s/it] 22% 9/40 [06:53<24:53, 48.17s/it] 22% 9/40 [06:53<24:53, 48.17s/it][E=9/40, S=9] {'lr': '6.1111e-06', 'T.loss': '1.0469', 'Eval.Gen.value_accuracy': 0}
+ 22% 9/40 [06:52<24:52, 48.15s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 22% 9/40 [06:53<24:53, 48.17s/it] 22% 9/40 [06:53<24:53, 48.18s/it] 22% 9/40 [06:53<24:55, 48.23s/it] 22% 9/40 [06:53<24:55, 48.23s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.03s/it][A 25% 10/40 [07:29<22:18, 44.63s/it] 25% 10/40 [07:29<22:18, 44.63s/it] 25% 10/40 [07:29<22:18, 44.63s/it] 25% 10/40 [07:29<22:19, 44.63s/it] 25% 10/40 [07:29<22:18, 44.62s/it][E=10/40, S=10] {'lr': '5.5556e-06', 'T.loss': '1.0469'}
+
+Train Loop: 100% 2/2 [00:36<00:00, 18.08s/it][A
+                                             [A[E=10/40, S=10] {'lr': '5.5556e-06', 'T.loss': '1.0469', 'Eval.Gen.value_accuracy': 0}
+ 25% 10/40 [07:29<22:19, 44.63s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 25% 10/40 [07:29<22:19, 44.64s/it] 25% 10/40 [07:29<22:19, 44.65s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.97s/it][A
+Train Loop: 100% 2/2 [00:36<00:00, 18.12s/it][A
+                                             [A[E=11/40, S=11] {'lr': '5e-06', 'T.loss': '1.0312', 'Eval.Gen.value_accuracy': 0}
+ 28% 11/40 [08:06<20:24, 42.24s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 28% 11/40 [08:06<20:25, 42.25s/it] 28% 11/40 [08:06<20:25, 42.25s/it] 28% 11/40 [08:06<20:25, 42.26s/it] 28% 11/40 [08:06<20:25, 42.27s/it] 28% 11/40 [08:06<20:25, 42.25s/it] 28% 11/40 [08:06<20:25, 42.27s/it] 28% 11/40 [08:06<20:25, 42.26s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.19s/it][A
+Train Loop: 100% 2/2 [01:16<00:00, 41.62s/it][A
+                                             [A 30% 12/40 [09:23<24:37, 52.77s/it] 30% 12/40 [09:23<24:37, 52.76s/it] 30% 12/40 [09:23<24:37, 52.76s/it] 30% 12/40 [09:23<24:36, 52.75s/it] 30% 12/40 [09:23<24:37, 52.75s/it][E=12/40, S=12] {'lr': '4.4444e-06', 'T.loss': '1.0312', 'Eval.Gen.value_accuracy': 0}
+ 30% 12/40 [09:23<24:37, 52.75s/it] 30% 12/40 [09:23<24:37, 52.76s/it] 30% 12/40 [09:23<24:37, 52.76s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.72s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.49s/it][A
+                                             [A 32% 13/40 [10:01<21:40, 48.18s/it] 32% 13/40 [10:01<21:40, 48.17s/it][E=13/40, S=13] {'lr': '3.8889e-06', 'T.loss': '0.45508', 'Eval.Gen.value_accuracy': 0}
+ 32% 13/40 [10:00<21:40, 48.18s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 32% 13/40 [10:01<21:41, 48.20s/it] 32% 13/40 [10:01<21:41, 48.20s/it] 32% 13/40 [10:01<21:41, 48.21s/it] 32% 13/40 [10:01<21:41, 48.20s/it] 32% 13/40 [10:01<21:41, 48.20s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.11s/it][A 35% 14/40 [10:38<19:27, 44.89s/it] 35% 14/40 [10:38<19:27, 44.91s/it] 35% 14/40 [10:38<19:27, 44.90s/it]
+ 35% 14/40 [10:38<19:28, 44.94s/it]Train Loop: 100% 2/2 [00:37<00:00, 18.49s/it][A
+                                             [A 35% 14/40 [10:38<19:28, 44.94s/it] 35% 14/40 [10:38<19:28, 44.94s/it][E=14/40, S=14] {'lr': '3.3333e-06', 'T.loss': '0.55469', 'Eval.Gen.value_accuracy': 0}
+ 35% 14/40 [10:38<19:28, 44.95s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 35% 14/40 [10:38<19:28, 44.95s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.98s/it][A
+Train Loop: 100% 2/2 [00:36<00:00, 17.98s/it][A
+                                             [A 38% 15/40 [11:15<17:40, 42.42s/it] 38% 15/40 [11:15<17:40, 42.42s/it] 38% 15/40 [11:15<17:40, 42.42s/it][E=15/40, S=15] {'lr': '2.7778e-06', 'T.loss': '0.55469', 'Eval.Gen.value_accuracy': 0}
+ 38% 15/40 [11:15<17:40, 42.42s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 38% 15/40 [11:15<17:40, 42.43s/it] 38% 15/40 [11:15<17:40, 42.43s/it] 38% 15/40 [11:15<17:41, 42.45s/it] 38% 15/40 [11:15<17:41, 42.45s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.26s/it][A
+Train Loop: 100% 2/2 [01:14<00:00, 40.12s/it][A
+                                             [A 40% 16/40 [12:29<20:48, 52.01s/it] 40% 16/40 [12:29<20:48, 52.01s/it][E=16/40, S=16] {'lr': '2.2222e-06', 'T.loss': '0.55469', 'Eval.Gen.value_accuracy': 0}
+ 40% 16/40 [12:29<20:48, 52.01s/it] 40% 16/40 [12:29<20:48, 52.02s/it] 40% 16/40 [12:29<20:48, 52.02s/it] 40% 16/40 [12:29<20:48, 52.01s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 40% 16/40 [12:29<20:48, 52.01s/it] 40% 16/40 [12:29<20:48, 52.01s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.59s/it][A 42% 17/40 [13:06<18:16, 47.65s/it] 42% 17/40 [13:06<18:15, 47.65s/it] 42% 17/40 [13:06<18:15, 47.65s/it] 42% 17/40 [13:06<18:16, 47.65s/it] 42% 17/40 [13:07<18:16, 47.66s/it] 42% 17/40 [13:07<18:16, 47.67s/it]
+Train Loop: 100% 2/2 [00:37<00:00, 18.46s/it][A
+                                             [A 42% 17/40 [13:07<18:16, 47.68s/it][E=17/40, S=17] {'lr': '1.6667e-06', 'T.loss': '0.25781', 'Eval.Gen.value_accuracy': 0}
+ 42% 17/40 [13:06<18:16, 47.67s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.89s/it][A 45% 18/40 [13:43<16:14, 44.28s/it] 45% 18/40 [13:43<16:14, 44.28s/it] 45% 18/40 [13:43<16:14, 44.29s/it] 45% 18/40 [13:43<16:14, 44.29s/it] 45% 18/40 [13:43<16:14, 44.29s/it] 45% 18/40 [13:43<16:14, 44.30s/it]
+Train Loop: 100% 2/2 [00:36<00:00, 17.92s/it][A 45% 18/40 [13:43<16:14, 44.30s/it]
+                                             [A[E=18/40, S=18] {'lr': '1.1111e-06', 'T.loss': '0.25781', 'Eval.Gen.value_accuracy': 0}
+ 45% 18/40 [13:43<16:14, 44.30s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.56s/it][A 48% 19/40 [14:19<14:38, 41.86s/it]
+Train Loop: 100% 2/2 [00:36<00:00, 17.81s/it][A
+                                             [A[E=19/40, S=19] {'lr': '5.5556e-07', 'T.loss': '0.25781', 'Eval.Gen.value_accuracy': 0}
+ 48% 19/40 [14:19<14:38, 41.85s/it] 48% 19/40 [14:19<14:38, 41.86s/it] 48% 19/40 [14:19<14:39, 41.86s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 48% 19/40 [14:19<14:39, 41.87s/it] 48% 19/40 [14:19<14:39, 41.86s/it] 48% 19/40 [14:19<14:38, 41.86s/it] 48% 19/40 [14:19<14:39, 41.86s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.02s/it][A 50% 20/40 [15:37<17:33, 52.70s/it] 50% 20/40 [15:37<17:33, 52.70s/it][E=20/40, S=20] {'lr': '0', 'T.loss': '0.13281'}
+ 50% 20/40 [15:37<17:34, 52.70s/it]
+Train Loop: 100% 2/2 [01:17<00:00, 42.32s/it][A 50% 20/40 [15:37<17:33, 52.69s/it]
+                                             [A 50% 20/40 [15:37<17:33, 52.70s/it] 50% 20/40 [15:37<17:33, 52.69s/it] 50% 20/40 [15:37<17:33, 52.70s/it][E=20/40, S=20] {'lr': '0', 'T.loss': '0.13281', 'Eval.Gen.value_accuracy': 0}
+ 50% 20/40 [15:37<17:33, 52.70s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.62s/it][A 52% 21/40 [16:14<15:12, 48.04s/it]
+Train Loop: 100% 2/2 [00:37<00:00, 18.24s/it][A
+                                             [A 52% 21/40 [16:14<15:12, 48.05s/it] 52% 21/40 [16:14<15:12, 48.05s/it] 52% 21/40 [16:14<15:12, 48.05s/it][E=21/40, S=21] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 52% 21/40 [16:14<15:12, 48.05s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 52% 21/40 [16:14<15:12, 48.05s/it] 52% 21/40 [16:14<15:13, 48.07s/it] 52% 21/40 [16:14<15:13, 48.07s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.93s/it][A 55% 22/40 [16:51<13:21, 44.53s/it] 55% 22/40 [16:51<13:21, 44.53s/it] 55% 22/40 [16:51<13:21, 44.53s/it]
+Train Loop: 100% 2/2 [00:36<00:00, 17.87s/it][A
+                                             [A 55% 22/40 [16:51<13:21, 44.54s/it][E=22/40, S=22] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 55% 22/40 [16:51<13:21, 44.54s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 55% 22/40 [16:51<13:21, 44.55s/it] 55% 22/40 [16:51<13:21, 44.55s/it] 55% 22/40 [16:51<13:21, 44.55s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.46s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.18s/it][A
+                                             [A 57% 23/40 [17:28<11:59, 42.30s/it][E=23/40, S=23] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 57% 23/40 [17:28<11:59, 42.30s/it] 57% 23/40 [17:28<11:59, 42.30s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 57% 23/40 [17:28<11:59, 42.32s/it] 57% 23/40 [17:28<11:59, 42.31s/it] 57% 23/40 [17:28<11:59, 42.32s/it] 57% 23/40 [17:28<11:59, 42.32s/it] 57% 23/40 [17:28<11:59, 42.32s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.61s/it][A
+Train Loop: 100% 2/2 [01:13<00:00, 39.74s/it][A
+                                             [A 60% 24/40 [18:42<13:47, 51.73s/it] 60% 24/40 [18:42<13:47, 51.73s/it] 60% 24/40 [18:42<13:47, 51.73s/it] 60% 24/40 [18:42<13:47, 51.74s/it][E=24/40, S=24] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 60% 24/40 [18:42<13:47, 51.74s/it] 60% 24/40 [18:41<13:47, 51.74s/it] 60% 24/40 [18:42<13:47, 51.73s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 60% 24/40 [18:42<13:47, 51.75s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.39s/it][A 62% 25/40 [19:19<11:51, 47.46s/it] 62% 25/40 [19:19<11:51, 47.46s/it] 62% 25/40 [19:19<11:52, 47.47s/it] 62% 25/40 [19:19<11:52, 47.47s/it] 62% 25/40 [19:19<11:52, 47.47s/it] 62% 25/40 [19:19<11:52, 47.48s/it]
+Train Loop: 100% 2/2 [00:37<00:00, 18.57s/it][A
+                                             [A[E=25/40, S=25] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 62% 25/40 [19:19<11:52, 47.52s/it] 62% 25/40 [19:19<11:52, 47.52s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.30s/it][A 65% 26/40 [19:56<10:20, 44.34s/it] 65% 26/40 [19:56<10:20, 44.33s/it] 65% 26/40 [19:56<10:20, 44.34s/it] 65% 26/40 [19:56<10:20, 44.33s/it] 65% 26/40 [19:56<10:20, 44.34s/it]
+Train Loop: 100% 2/2 [00:36<00:00, 18.11s/it][A
+                                             [A[E=26/40, S=26] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 65% 26/40 [19:56<10:20, 44.33s/it] 65% 26/40 [19:56<10:20, 44.33s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 65% 26/40 [19:56<10:20, 44.35s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.69s/it][A
+ 68% 27/40 [20:33<09:07, 42.09s/it]Train Loop: 100% 2/2 [00:36<00:00, 18.16s/it][A
+                                             [A[E=27/40, S=27] {'lr': '0', 'T.loss': '0.07666', 'Eval.Gen.value_accuracy': 0}
+ 68% 27/40 [20:33<09:07, 42.09s/it] 68% 27/40 [20:33<09:06, 42.07s/it] 68% 27/40 [20:33<09:07, 42.08s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 68% 27/40 [20:33<09:07, 42.08s/it] 68% 27/40 [20:33<09:07, 42.10s/it] 68% 27/40 [20:33<09:07, 42.11s/it] 68% 27/40 [20:33<09:07, 42.10s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.98s/it][A
+Train Loop: 100% 2/2 [01:12<00:00, 38.93s/it][A
+                                             [A[E=28/40, S=28] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 70% 28/40 [21:45<10:13, 51.11s/it] 70% 28/40 [21:45<10:13, 51.11s/it] 70% 28/40 [21:45<10:13, 51.10s/it] 70% 28/40 [21:45<10:13, 51.11s/it] 70% 28/40 [21:45<10:13, 51.11s/it] 70% 28/40 [21:45<10:13, 51.12s/it] 70% 28/40 [21:45<10:13, 51.11s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 70% 28/40 [21:45<10:13, 51.12s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.56s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.28s/it][A 72% 29/40 [22:22<08:36, 46.95s/it]
+                                             [A 72% 29/40 [22:22<08:36, 46.96s/it][E=29/40, S=29] {'lr': '0', 'T.loss': '0.07666', 'Eval.Gen.value_accuracy': 0}
+ 72% 29/40 [22:22<08:36, 46.96s/it] 72% 29/40 [22:22<08:36, 46.94s/it] 72% 29/40 [22:22<08:36, 46.95s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 72% 29/40 [22:22<08:36, 46.97s/it] 72% 29/40 [22:22<08:36, 46.97s/it] 72% 29/40 [22:22<08:36, 46.97s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.90s/it][A[E=30/40, S=30] {'lr': '0', 'T.loss': '0.17676'}
+
+Train Loop: 100% 2/2 [00:36<00:00, 18.01s/it][A
+                                             [A 75% 30/40 [22:59<07:18, 43.85s/it][E=30/40, S=30] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 75% 30/40 [22:59<07:18, 43.84s/it] 75% 30/40 [22:59<07:18, 43.85s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 75% 30/40 [22:59<07:18, 43.84s/it] 75% 30/40 [22:59<07:18, 43.86s/it] 75% 30/40 [22:59<07:18, 43.86s/it] 75% 30/40 [22:59<07:18, 43.86s/it] 75% 30/40 [22:59<07:18, 43.87s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.99s/it][A 78% 31/40 [23:35<06:15, 41.67s/it] 78% 31/40 [23:36<06:14, 41.66s/it]
+Train Loop: 100% 2/2 [00:36<00:00, 18.02s/it][A
+                                             [A 78% 31/40 [23:36<06:15, 41.69s/it][E=31/40, S=31] {'lr': '0', 'T.loss': '0.07666', 'Eval.Gen.value_accuracy': 0}
+ 78% 31/40 [23:36<06:15, 41.67s/it] 78% 31/40 [23:35<06:15, 41.68s/it] 78% 31/40 [23:36<06:15, 41.68s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 78% 31/40 [23:36<06:15, 41.68s/it] 78% 31/40 [23:36<06:15, 41.68s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.22s/it][A
+Train Loop: 100% 2/2 [01:12<00:00, 39.20s/it][A
+                                             [A[E=32/40, S=32] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 80% 32/40 [24:48<06:47, 50.99s/it] 80% 32/40 [24:48<06:47, 50.99s/it] 80% 32/40 [24:48<06:47, 50.99s/it] 80% 32/40 [24:48<06:47, 50.99s/it] 80% 32/40 [24:48<06:47, 51.00s/it] 80% 32/40 [24:48<06:48, 51.00s/it] 80% 32/40 [24:48<06:47, 50.99s/it] 80% 32/40 [24:48<06:47, 51.00s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.87s/it][A 82% 33/40 [25:26<05:28, 46.88s/it]
+Train Loop: 100% 2/2 [00:37<00:00, 18.24s/it][A
+                                             [A 82% 33/40 [25:26<05:28, 46.87s/it] 82% 33/40 [25:26<05:28, 46.87s/it] 82% 33/40 [25:26<05:28, 46.88s/it][E=33/40, S=33] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 82% 33/40 [25:25<05:28, 46.88s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 82% 33/40 [25:26<05:28, 46.89s/it] 82% 33/40 [25:26<05:28, 46.91s/it] 82% 33/40 [25:26<05:28, 46.90s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.22s/it][A 85% 34/40 [26:03<04:24, 44.06s/it]
+Train Loop: 100% 2/2 [00:37<00:00, 18.48s/it][A
+                                             [A 85% 34/40 [26:03<04:24, 44.06s/it] 85% 34/40 [26:03<04:24, 44.06s/it][E=34/40, S=34] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 85% 34/40 [26:03<04:24, 44.06s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 85% 34/40 [26:03<04:24, 44.05s/it] 85% 34/40 [26:03<04:24, 44.07s/it] 85% 34/40 [26:03<04:24, 44.07s/it] 85% 34/40 [26:03<04:24, 44.12s/it]
+Train Loop:  50% 1/2 [00:19<00:19, 19.99s/it][A 88% 35/40 [26:40<03:29, 41.91s/it]
+Train Loop: 100% 2/2 [00:36<00:00, 18.16s/it][A
+                                             [A 88% 35/40 [26:40<03:29, 41.91s/it] 88% 35/40 [26:40<03:29, 41.90s/it][E=35/40, S=35] {'lr': '0', 'T.loss': '0.07666', 'Eval.Gen.value_accuracy': 0}
+ 88% 35/40 [26:40<03:29, 41.91s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 88% 35/40 [26:40<03:29, 41.93s/it] 88% 35/40 [26:40<03:29, 41.93s/it] 88% 35/40 [26:40<03:29, 41.95s/it] 88% 35/40 [26:40<03:29, 41.96s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.40s/it][A
+Train Loop: 100% 2/2 [01:14<00:00, 40.04s/it][A
+                                             [A 90% 36/40 [27:54<03:26, 51.60s/it][E=36/40, S=36] {'lr': '0', 'T.loss': '0.07666', 'Eval.Gen.value_accuracy': 0}
+ 90% 36/40 [27:54<03:26, 51.59s/it] 90% 36/40 [27:54<03:26, 51.59s/it] 90% 36/40 [27:54<03:26, 51.59s/it] 90% 36/40 [27:54<03:26, 51.57s/it] 90% 36/40 [27:54<03:26, 51.59s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 90% 36/40 [27:54<03:26, 51.58s/it] 90% 36/40 [27:54<03:26, 51.57s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.70s/it][A 92% 37/40 [28:32<02:22, 47.43s/it]
+Train Loop: 100% 2/2 [00:37<00:00, 18.52s/it][A
+                                             [A 92% 37/40 [28:32<02:22, 47.43s/it] 92% 37/40 [28:32<02:22, 47.42s/it][E=37/40, S=37] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 92% 37/40 [28:32<02:22, 47.41s/it] 92% 37/40 [28:32<02:22, 47.43s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 92% 37/40 [28:32<02:22, 47.42s/it] 92% 37/40 [28:32<02:22, 47.44s/it] 92% 37/40 [28:32<02:22, 47.45s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.45s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.54s/it][A
+                                             [A 95% 38/40 [29:09<01:28, 44.50s/it][E=38/40, S=38] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 95% 38/40 [29:09<01:28, 44.50s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 95% 38/40 [29:10<01:28, 44.50s/it] 95% 38/40 [29:10<01:29, 44.51s/it] 95% 38/40 [29:10<01:29, 44.50s/it] 95% 38/40 [29:10<01:29, 44.51s/it] 95% 38/40 [29:10<01:29, 44.54s/it] 95% 38/40 [29:10<01:29, 44.55s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.51s/it][A 98% 39/40 [29:47<00:42, 42.36s/it] 98% 39/40 [29:47<00:42, 42.38s/it]
+Train Loop: 100% 2/2 [00:37<00:00, 18.45s/it][A
+                                             [A[E=39/40, S=39] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+ 98% 39/40 [29:47<00:42, 42.40s/it] 98% 39/40 [29:47<00:42, 42.39s/it] 98% 39/40 [29:47<00:42, 42.41s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A 98% 39/40 [29:47<00:42, 42.41s/it] 98% 39/40 [29:47<00:42, 42.39s/it] 98% 39/40 [29:47<00:42, 42.39s/it]
+Train Loop:  50% 1/2 [00:20<00:20, 20.15s/it][A[E=40/40, S=40] {'lr': '0', 'T.loss': '0.17676'}
+
+Train Loop: 100% 2/2 [01:25<00:00, 46.79s/it][A
+                                             [A100% 40/40 [31:13<00:00, 55.36s/it]                                   100% 40/40 [31:13<00:00, 55.35s/it]                                   100% 40/40 [31:13<00:00, 55.35s/it]                                   [E=40/40, S=40] {'lr': '0', 'T.loss': '0.17676', 'Eval.Gen.value_accuracy': 0}
+100% 40/40 [31:13<00:00, 55.35s/it]                                   100% 40/40 [31:12<00:00, 55.37s/it]                                   100% 40/40 [31:13<00:00, 55.37s/it]                                   100% 40/40 [31:13<00:00, 55.37s/it]                                   100% 40/40 [31:13<00:00, 55.35s/it]                                   

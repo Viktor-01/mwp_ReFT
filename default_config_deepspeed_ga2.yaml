@@ -1,11 +1,21 @@
-compute_environment: LOCAL_MACHINE                                                                                                                                                                                                
+compute_environment: LOCAL_MACHINE                
 deepspeed_config:
-  gradient_accumulation_steps: 2
+  gradient_accumulation_steps: 8
   gradient_clipping: 1.0
-  offload_optimizer_device: none
-  offload_param_device: none
-  zero3_init_flag: false
-  zero_stage: 2
+  offload_optimizer_device: "cpu"
+  offload_param_device: "cpu"
+  zero3_init_flag: true
+  zero_stage: 3
+  zero3_save_16bit_model: false
+  zero_optimization:
+    stage: 3
+    save_optimizer_state: false
+    overlap_comm: true
+    contiguous_gradients: true
+    reduce_bucket_size: 5e7
+    stage3_prefetch_bucket_size: 5e7
+    stage3_param_persistence_threshold: 1e5
+    stage3_gather_16bit_weights_on_model_save: false
 distributed_type: DEEPSPEED
 downcast_bf16: 'no'
 dynamo_config:
