@@ -1,0 +1,819 @@
+no change     /home/wangxinrong/miniconda3/condabin/conda
+no change     /home/wangxinrong/miniconda3/bin/conda
+no change     /home/wangxinrong/miniconda3/bin/conda-env
+no change     /home/wangxinrong/miniconda3/bin/activate
+no change     /home/wangxinrong/miniconda3/bin/deactivate
+no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.sh
+no change     /home/wangxinrong/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/wangxinrong/miniconda3/shell/condabin/Conda.psm1
+no change     /home/wangxinrong/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/wangxinrong/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.csh
+no change     /home/wangxinrong/.bashrc
+No action taken.
+
+CondaError: Run 'conda init' before 'conda activate'
+
+[2024-12-30 10:04:29,404] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+[2024-12-30 10:04:35,959] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-30 10:04:35,960] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-30 10:04:35,970] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-30 10:04:35,970] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-30 10:04:35,971] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-30 10:04:35,971] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-30 10:04:35,972] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-30 10:04:35,979] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-30 10:04:38,897] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-30 10:04:38,966] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-30 10:04:38,974] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-30 10:04:38,997] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-30 10:04:39,033] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-30 10:04:39,071] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-12-30 10:04:39,082] [INFO] [comm.py:637:init_distributed] cdb=None
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-30 10:04:39,112] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-12-30 10:04:39,112] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+{'model_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'tokenizer_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'model_dir': '/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/', 'train_file': 'data/my_data/zhouyi_train.json', 'test_file': 'data/my_data/zhouyi_test.json', 'batch_size': 1, 'eval_batch_size': 1, 'n_epochs': 40, 'num_workers': 8, 'learning_rate': 1e-05, 'weight_decay': 0.0, 'warmup_step': None, 'clip_grad_norm': 1.0, 'evaluating_epoch_freq': 1, 'logging_epoch_freq': 1, 'saving_epoch_freq': 1, 'evaluating_step_freq': None, 'logging_step_freq': 10, 'saving_step_freq': None, 'seed': 42, 'max_input_length': 512, 'max_gen_length': 512, 'gradient_accumulation_steps': 2, 'keep_num_ckpt': 1, 'wandb_log': False, 'wandb_project': 'ReFT', 'wandb_run_name': 'zhouyi_glm4_sft', 'engine': 'nl'}
+{
+  "model_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
+  "tokenizer_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
+  "model_dir": "/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/",
+  "train_file": "data/my_data/zhouyi_train.json",
+  "test_file": "data/my_data/zhouyi_test.json",
+  "batch_size": 1,
+  "eval_batch_size": 1,
+  "n_epochs": 40,
+  "num_workers": 8,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.0,
+  "warmup_step": null,
+  "clip_grad_norm": 1.0,
+  "evaluating_epoch_freq": 1,
+  "logging_epoch_freq": 1,
+  "saving_epoch_freq": 1,
+  "evaluating_step_freq": null,
+  "logging_step_freq": 10,
+  "saving_step_freq": null,
+  "seed": 42,
+  "max_input_length": 512,
+  "max_gen_length": 512,
+  "gradient_accumulation_steps": 2,
+  "keep_num_ckpt": 1,
+  "wandb_log": false,
+  "wandb_project": "ReFT",
+  "wandb_run_name": "zhouyi_glm4_sft",
+  "engine": "nl"
+}
+Raw data: DatasetDict({
+    train: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
+        num_rows: 12
+    })
+    test: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
+        num_rows: 1
+    })
+})
+Using instruction: Question:
+
+Using cot_trigger: 
+Answer reasoning:
+
+Using answer_trigger: 
+因此，答案是：
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.34 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.55 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.47 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.58 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.35 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.21 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.11 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.03 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.22 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 92.53 examples/s]
+Processed data: DatasetDict({
+    train: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
+        num_rows: 12
+    })
+    test: Dataset({
+        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
+        num_rows: 1
+    })
+})
+train train_input_ids_max_length 846
+test test_input_ids_max_length 840
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Setting TOKENIZERS_PARALLELISM=false for forked processes.
+Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.29 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.26 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.27 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:08,  1.23 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:08,  1.23 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:08,  1.19 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:08,  1.24 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.51 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.46 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.46 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.42 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.40 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.38 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.37 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.41 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.40 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.37 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.36 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.33 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.34 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.34 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.49 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.48 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.48 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.45 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.45 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.43 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.44 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.26 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.25 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.24 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.22 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.19 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.24 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:07<00:02,  1.19 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.11 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:08<00:01,  1.11 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:08<00:01,  1.09 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:08<00:01,  1.07 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:08<00:01,  1.07 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:08<00:01,  1.08 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:08<00:01,  1.07 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:00,  1.01 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:00,  1.01 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:00,  1.01 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:01,  1.01s/ examples]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:01,  1.03s/ examples]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:01,  1.00s/ examples]Map (num_proc=8):  92%|█████████▏| 11/12 [00:09<00:01,  1.11s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.04s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.09s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.13 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.07s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.07s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.12 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.12 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.06s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.11 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.10s/ examples]num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.11 examples/s]
+Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.10 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map (num_proc=8): 100%|██████████| 12/12 [00:11<00:00,  1.14s/ examples]Map (num_proc=8): 100%|██████████| 12/12 [00:11<00:00,  1.06 examples/s]
+num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 83.28 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 94.74 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 82.83 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 98.71 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 83.53 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 95.12 examples/s]
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 88.17 examples/s]
+[2024-12-30 10:05:16,252] [INFO] [partition_parameters.py:347:__exit__] finished initializing model - num_params = 283, num_elems = 9.40B
+Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.92s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.91s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.92s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.93s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.94s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.94s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:01<00:17,  1.95s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:18,  2.03s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.90s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.90s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.90s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.89s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.90s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.90s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.90s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:03<00:15,  1.92s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.92s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.92s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.93s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.92s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.93s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.92s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.92s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:05<00:13,  1.94s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.93s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.93s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.93s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.94s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.94s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.94s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.94s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:07<00:11,  1.94s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.90s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.90s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.90s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.90s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.90s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.90s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.90s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:09<00:09,  1.91s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.93s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.93s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.93s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.93s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.93s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.93s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.93s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:11<00:07,  1.93s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.93s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.93s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.93s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.93s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.93s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.93s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.95s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:13<00:05,  1.93s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.90s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.90s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.90s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.90s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.90s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.90s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.90s/it]Loading checkpoint shards:  80%|████████  | 8/10 [00:15<00:03,  1.90s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.93s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [00:17<00:01,  1.93s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.90s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.90s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.90s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.90s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.90s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.90s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.90s/it]
+Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 10/10 [00:19<00:00,  1.91s/it]
+[Vocab size]: 151344
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 12
+  Num Epochs = 40
+  Instantaneous batch size per device = 1
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Total optimization steps = 20
+  Warm up step: 2
+  Learning rate: 1e-05
+
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.763957977294922 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.7909231185913086 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.858581304550171 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.9251651763916016 seconds
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.8889107704162598 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.957301378250122 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 2.9947330951690674 secondsLoading extension module cpu_adam...
+
+Time to load cpu_adam op: 3.0348961353302 seconds
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+[2024-12-30 10:05:43,365] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.11.1, git-hash=unknown, git-branch=unknown
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
+[2024-12-30 10:05:43,379] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2024-12-30 10:05:43,380] [INFO] [logging.py:96:log_dist] [Rank 0] Using client Optimizer as basic optimizer
+[2024-12-30 10:05:43,380] [INFO] [logging.py:96:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
+[2024-12-30 10:05:43,392] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = DeepSpeedCPUAdam
+[2024-12-30 10:05:43,392] [INFO] [utils.py:56:is_zero_supported_optimizer] Checking ZeRO support for optimizer=DeepSpeedCPUAdam type=<class 'deepspeed.ops.adam.cpu_adam.DeepSpeedCPUAdam'>
+[2024-12-30 10:05:43,393] [INFO] [logging.py:96:log_dist] [Rank 0] Creating fp16 ZeRO stage 3 optimizer, MiCS is enabled False, Hierarchical params gather False
+[2024-12-30 10:05:43,393] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.bfloat16 ZeRO stage 3 optimizer
+[2024-12-30 10:05:43,607] [INFO] [utils.py:802:see_memory_usage] Stage 3 initialize beginning
+[2024-12-30 10:05:43,608] [INFO] [utils.py:803:see_memory_usage] MA 1.15 GB         Max_MA 3.47 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-30 10:05:43,608] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 112.21 GB, percent = 29.8%
+[2024-12-30 10:05:43,610] [INFO] [stage3.py:126:__init__] Reduce bucket size 500,000,000
+[2024-12-30 10:05:43,610] [INFO] [stage3.py:127:__init__] Prefetch bucket size 50,000,000
+[2024-12-30 10:05:43,741] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
+[2024-12-30 10:05:43,741] [INFO] [utils.py:803:see_memory_usage] MA 1.15 GB         Max_MA 1.15 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-30 10:05:43,742] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 112.21 GB, percent = 29.8%
+Parameter Offload: Total persistent parameters: 516096 in 121 params
+[2024-12-30 10:05:44,345] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
+[2024-12-30 10:05:44,346] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 1.15 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-30 10:05:44,346] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 113.36 GB, percent = 30.1%
+[2024-12-30 10:05:44,482] [INFO] [utils.py:802:see_memory_usage] Before creating fp16 partitions
+[2024-12-30 10:05:44,483] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-30 10:05:44,483] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 113.36 GB, percent = 30.1%
+[2024-12-30 10:05:50,188] [INFO] [utils.py:802:see_memory_usage] After creating fp16 partitions: 3
+[2024-12-30 10:05:50,189] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-30 10:05:50,189] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 143.34 GB, percent = 38.1%
+[2024-12-30 10:05:50,363] [INFO] [utils.py:802:see_memory_usage] Before creating fp32 partitions
+[2024-12-30 10:05:50,364] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-30 10:05:50,364] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 145.18 GB, percent = 38.6%
+[2024-12-30 10:05:54,993] [INFO] [utils.py:802:see_memory_usage] After creating fp32 partitions
+[2024-12-30 10:05:54,993] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-30 10:05:54,994] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 170.45 GB, percent = 45.3%
+[2024-12-30 10:05:55,167] [INFO] [utils.py:802:see_memory_usage] Before initializing optimizer states
+[2024-12-30 10:05:55,168] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-30 10:05:55,168] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 172.41 GB, percent = 45.8%
+[2024-12-30 10:06:17,342] [INFO] [utils.py:802:see_memory_usage] After initializing optimizer states
+[2024-12-30 10:06:17,343] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-30 10:06:17,343] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 275.92 GB, percent = 73.3%
+[2024-12-30 10:06:17,363] [INFO] [stage3.py:459:_setup_for_real_optimizer] optimizer state initialized
+[2024-12-30 10:06:24,426] [INFO] [utils.py:802:see_memory_usage] After initializing ZeRO optimizer
+[2024-12-30 10:06:24,426] [INFO] [utils.py:803:see_memory_usage] MA 0.93 GB         Max_MA 3.24 GB         CA 4.63 GB         Max_CA 5 GB 
+[2024-12-30 10:06:24,427] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 293.52 GB, percent = 78.0%
+[2024-12-30 10:06:24,427] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = DeepSpeedCPUAdam
+[2024-12-30 10:06:24,427] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using client LR scheduler
+[2024-12-30 10:06:24,427] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = None
+[2024-12-30 10:06:24,427] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[0.0, 0.0], mom=[(0.9, 0.999), (0.9, 0.999)]
+[2024-12-30 10:06:24,428] [INFO] [config.py:968:print] DeepSpeedEngine configuration:
+[2024-12-30 10:06:24,428] [INFO] [config.py:972:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2024-12-30 10:06:24,428] [INFO] [config.py:972:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True}
+[2024-12-30 10:06:24,428] [INFO] [config.py:972:print]   amp_enabled .................. False
+[2024-12-30 10:06:24,428] [INFO] [config.py:972:print]   amp_params ................... False
+[2024-12-30 10:06:24,428] [INFO] [config.py:972:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   bfloat16_enabled ............. True
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   checkpoint_parallel_write_pipeline  False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   checkpoint_tag_validation_enabled  True
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   checkpoint_tag_validation_fail  False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7f9d50276c80>
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   communication_data_type ...... None
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   curriculum_enabled_legacy .... False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   curriculum_params_legacy ..... False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   data_efficiency_enabled ...... False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   dataloader_drop_last ......... False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   disable_allgather ............ False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   dump_state ................... False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   dynamic_loss_scale_args ...... None
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   eigenvalue_enabled ........... False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   eigenvalue_gas_boundary_resolution  1
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   eigenvalue_layer_num ......... 0
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   eigenvalue_max_iter .......... 100
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   eigenvalue_stability ......... 1e-06
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   eigenvalue_tol ............... 0.01
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   eigenvalue_verbose ........... False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   elasticity_enabled ........... False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 1, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   fp16_auto_cast ............... None
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   fp16_enabled ................. False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   fp16_master_weights_and_gradients  False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   global_rank .................. 0
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   grad_accum_dtype ............. None
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   gradient_accumulation_steps .. 8
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   gradient_clipping ............ 1.0
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   gradient_predivide_factor .... 1.0
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   initial_dynamic_scale ........ 1
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   load_universal_checkpoint .... False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   loss_scale ................... 1.0
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   memory_breakdown ............. False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   mics_hierarchial_params_gather  False
+[2024-12-30 10:06:24,429] [INFO] [config.py:972:print]   mics_shard_size .............. -1
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') enabled=False
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   optimizer_legacy_fusion ...... False
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   optimizer_name ............... None
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   optimizer_params ............. None
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0}
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   pld_enabled .................. False
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   pld_params ................... False
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   prescale_gradients ........... False
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   scheduler_name ............... None
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   scheduler_params ............. None
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   sparse_attention ............. None
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   sparse_gradients_enabled ..... False
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   steps_per_print .............. inf
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   train_batch_size ............. 64
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   train_micro_batch_size_per_gpu  1
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   use_node_local_storage ....... False
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   wall_clock_breakdown ......... False
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   weight_quantization_config ... None
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   world_size ................... 8
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   zero_allow_untested_optimizer  True
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500,000,000 allgather_partitions=True allgather_bucket_size=500,000,000 overlap_comm=True load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='cpu', nvme_path=None, buffer_count=5, buffer_size=100,000,000, max_in_cpu=1,000,000,000, pin_memory=False) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='cpu', nvme_path=None, buffer_count=4, pin_memory=False, pipeline=False, pipeline_read=False, pipeline_write=False, fast_init=False) sub_group_size=1,000,000,000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50,000,000 param_persistence_threshold=100,000 model_persistence_threshold=sys.maxsize max_live_parameters=1,000,000,000 max_reuse_distance=1,000,000,000 gather_16bit_weights_on_model_save=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   zero_enabled ................. True
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   zero_force_ds_cpu_optimizer .. True
+[2024-12-30 10:06:24,430] [INFO] [config.py:972:print]   zero_optimization_stage ...... 3
+[2024-12-30 10:06:24,430] [INFO] [config.py:958:print_user_config]   json = {
+    "train_batch_size": 64, 
+    "train_micro_batch_size_per_gpu": 1, 
+    "gradient_accumulation_steps": 8, 
+    "zero_optimization": {
+        "stage": 3, 
+        "offload_optimizer": {
+            "device": "cpu", 
+            "nvme_path": null
+        }, 
+        "offload_param": {
+            "device": "cpu", 
+            "nvme_path": null
+        }, 
+        "stage3_gather_16bit_weights_on_model_save": false
+    }, 
+    "gradient_clipping": 1.0, 
+    "steps_per_print": inf, 
+    "bf16": {
+        "enabled": true
+    }, 
+    "fp16": {
+        "enabled": false
+    }, 
+    "zero_allow_untested_optimizer": true
+}
+  0% 0/40 [00:00<?, ?it/s]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:23<00:23, 23.70s/it][A
+Train Loop: 100% 2/2 [00:40<00:00, 19.47s/it][A
+                                             [A[进程 0] Epoch 1 训练结果: {'loss': 2.53125}
+跳过evaluation
+[E=1/40, S=1] {'lr': '5e-06', 'T.loss': '2.5312'}
+目录已存在, 清空目录: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best
+开始保存新的最佳checkpoint... 时间: 20241230_100734
+  2% 1/40 [01:10<45:30, 70.01s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:22<00:22, 22.12s/it][A
+Train Loop: 100% 2/2 [00:38<00:00, 18.50s/it][A
+                                             [A[进程 0] Epoch 2 训练结果: {'loss': 2.53125}
+跳过evaluation
+[E=2/40, S=2] {'lr': '1e-05', 'T.loss': '2.5312'}
+  5% 2/40 [01:48<32:27, 51.25s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:18<00:18, 18.77s/it][A
+Train Loop: 100% 2/2 [00:34<00:00, 16.96s/it][A
+                                             [A[进程 0] Epoch 3 训练结果: {'loss': 2.53125}
+跳过evaluation
+[E=3/40, S=3] {'lr': '9.4444e-06', 'T.loss': '2.5312'}
+  8% 3/40 [02:22<26:53, 43.60s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.23s/it][A
+Train Loop: 100% 2/2 [01:14<00:00, 40.30s/it][A
+                                             [A[进程 0] Epoch 4 训练结果: {'loss': 2.53125}
+跳过evaluation
+[E=4/40, S=4] {'lr': '8.8889e-06', 'T.loss': '2.5312'}
+ 10% 4/40 [03:36<33:25, 55.72s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.70s/it][A
+Train Loop: 100% 2/2 [00:38<00:00, 18.74s/it][A
+                                             [A[进程 0] Epoch 5 训练结果: {'loss': 2.453125}
+跳过evaluation
+[E=5/40, S=5] {'lr': '8.3333e-06', 'T.loss': '2.4531'}
+目录已存在, 清空目录: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best
+开始保存新的最佳checkpoint... 时间: 20241230_101039
+ 12% 5/40 [04:15<28:47, 49.36s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.94s/it][A
+Train Loop: 100% 2/2 [00:36<00:00, 17.80s/it][A
+                                             [A[进程 0] Epoch 6 训练结果: {'loss': 2.453125}
+跳过evaluation
+[E=6/40, S=6] {'lr': '7.7778e-06', 'T.loss': '2.4531'}
+ 15% 6/40 [04:51<25:29, 44.97s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.07s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.32s/it][A
+                                             [A[进程 0] Epoch 7 训练结果: {'loss': 2.125}
+跳过evaluation
+[E=7/40, S=7] {'lr': '7.2222e-06', 'T.loss': '2.125'}
+目录已存在, 清空目录: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best
+开始保存新的最佳checkpoint... 时间: 20241230_101153
+ 18% 7/40 [05:28<23:22, 42.49s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.75s/it][A
+Train Loop: 100% 2/2 [01:17<00:00, 41.94s/it][A
+                                             [A[进程 0] Epoch 8 训练结果: {'loss': 2.125}
+跳过evaluation
+[E=8/40, S=8] {'lr': '6.6667e-06', 'T.loss': '2.125'}
+ 20% 8/40 [06:46<28:33, 53.55s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.68s/it][A
+Train Loop: 100% 2/2 [00:38<00:00, 18.82s/it][A
+                                             [A[进程 0] Epoch 9 训练结果: {'loss': 1.0234375}
+跳过evaluation
+[E=9/40, S=9] {'lr': '6.1111e-06', 'T.loss': '1.0234'}
+目录已存在, 清空目录: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best
+开始保存新的最佳checkpoint... 时间: 20241230_101348
+ 22% 9/40 [07:24<25:11, 48.76s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 20.00s/it][A[E=10/40, S=10] {'lr': '5.5556e-06', 'T.loss': '1.0234'}
+
+Train Loop: 100% 2/2 [00:37<00:00, 18.44s/it][A
+                                             [A[进程 0] Epoch 10 训练结果: {'loss': 1.0234375}
+跳过evaluation
+[E=10/40, S=10] {'lr': '5.5556e-06', 'T.loss': '1.0234'}
+ 25% 10/40 [08:01<22:38, 45.27s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.32s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.68s/it][A
+                                             [A[进程 0] Epoch 11 训练结果: {'loss': 1.2109375}
+跳过evaluation
+[E=11/40, S=11] {'lr': '5e-06', 'T.loss': '1.2109'}
+ 28% 11/40 [08:39<20:47, 43.01s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.10s/it][A
+Train Loop: 100% 2/2 [01:14<00:00, 40.11s/it][A
+                                             [A[进程 0] Epoch 12 训练结果: {'loss': 1.2109375}
+跳过evaluation
+[E=12/40, S=12] {'lr': '4.4444e-06', 'T.loss': '1.2109'}
+ 30% 12/40 [09:53<24:30, 52.51s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:21<00:21, 21.11s/it][A
+Train Loop: 100% 2/2 [00:38<00:00, 18.73s/it][A
+                                             [A[进程 0] Epoch 13 训练结果: {'loss': 0.3984375}
+跳过evaluation
+[E=13/40, S=13] {'lr': '3.8889e-06', 'T.loss': '0.39844'}
+目录已存在, 清空目录: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best
+开始保存新的最佳checkpoint... 时间: 20241230_101656
+ 32% 13/40 [10:32<21:41, 48.19s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.98s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.36s/it][A
+                                             [A[进程 0] Epoch 14 训练结果: {'loss': 0.5234375}
+跳过evaluation
+[E=14/40, S=14] {'lr': '3.3333e-06', 'T.loss': '0.52344'}
+ 35% 14/40 [11:09<19:28, 44.93s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.94s/it][A
+Train Loop: 100% 2/2 [00:36<00:00, 18.03s/it][A
+                                             [A[进程 0] Epoch 15 训练结果: {'loss': 0.5234375}
+跳过evaluation
+[E=15/40, S=15] {'lr': '2.7778e-06', 'T.loss': '0.52344'}
+ 38% 15/40 [11:46<17:41, 42.46s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.19s/it][A
+Train Loop: 100% 2/2 [01:13<00:00, 39.91s/it][A
+                                             [A[进程 0] Epoch 16 训练结果: {'loss': 0.5234375}
+跳过evaluation
+[E=16/40, S=16] {'lr': '2.2222e-06', 'T.loss': '0.52344'}
+ 40% 16/40 [13:00<20:46, 51.93s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.66s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.66s/it][A
+                                             [A[进程 0] Epoch 17 训练结果: {'loss': 0.2109375}
+跳过evaluation
+[E=17/40, S=17] {'lr': '1.6667e-06', 'T.loss': '0.21094'}
+目录已存在, 清空目录: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best
+开始保存新的最佳checkpoint... 时间: 20241230_102002
+ 42% 17/40 [13:38<18:18, 47.78s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.97s/it][A
+Train Loop: 100% 2/2 [00:36<00:00, 17.67s/it][A
+                                             [A[进程 0] Epoch 18 训练结果: {'loss': 0.2109375}
+跳过evaluation
+[E=18/40, S=18] {'lr': '1.1111e-06', 'T.loss': '0.21094'}
+ 45% 18/40 [14:14<16:14, 44.31s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.48s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.33s/it][A
+                                             [A[进程 0] Epoch 19 训练结果: {'loss': 0.2109375}
+跳过evaluation
+[E=19/40, S=19] {'lr': '5.5556e-07', 'T.loss': '0.21094'}
+ 48% 19/40 [14:51<14:46, 42.22s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.28s/it][A[E=20/40, S=20] {'lr': '0', 'T.loss': '0.099121'}
+
+Train Loop: 100% 2/2 [01:20<00:00, 43.96s/it][A
+                                             [A[进程 0] Epoch 20 训练结果: {'loss': 0.09912109375}
+跳过evaluation
+[E=20/40, S=20] {'lr': '0', 'T.loss': '0.099121'}
+目录已存在, 清空目录: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best
+开始保存新的最佳checkpoint... 时间: 20241230_102237
+ 50% 20/40 [16:12<17:56, 53.82s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:21<00:21, 21.02s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.46s/it][A
+                                             [A[进程 0] Epoch 21 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=21/40, S=21] {'lr': '0', 'T.loss': '0.1416'}
+ 52% 21/40 [16:50<15:31, 49.03s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.81s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.31s/it][A
+                                             [A[进程 0] Epoch 22 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=22/40, S=22] {'lr': '0', 'T.loss': '0.1416'}
+ 55% 22/40 [17:27<13:38, 45.45s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.92s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.26s/it][A
+                                             [A[进程 0] Epoch 23 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=23/40, S=23] {'lr': '0', 'T.loss': '0.1416'}
+ 57% 23/40 [18:04<12:10, 42.98s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.82s/it][A
+Train Loop: 100% 2/2 [01:14<00:00, 40.40s/it][A
+                                             [A[进程 0] Epoch 24 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=24/40, S=24] {'lr': '0', 'T.loss': '0.1416'}
+ 60% 24/40 [19:19<13:59, 52.48s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.93s/it][A
+Train Loop: 100% 2/2 [00:38<00:00, 18.87s/it][A
+                                             [A[进程 0] Epoch 25 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=25/40, S=25] {'lr': '0', 'T.loss': '0.1416'}
+ 62% 25/40 [19:57<12:03, 48.25s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.16s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.35s/it][A
+                                             [A[进程 0] Epoch 26 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=26/40, S=26] {'lr': '0', 'T.loss': '0.1416'}
+ 65% 26/40 [20:35<10:30, 45.01s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.14s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.43s/it][A
+                                             [A[进程 0] Epoch 27 训练结果: {'loss': 0.04833984375}
+跳过evaluation
+[E=27/40, S=27] {'lr': '0', 'T.loss': '0.04834'}
+目录已存在, 清空目录: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best
+开始保存新的最佳checkpoint... 时间: 20241230_102737
+ 68% 27/40 [21:12<09:15, 42.76s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.06s/it][A
+Train Loop: 100% 2/2 [01:14<00:00, 40.03s/it][A
+                                             [A[进程 0] Epoch 28 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=28/40, S=28] {'lr': '0', 'T.loss': '0.1416'}
+ 70% 28/40 [22:27<10:25, 52.16s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.42s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.49s/it][A
+                                             [A[进程 0] Epoch 29 训练结果: {'loss': 0.04833984375}
+跳过evaluation
+[E=29/40, S=29] {'lr': '0', 'T.loss': '0.04834'}
+ 72% 29/40 [23:04<08:45, 47.81s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.88s/it][A[E=30/40, S=30] {'lr': '0', 'T.loss': '0.1416'}
+
+Train Loop: 100% 2/2 [00:36<00:00, 17.98s/it][A
+                                             [A[进程 0] Epoch 30 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=30/40, S=30] {'lr': '0', 'T.loss': '0.1416'}
+ 75% 30/40 [23:41<07:24, 44.45s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.11s/it][A
+Train Loop: 100% 2/2 [00:36<00:00, 18.04s/it][A
+                                             [A[进程 0] Epoch 31 训练结果: {'loss': 0.04833984375}
+跳过evaluation
+[E=31/40, S=31] {'lr': '0', 'T.loss': '0.04834'}
+ 78% 31/40 [24:17<06:19, 42.13s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.85s/it][A
+Train Loop: 100% 2/2 [01:15<00:00, 40.64s/it][A
+                                             [A[进程 0] Epoch 32 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=32/40, S=32] {'lr': '0', 'T.loss': '0.1416'}
+ 80% 32/40 [25:33<06:56, 52.01s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:21<00:21, 21.45s/it][A
+Train Loop: 100% 2/2 [00:38<00:00, 18.64s/it][A
+                                             [A[进程 0] Epoch 33 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=33/40, S=33] {'lr': '0', 'T.loss': '0.1416'}
+ 82% 33/40 [26:11<05:34, 47.85s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.46s/it][A
+Train Loop: 100% 2/2 [00:36<00:00, 17.91s/it][A
+                                             [A[进程 0] Epoch 34 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=34/40, S=34] {'lr': '0', 'T.loss': '0.1416'}
+ 85% 34/40 [26:47<04:26, 44.43s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.75s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.38s/it][A
+                                             [A[进程 0] Epoch 35 训练结果: {'loss': 0.04833984375}
+跳过evaluation
+[E=35/40, S=35] {'lr': '0', 'T.loss': '0.04834'}
+ 88% 35/40 [27:25<03:31, 42.38s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.85s/it][A
+Train Loop: 100% 2/2 [01:17<00:00, 42.29s/it][A
+                                             [A[进程 0] Epoch 36 训练结果: {'loss': 0.04833984375}
+跳过evaluation
+[E=36/40, S=36] {'lr': '0', 'T.loss': '0.04834'}
+ 90% 36/40 [28:43<03:32, 53.03s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.33s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.44s/it][A
+                                             [A[进程 0] Epoch 37 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=37/40, S=37] {'lr': '0', 'T.loss': '0.1416'}
+ 92% 37/40 [29:20<02:25, 48.42s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.13s/it][A
+Train Loop: 100% 2/2 [00:36<00:00, 17.75s/it][A
+                                             [A[进程 0] Epoch 38 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=38/40, S=38] {'lr': '0', 'T.loss': '0.1416'}
+ 95% 38/40 [29:56<01:29, 44.75s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:20<00:20, 20.38s/it][A
+Train Loop: 100% 2/2 [00:37<00:00, 18.20s/it][A
+                                             [A[进程 0] Epoch 39 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=39/40, S=39] {'lr': '0', 'T.loss': '0.1416'}
+ 98% 39/40 [30:34<00:42, 42.51s/it]
+Train Loop:   0% 0/2 [00:00<?, ?it/s][A
+Train Loop:  50% 1/2 [00:19<00:19, 19.60s/it][A[E=40/40, S=40] {'lr': '0', 'T.loss': '0.1416'}
+
+Train Loop: 100% 2/2 [01:09<00:00, 37.22s/it][A
+                                             [A[进程 0] Epoch 40 训练结果: {'loss': 0.1416015625}
+跳过evaluation
+[E=40/40, S=40] {'lr': '0', 'T.loss': '0.1416'}
+100% 40/40 [31:43<00:00, 50.51s/it]                                   [2024-12-30 10:38:07,875] [INFO] [logging.py:96:log_dist] [Rank 0] [Torch] Checkpoint global_step10 is about to be saved!
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+[2024-12-30 10:38:07,962] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_3_mp_rank_00_model_states.pt...
+[2024-12-30 10:38:07,964] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_6_mp_rank_00_model_states.pt...
+[2024-12-30 10:38:07,964] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_4_mp_rank_00_model_states.pt...
+[2024-12-30 10:38:07,964] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_2_mp_rank_00_model_states.pt...
+[2024-12-30 10:38:07,965] [INFO] [logging.py:96:log_dist] [Rank 1] Saving model checkpoint: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_1_mp_rank_00_model_states.pt
+[2024-12-30 10:38:07,965] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_1_mp_rank_00_model_states.pt...
+[2024-12-30 10:38:07,965] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_7_mp_rank_00_model_states.pt...
+[2024-12-30 10:38:07,966] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_5_mp_rank_00_model_states.pt...
+[2024-12-30 10:38:07,967] [INFO] [logging.py:96:log_dist] [Rank 0] Saving model checkpoint: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2024-12-30 10:38:07,967] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2024-12-30 10:38:07,987] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_6_mp_rank_00_model_states.pt.
+[2024-12-30 10:38:07,987] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_3_mp_rank_00_model_states.pt.
+[2024-12-30 10:38:07,987] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_5_mp_rank_00_model_states.pt.
+[2024-12-30 10:38:07,987] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2024-12-30 10:38:07,988] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_7_mp_rank_00_model_states.pt.
+[2024-12-30 10:38:07,989] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_4_mp_rank_00_model_states.pt.
+[2024-12-30 10:38:07,990] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_2_mp_rank_00_model_states.pt.
+[2024-12-30 10:38:08,001] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/zero_pp_rank_1_mp_rank_00_model_states.pt.
+[2024-12-30 10:38:08,004] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_2_mp_rank_00_optim_states.pt...
+[2024-12-30 10:38:08,004] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_4_mp_rank_00_optim_states.pt...
+[2024-12-30 10:38:08,004] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_6_mp_rank_00_optim_states.pt...
+[2024-12-30 10:38:08,004] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_5_mp_rank_00_optim_states.pt...
+[2024-12-30 10:38:08,004] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_3_mp_rank_00_optim_states.pt...
+[2024-12-30 10:38:08,004] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2024-12-30 10:38:08,004] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_7_mp_rank_00_optim_states.pt...
+[2024-12-30 10:38:08,004] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_1_mp_rank_00_optim_states.pt...
+[2024-12-30 10:47:02,840] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_5_mp_rank_00_optim_states.pt.
+[2024-12-30 10:47:02,840] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_4_mp_rank_00_optim_states.pt.
+[2024-12-30 10:47:02,840] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_4_mp_rank_00_optim_states.pt
+[2024-12-30 10:47:02,840] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_5_mp_rank_00_optim_states.pt
+[2024-12-30 10:47:02,840] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2024-12-30 10:47:02,857] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_1_mp_rank_00_optim_states.pt.
+[2024-12-30 10:47:02,857] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_1_mp_rank_00_optim_states.pt
+[2024-12-30 10:47:02,863] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_2_mp_rank_00_optim_states.pt.
+[2024-12-30 10:47:02,863] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_2_mp_rank_00_optim_states.pt
+[2024-12-30 10:47:02,866] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_3_mp_rank_00_optim_states.pt.
+[2024-12-30 10:47:02,867] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_3_mp_rank_00_optim_states.pt
+[2024-12-30 10:47:02,870] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_6_mp_rank_00_optim_states.pt.
+[2024-12-30 10:47:02,870] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_6_mp_rank_00_optim_states.pt
+[2024-12-30 10:47:02,871] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2024-12-30 10:47:02,876] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_7_mp_rank_00_optim_states.pt.
+[2024-12-30 10:47:02,876] [INFO] [engine.py:3381:_save_zero_checkpoint] zero checkpoint saved /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best/global_step10/bf16_zero_pp_rank_7_mp_rank_00_optim_states.pt
+[2024-12-30 10:47:03,402] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step10 is ready now!
+[2024-12-30 10:47:03,402] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step10 is ready now!
+[2024-12-30 10:47:03,402] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step10 is ready now!
+[2024-12-30 10:47:03,402] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step10 is ready now!
+[2024-12-30 10:47:03,402] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step10 is ready now!
+[2024-12-30 10:47:03,402] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step10 is ready now!
+[2024-12-30 10:47:03,402] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step10 is ready now!
+[2024-12-30 10:47:03,402] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step10 is ready now!
+成功保存checkpoint: /share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/best

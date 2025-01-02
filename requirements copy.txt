@@ -1,0 +1,14 @@
+
+transformers
+accelerate
+datasets
+deepspeed
+numpy
+tqdm
+sigfig
+trl
+scipy
+prettytable
+pebble
+debugpy
+tiktoken
