@@ -13,5 +13,5 @@ test_file='data/my_data/zhouyi_test.json' \
 engine='nl' \
 model_name_or_path='/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat' \
 tokenizer_name_or_path='/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat' \
-n_epochs='40' \
+n_epochs='1' \
     bash exps/paper_exps/SFT/_template.sh

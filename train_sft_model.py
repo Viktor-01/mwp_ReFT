@@ -12,14 +12,14 @@
 # See the License for the specific language governing permissions and 
 # limitations under the License. 
 
-# import debugpy
-# try:
-#     # 5678 is the default attach port in the VS Code debug configurations. Unless a host and port are specified, host defaults to 127.0.0.1
-#     debugpy.listen(("localhost", 9501))
-#     print("Waiting for debugger attach")
-#     debugpy.wait_for_client()
-# except Exception as e:
-#     pass  
+import debugpy
+try:
+    # 5678 is the default attach port in the VS Code debug configurations. Unless a host and port are specified, host defaults to 127.0.0.1
+    debugpy.listen(("localhost", 9501))
+    print("Waiting for debugger attach")
+    debugpy.wait_for_client()
+except Exception as e:
+    pass  
 
 import traceback
 from accelerate import Accelerator, InitProcessGroupKwargs
@@ -44,6 +44,9 @@ import pandas as pd
 import shutil
 import signal
 from contextlib import contextmanager
+from torch.utils.data.distributed import DistributedSampler
+
+
 tqdm = partial(tqdm, ncols=0, leave=False)
 
 
@@ -90,6 +93,9 @@ compare_answer_fn_mapper = {
 }
 
 def prepare_datasets_and_data_loaders(args, tokenizer):
+    # 确保所有进程同步开始准备数据
+    # accelerator.wait_for_everyone()
+    
     with accelerator.main_process_first():
         raw_dataset = DatasetDict({
             'train': Dataset.from_list(json.load(open(args['train_file'],'r'))),
@@ -212,62 +218,101 @@ def prepare_datasets_and_data_loaders(args, tokenizer):
             'forward_kwargs': forward_kwargs,
             'generate_prefix_kwargs': generate_prefix_kwargs,
         }
+    # 1. 创建分布式采样器
+    train_sampler = DistributedSampler(
+        tokenized_dataset['train'],
+        num_replicas=accelerator.num_processes,
+        rank=accelerator.process_index,
+        shuffle=True
+    )
 
-    train_dataloader = DataLoader(tokenized_dataset['train'], shuffle=True, batch_size=args['batch_size'], num_workers=args['num_workers'], pin_memory=True, 
-                        collate_fn=partial(collate_fn, args=args, tokenizer=tokenizer))
+    train_dataloader = DataLoader(
+        tokenized_dataset['train'], 
+        # sampler=train_sampler,  # 使用分布式采样器替代shuffle
+        batch_size=args['batch_size'], 
+        num_workers=args['num_workers'], 
+        pin_memory=True, 
+        collate_fn=partial(collate_fn, args=args, tokenizer=tokenizer),
+        drop_last=True
+    )
                         
     test_dataloader = DataLoader(tokenized_dataset['test'], shuffle=False, batch_size=args['eval_batch_size'], num_workers=args['num_workers'], pin_memory=True, 
                         collate_fn=partial(collate_fn, args=args, tokenizer=tokenizer))
-                        
+    
+    # accelerator.wait_for_everyone()                    
     return (tokenized_dataset['train'], train_dataloader), (tokenized_dataset['test'], test_dataloader)
 
-@contextmanager
-def timeout_handler(seconds, description="Operation"):
-    def _handle_timeout(signum, frame):
-        raise TimeoutError(f"{description} timed out after {seconds} seconds")
-    
-    signal.signal(signal.SIGALRM, _handle_timeout)
-    signal.alarm(seconds)
-    try:
-        yield
-    finally:
-        signal.alarm(0)
 
 def do_checkpoint(args, model, tokenizer, save_path, global_step):
     try:
-        # 所有进程同步等待
-        accelerator.wait_for_everyone()
-        
-        if accelerator.is_main_process:
-            if os.path.exists(save_path):
-                shutil.rmtree(save_path)
-            os.makedirs(save_path, exist_ok=True)
-        
-        # 等待目录操作完成
-        accelerator.wait_for_everyone()
-        
-        # 添加超时控制
-        with timeout_handler(60*30, "Checkpoint saving"):  # 保存模型超过30分钟，则为超时
-            model.save_checkpoint(save_path)
-        
-        # 确保所有进程都保存完成
-        accelerator.wait_for_everyone()
-        
-        if accelerator.is_main_process:
-            accelerator.print(f"成功保存checkpoint: {save_path}")
-            
-    except TimeoutError as e:
-        accelerator.print(f"保存checkpoint超时: {e}")
-        raise
+        # 确保进程按顺序打印
+        for rank in range(accelerator.num_processes):
+            if accelerator.process_index == rank:
+                accelerator.print(f"\n{'='*50}")
+                accelerator.print(f"[进程 {rank} 的参数信息]")
+                accelerator.print(f"{'='*50}\n")
+                
+                # 1. 打印总参数量
+                total_params = sum(p.numel() for p in model.parameters())
+                accelerator.print(f"总参数量: {total_params}")
+                                    
     except Exception as e:
-        accelerator.print(f"保存checkpoint错误: {e}")
-        raise
+        accelerator.print(f"[进程 {accelerator.process_index}] 打印参数信息失败: {e}")
+        return False
+            
+    try:
+        accelerator.wait_for_everyone()
+        accelerator.print(f"Rank {accelerator.process_index} do_checkpoint 同步成功")
+    except Exception as e:
+        accelerator.print(f"Rank {accelerator.process_index} do_checkpoint 同步失败: {e}")
+        return False
+    # 保存config tokenizer 
+    try:
+        if accelerator.is_main_process:
+            config = AutoConfig.from_pretrained(args["model_name_or_path"], trust_remote_code=True)
+            config.save_pretrained(args["model_dir"])
+            tokenizer.save_pretrained(args["model_dir"])
+    except:
+        accelerator.print(f"Rank {accelerator.process_index} do_checkpoint config tokenizer 保存失败")
+        return False
+    try:
+        if accelerator.is_main_process:
+            unwrapped_model = accelerator.unwrap_model(model)
+        # 打印state_dict
+        accelerator.print(f"{'='*50} unwrapped_model.named_parameters()")
+        for name, param in unwrapped_model.named_parameters():
+            accelerator.print(f"参数 {name}: shape {param.shape}")
+        accelerator.print(f"{'='*50} model.named_parameters()")
+        for name, param in model.named_parameters():
+            accelerator.print(f"参数 {name}: shape {param.shape}")
+        accelerator.print(f"{'='*50}")
+        
+        accelerator.print(f"Rank {accelerator.process_index} do_checkpoint state_dict 收集成功")
+    except:
+        accelerator.print(f"Rank {accelerator.process_index} do_checkpoint state_dict 收集失败")
+        return False
+    try:        
+        # if accelerator.is_main_process:
+        unwrapped_model.save_pretrained(
+            save_path,
+            is_main_process=accelerator.is_main_process,
+            save_function=accelerator.save,
+            # 且分为n个模型文件
+            max_shard_size="2GB",  # 添加此参数来控制分片大小
+            safe_serialization=True,  # 使用安全的序列化方式
+            state_dict = accelerator.get_state_dict(model)
+            )
+        accelerator.print('save checkpoint success!')
+        accelerator.wait_for_everyone()
+        return True
+    except Exception as e:
+        accelerator.print(f"Rank {accelerator.process_index} 保存失败: {e}")
+        # accelerator.wait_for_everyone()
+        return False
 
 def train_one_epoch(args, model, train_dataset, train_dataloader, optimizer, scheduler, tokenizer,
                     global_step, test_dataset, test_dataloader, 
                     prefix, epoch, best_eval_log_dict, summary_log_dict, most_recent_ckpts_paths):
-    monitor = DistributedTrainingMonitor(accelerator)
-    accelerator.wait_for_everyone()
     
     model_dir = args['model_dir']
     clip_grad_norm = args.get('clip_grad_norm', None)
@@ -276,233 +321,217 @@ def train_one_epoch(args, model, train_dataset, train_dataloader, optimizer, sch
     saving_step_freq = args.get('saving_step_freq', None)
     model.train()
     epoch_result_dict = defaultdict(list)
-    with tqdm(enumerate(train_dataloader), total=len(train_dataloader), disable=not accelerator.is_main_process, desc='Train Loop') as t:
-        for idx, batch in t:
-            try:
-                # 检查数据加载是否停滞
-                if monitor.check_dataloader(idx, batch['forward_kwargs']['input_ids'].size(0)):
-                    accelerator.print(f"[进程 {accelerator.process_index}] 检测到数据加载器停滞...")
-                    
-                    # 如果连续多次停滞，考虑跳过当前epoch
-                    if monitor.stuck_count >= monitor.max_stuck_attempts:
-                        accelerator.print("数据加载器多次停滞，跳过当前epoch")
-                        return {"loss": float('inf')}, global_step
-                        
-                    # 尝试同步和恢复
-                    accelerator.wait_for_everyone()
-                    continue
-                
-                # 正常的训练逻辑
-                with accelerator.accumulate(model):
-                    output = model(**batch['forward_kwargs'])
-                    # Get some metrics
-                    loss = output[0]
-                    result_dict, extra = {}, None
-                    # Update
-                    accelerator.backward(loss)
-                    if accelerator.sync_gradients:
-                        if clip_grad_norm is not None:
-                            accelerator.clip_grad_norm_(model.parameters(), clip_grad_norm)
-                    optimizer.step()
-                    optimizer.zero_grad()
-                    # model.zero_grad()
-                    if accelerator.sync_gradients:
-                        scheduler.step()
-                    
-                if accelerator.sync_gradients:
-                    global_step += 1
-                    # Step update metric
-                    epoch_result_dict['loss'].append(loss.item()) 
-                    for k, v in result_dict.items():
-                        epoch_result_dict[k].append(v)
-
-                    # Step evaluating
-                    eval_log_dict = {}
-                    is_best = False
-                    if evaluating_step_freq is not None and global_step % evaluating_step_freq == 0:
-                        evaluate_result_dict = {f'Eval.Gen.{k}':  v for k, v in evaluate_generation(args, model, test_dataset, test_dataloader, tokenizer).items()}
-                        eval_log_dict.update(evaluate_result_dict)
-                        if eval_log_dict['Eval.Gen.value_accuracy'] > best_eval_log_dict.get('Eval.Gen.value_accuracy_best', 0):
-                            is_best = True
-                            best_eval_log_dict['Eval.Gen.value_accuracy_best'] = eval_log_dict['Eval.Gen.value_accuracy']
-                        if 'Eval.Gen.value_accuracy' not in summary_log_dict:
-                            summary_log_dict['Eval.Gen.value_accuracy'] = []
-                        summary_log_dict['Eval.Gen.value_accuracy'].append(eval_log_dict['Eval.Gen.value_accuracy'])
-
-                    # Step logging
-                    train_log_dict = {}
-                    if logging_step_freq is not None and global_step % logging_step_freq == 0:
-                        train_log_dict = {f'T.{k}': sum(v)/len(v) if isinstance(v, list) else v for k, v in epoch_result_dict.items()}
-                    
-                    if eval_log_dict or train_log_dict:
-                        log_dict = {'lr': scheduler.get_last_lr()[0], **train_log_dict, **eval_log_dict, **best_eval_log_dict}
-                        if accelerator.is_main_process and args['wandb_log']:
-                            wandb.log(log_dict, step=global_step)
-                            log_dict = {'wandb': args['wandb_project'] + '|' + args['wandb_run_name'], **log_dict}
-                        log_dict = {k: f'{v:.5g}' if isinstance(v, float) else v for k,v in log_dict.items()}
-                        accelerator.print(f"{prefix}[E={epoch}/{args['n_epochs']}, S={global_step}] {log_dict}")
-
-                    # Step saving
-                    # if saving_step_freq is not None and global_step % saving_step_freq == 0:
-                    #     if is_best:
-                    #         save_path = os.path.join(model_dir, f'best')
-                    #         do_checkpoint(args, model, tokenizer, save_path)
-                        # if args['keep_num_ckpt'] > 0:
-                        #     save_path = os.path.join(model_dir, f'global_step_{str(global_step)}')
-                        #     do_checkpoint(args, model, tokenizer, save_path, most_recent_ckpts_paths)
-
-                    # Keep only max_record items
-                    for k, v in epoch_result_dict.items():
-                        if len(v) > 1:
-                            epoch_result_dict[k] = v[-1:]
-            except Exception as e:
-                accelerator.print(f"[进程 {accelerator.process_index}] 批次 {idx} 出错: {e}")
-                accelerator.print(traceback.format_exc())
-                accelerator.wait_for_everyone()
-                continue
-
-    # Metric summary:
-    epoch_result_dict = {k:(sum(v)/len(v) if isinstance(v, list) else v) for k, v in epoch_result_dict.items()}
-    return epoch_result_dict, global_step
-
-def evaluate_generation(args, model, dataset, dataloader, tokenizer):
-    if accelerator.is_main_process:
-        accelerator.print('Evaluating...')
-        accelerator.print(f'跳过evaluation，返回0')
-        return {'value_accuracy': 0} #TODO: 现在zero3返回的输出都是一样的，而且返回的输出和target格式不一致，需要修改，暂时略去
-    else:
-        return {'value_accuracy': -1.0}
-
-class DistributedTrainingMonitor:
-    def __init__(self, accelerator):
-        self.accelerator = accelerator
-        self.last_step = 0
-        self.last_update = time.time()
-        self.stuck_count = 0
-        self.max_stuck_attempts = 3
-        
-        # 添加数据加载监控相关属性
-        self.last_batch_time = time.time()
-        self.last_batch_idx = -1
-        self.dataloader_stuck_threshold = 300  # 5分钟无数据则认为死锁
-        self.batch_times = []  # 记录每个批次的处理时间
-        
-        
-    def check_dataloader(self, batch_idx, batch_size=None):
-        """检查数据加载器是否停滞"""
-        current_time = time.time()
-        time_since_last_batch = current_time - self.last_batch_time
-        
-        # 检测是否停滞
-        if batch_idx == self.last_batch_idx and time_since_last_batch > self.dataloader_stuck_threshold:
-            self.accelerator.print(f"[进程 {self.accelerator.process_index}] "
-                                f"警告: DataLoader在批次 {batch_idx} 停滞 {time_since_last_batch:.1f} 秒")
-            self.stuck_count += 1
-            return True
-            
-        # 更新状态
-        if batch_idx != self.last_batch_idx:
-            # 记录处理时间
-            if batch_size and self.last_batch_idx >= 0:
-                batch_time = current_time - self.last_batch_time
-                self.batch_times.append(batch_time)
-                if len(self.batch_times) > 100:  # 保留最近100个批次的时间
-                    self.batch_times.pop(0)
-                    
-                # 计算平均处理速度
-                if self.accelerator.is_main_process and len(self.batch_times) > 0:
-                    avg_time = sum(self.batch_times) / len(self.batch_times)
-                    samples_per_second = batch_size / avg_time if avg_time > 0 else 0
-                    if batch_idx % 10 == 0:  # 每10个批次输出一次
-                        self.accelerator.print(f"批次 {batch_idx}: 平均处理速度 {samples_per_second:.1f} samples/s")
-            
-            self.last_batch_idx = batch_idx
-            self.last_batch_time = current_time
-            self.stuck_count = 0  # 重置卡住计数
-            
-        return False
+    gradient_accumulation_steps = args['gradient_accumulation_steps']
+    optimizer.zero_grad()
+    accelerator.print(f"Rank {accelerator.process_index} 进入 train_one_epoch")
     
-    def update(self, step, model, optimizer):
-        # 确保所有进程同步
-        self.accelerator.wait_for_everyone()
-        
-        # 使用主进程的时间和状态
-        current_time = time.time()
-        should_recover = torch.tensor(0, device=self.accelerator.device)
-        stuck_count = torch.tensor(self.stuck_count, device=self.accelerator.device)
-        
-        if self.accelerator.is_main_process:
-            if step == self.last_step:
-                if current_time - self.last_update > 600:  # 10分钟
-                    self.stuck_count += 1
-                    should_recover = torch.tensor(1, device=self.accelerator.device)
-                    self.accelerator.print(f"警告: 训练在步数 {step} 停滞超过10分钟 (第 {self.stuck_count} 次)")
-            else:
-                self.last_step = step
-                self.last_update = current_time
-                self.stuck_count = 0
-                stuck_count = torch.tensor(0, device=self.accelerator.device)
-        
-        # 使用 all_reduce 同步状态
-        self.accelerator.wait_for_everyone()
-        torch.distributed.all_reduce(should_recover)
-        torch.distributed.all_reduce(stuck_count)
-        
-        # 更新所有进程的计数器
-        self.stuck_count = int(stuck_count.item())
-        
-        if should_recover.item() > 0:
+    # 打印train_dataloader
+    accelerator.print(f"Rank {accelerator.process_index} train_dataloader: {train_dataloader}")
+    # 确保在开始循环前同步RNG状态
+    try:
+        accelerator.wait_for_everyone()
+        accelerator.print(f"Rank {accelerator.process_index} train_one_epoch 同步成功")
+    except Exception as e:
+        accelerator.print(f"Rank {accelerator.process_index} train_one_epoch 同步失败: {e}")
+        return False
+    pbar = tqdm(total=len(train_dataloader), desc=f'Train Loop [{accelerator.process_index}]')
+    
+    # with tqdm(enumerate(train_dataloader), total=len(train_dataloader), disable=not accelerator.is_main_process, desc='Train Loop') as t:
+    for idx, batch in  enumerate(train_dataloader):
+        try:
+            accelerator.wait_for_everyone()
+            accelerator.print(f"Rank {accelerator.process_index} train_one_epoch 第{idx}批次同步成功")
+        except Exception as e:
+            accelerator.print(f"Rank {accelerator.process_index} train_one_epoch 第{idx}批次同步失败: {e}")
             try:
-                # 清理显存
-                if torch.cuda.is_available():
-                    torch.cuda.empty_cache()
-                
-                # 重置优化器状态
+                accelerator.wait_for_everyone()
+                accelerator.print(f"Rank {accelerator.process_index} train_one_epoch 第{idx}批次重新同步成功")
+            except Exception as e:
+                accelerator.print(f"Rank {accelerator.process_index} train_one_epoch 第{idx}批次重新同步失败: {e}")
+        try:
+            # 前向传播
+            output = model(**batch['forward_kwargs'])
+            loss = output[0]
+            
+            # 缩放损失以适应梯度累积
+            loss = loss / gradient_accumulation_steps
+            
+            # 反向传播
+            accelerator.backward(loss)
+            
+            # 记录指标
+            result_dict, extra = {}, None
+            
+            # 在累积足够步数后更新
+            if (idx + 1) % gradient_accumulation_steps == 0:
+                if clip_grad_norm is not None:
+                    accelerator.clip_grad_norm_(model.parameters(), clip_grad_norm)
+                optimizer.step()
+                scheduler.step()
                 optimizer.zero_grad()
                 
-                # 如果连续卡住次数过多
-                if self.stuck_count >= self.max_stuck_attempts:
-                    self.accelerator.print(f"[进程 {self.accelerator.process_index}] 连续多次卡住，采取更激进的恢复措施...")
-                    
-                    # 同步等待
-                    self.accelerator.wait_for_everyone()
-                    
-                    # 保存临时检查点
-                    if self.accelerator.is_main_process:
-                        temp_dir = f"temp_recovery_{step}"
-                        if os.path.exists(temp_dir):
-                            shutil.rmtree(temp_dir)
-                        os.makedirs(temp_dir, exist_ok=True)
-                    
-                    self.accelerator.wait_for_everyone()
-                    
-                    # 保存状态
-                    self.accelerator.save_state(temp_dir)
-                    
-                    # 重置梯度
-                    for param in model.parameters():
-                        if param.grad is not None:
-                            param.grad.zero_()
-                    
-                    # 加载状态
-                    self.accelerator.wait_for_everyone()
-                    self.accelerator.load_state(temp_dir)
-                    
-                    # 清理临时目录
-                    self.accelerator.wait_for_everyone()
-                    if self.accelerator.is_main_process:
-                        shutil.rmtree(temp_dir)
-                    
-                    # 重置计数器
-                    self.stuck_count = 0
+                # 更新全局步数
+                global_step += 1
                 
-                return True
+                # 记录训练损失
+                epoch_result_dict['loss'].append(loss.item() * gradient_accumulation_steps)
+                for k, v in result_dict.items():
+                    epoch_result_dict[k].append(v)
+
+                # 评估逻辑
+                eval_log_dict = {}
+                is_best = False
+                # if evaluating_step_freq is not None and global_step % evaluating_step_freq == 0:
+                if evaluating_step_freq :
+                    evaluate_result_dict = {
+                        f'Eval.Gen.{k}': v 
+                        for k, v in evaluate_generation(args, model, test_dataset, test_dataloader, tokenizer).items()
+                    }
+                    eval_log_dict.update(evaluate_result_dict)
+                    if eval_log_dict['Eval.Gen.value_accuracy'] > best_eval_log_dict.get('Eval.Gen.value_accuracy_best', 0):
+                        is_best = True
+                        best_eval_log_dict['Eval.Gen.value_accuracy_best'] = eval_log_dict['Eval.Gen.value_accuracy']
+                    if 'Eval.Gen.value_accuracy' not in summary_log_dict:
+                        summary_log_dict['Eval.Gen.value_accuracy'] = []
+                    summary_log_dict['Eval.Gen.value_accuracy'].append(eval_log_dict['Eval.Gen.value_accuracy'])
+
+                # 日志记录
+                train_log_dict = {}
+                if logging_step_freq is not None and global_step % logging_step_freq == 0:
+                    train_log_dict = {
+                        f'T.{k}': sum(v)/len(v) if isinstance(v, list) else v 
+                        for k, v in epoch_result_dict.items()
+                    }
                 
-            except Exception as e:
-                self.accelerator.print(f"[进程 {self.accelerator.process_index}] 恢复过程出错: {e}")
-                return False
-        
-        return False
+                if eval_log_dict or train_log_dict:
+                    log_dict = {
+                        'lr': scheduler.get_last_lr()[0], 
+                        **train_log_dict, 
+                        **eval_log_dict, 
+                        **best_eval_log_dict
+                    }
+                    if accelerator.is_main_process and args['wandb_log']:
+                        wandb.log(log_dict, step=global_step)
+                        log_dict = {'wandb': args['wandb_project'] + '|' + args['wandb_run_name'], **log_dict}
+                    log_dict = {k: f'{v:.5g}' if isinstance(v, float) else v for k,v in log_dict.items()}
+                    accelerator.print(f"{prefix}[E={epoch}/{args['n_epochs']}, S={global_step}] {log_dict}")
+
+                # 保持记录数量
+                for k, v in epoch_result_dict.items():
+                    if len(v) > 1:
+                        epoch_result_dict[k] = v[-1:]
+            accelerator.print(f"Rank {accelerator.process_index} 训练批次 {idx} 成功")
+        except Exception as e:
+            accelerator.print(f"[进程 {accelerator.process_index}] 批次 {idx} 出错: {e}")
+            accelerator.print(traceback.format_exc())
+            continue
+    # Metric summary:
+    epoch_result_dict = {k:(sum(v)/len(v) if isinstance(v, list) else v) for k, v in epoch_result_dict.items()}
+    # 更新进度条
+    if accelerator.is_main_process:
+        pbar.update(1)
+    pbar.close()
+    accelerator.print(f"Rank {accelerator.process_index} 训练epoch {epoch} 结束")
+    return epoch_result_dict, global_step, evaluate_result_dict
+
+def evaluate_generation(args, model, dataset, dataloader, tokenizer):
+    # return {'value_accuracy': 0}
+
+    model.eval()
+    predictions = []
+    targets = []
+    for idx, batch in tqdm(
+        enumerate(dataloader), total=len(dataloader), disable=not accelerator.is_main_process,
+        desc='Evaluation Gen Loop'):
+        output_ = accelerator.unwrap_model(model).generate(
+            **batch['generate_prefix_kwargs'],
+            max_length=args['max_gen_length'],
+            output_scores=True,
+            return_dict_in_generate=True,
+            num_beams=1,
+            use_cache=True,
+            do_sample=False,
+            pad_token_id=tokenizer.pad_token_id,
+            eos_token_id=tokenizer.eos_token_id,
+        )
+        generated_ids = output_.sequences
+        generated_ids = pad_across_processes(generated_ids, dim=1, pad_index=tokenizer.pad_token_id, pad_first=True)
+
+        labels = batch['generate_prefix_kwargs']['labels']
+        labels = pad_across_processes(labels, dim=1, pad_index=tokenizer.pad_token_id, pad_first=True)
+        labels[labels == -100] = tokenizer.pad_token_id
+
+        generated_ids, labels = accelerator.gather(generated_ids), accelerator.gather(labels)
+
+        preds = [
+            tokenizer.decode(g.cpu().numpy().tolist(), skip_special_tokens=True, clean_up_tokenization_spaces=True).strip() for g in
+            generated_ids]
+        predictions.extend(preds)
+        target = [
+            tokenizer.decode(t.cpu().numpy().tolist(), skip_special_tokens=True, clean_up_tokenization_spaces=True).strip() for t in
+            labels]
+        targets.extend(target)
+
+    predictions = predictions[:len(dataset)]
+    targets = targets[:len(dataset)]
+
+    if accelerator.is_main_process and accelerator.is_local_main_process:
+        results = []
+        src_name = dataset[0]['item_id'].split('_')[0]
+        accelerator.print("="*100)
+        accelerator.print("="*20,"predictions", "="*20)
+        accelerator.print(predictions)
+        accelerator.print("="*20,"targets", "="*20)
+        accelerator.print(targets)
+        accelerator.print("="*100)
+        for pred, tar, item in zip(predictions, targets, dataset):
+            cur_res = {
+                'item_id': item['item_id'],
+                'answer_value': item['answer_value'],
+            }
+            ## Processing target
+            target_cot = tar.strip().split(cot_trigger)[-1].strip()
+            target_value = post_process_final_answer_fn_mapper[src_name](cur_res['answer_value'])
+            cur_res['target'] = target
+            cur_res['target_cot'] = target_cot
+            cur_res['target_value'] = target_value
+            ## Processing prediction
+            prediction_cot = pred.strip().split(cot_trigger)[-1].strip()
+            cur_res['prediction'] = pred
+            cur_res['prediction_cot'] = prediction_cot
+            cur_res['prediction_value'] = None # Tobe filled
+            results.append(cur_res)
+        print("="*100)
+        print("eval results:")
+        print(results)
+        execute_fn = post_process_answer_cot_fn_mapper[(args['engine'], src_name)]
+        corr_value = 0
+        for i, prediction_value in enumerate(execute_fn([item['prediction_cot'] for item in results])):
+            target_value = results[i]['target_value']
+            is_correct = compare_answer_fn_mapper[src_name](prediction_value, target_value) if prediction_value is not None else False
+            results[i]['prediction_value'] = prediction_value
+            results[i]['is_correct'] = is_correct
+            corr_value += is_correct
+
+        res_path = args['model_dir'].rstrip('/')+ '/' + '_res.json'
+        with open(res_path, 'w') as f:
+            json.dump(results, f, indent=2)
+
+        # if args['wandb_log']:
+        #     table = wandb.Table(dataframe=pd.DataFrame(results))
+        #     wandb.log({"predictions": table})
+
+        value_accuracy = corr_value / len(results) * 100
+        accelerator.print(f"[Eval Info] value_accuracy: {value_accuracy:.5g}%")
+        value_accuracy = torch.FloatTensor([value_accuracy]).to(accelerator.device)
+    else:
+        value_accuracy = torch.FloatTensor([-1.0]).to(accelerator.device)
+    value_accuracy = broadcast(value_accuracy).cpu().numpy().tolist()[0]
+
+    # Metric summary:
+    model.train()
+    return {'value_accuracy': value_accuracy}
+
 
 def main(args):
     set_seed(args['seed'] + accelerator.process_index)
@@ -595,7 +624,6 @@ def main(args):
     os.makedirs(model_dir, exist_ok=True)
     most_recent_ckpts_paths = []
     lowest_loss = None
-    monitor = DistributedTrainingMonitor(accelerator)
     with tqdm(range(1, n_epochs+1), total=n_epochs, disable=not accelerator.is_main_process) as t:
         for epoch in t:
             kwargs = {
@@ -617,32 +645,13 @@ def main(args):
             }
             
             try:
-                # 确保所有进程开始新的epoch时是同步的
-                accelerator.wait_for_everyone()
                 
-                with timeout_handler(60*60, f"Epoch {epoch}"): # 训练1轮若超过1小时，则为超时
-                    train_epoch_result_dict, global_step = train_one_epoch(**kwargs)
-                    accelerator.print(f"[进程 {accelerator.process_index}] Epoch {epoch} 训练结果: {train_epoch_result_dict}")
-                    # 检查是否可能死锁
-                    if monitor.update(global_step, model, optimizer):
-                        accelerator.print(f"[进程 {accelerator.process_index}] Epoch {epoch} 检测到死锁，已尝试恢复")
-                        # 同步等待所有进程
-                        accelerator.wait_for_everyone()
-                        continue  # 继续下一个epoch
-                        
-            except TimeoutError as e:
-                accelerator.print(f"[进程 {accelerator.process_index}] Epoch {epoch} 超时: {e}")
-                # 确保所有进程都跳过这个epoch
-                accelerator.wait_for_everyone()
-                continue
-                
+                train_epoch_result_dict, global_step, evaluate_result_dict = train_one_epoch(**kwargs)
+                accelerator.print(f"[进程 {accelerator.process_index}] Epoch {epoch} 训练结果: {train_epoch_result_dict}")
+ 
             except Exception as e:
                 accelerator.print(f"[进程 {accelerator.process_index}] Epoch {epoch} 发生错误: {e}")
-                # 严重错误时同步中断所有进程
-                raise
-                
-            # 确保所有进程在epoch结束时同步
-            accelerator.wait_for_everyone()
+                break
             
             eval_log_dict = {}
             is_best = False
@@ -675,29 +684,33 @@ def main(args):
                     log_dict = {'wandb': args['wandb_project'] + '|' + args['wandb_run_name'], **log_dict}
                 log_dict = {k: f'{v:.5g}' if isinstance(v, float) else v for k,v in log_dict.items()}
                 accelerator.print(f"[E={epoch}/{args['n_epochs']}, S={global_step}] {log_dict}")
-
+            
             # if saving_epoch_freq is not None and epoch % saving_epoch_freq == 0:
             if is_best:
-                save_path = os.path.join(model_dir, f'best')
-                if not  accelerator.is_main_process:
-                    pass
-                else:
-                    # 如果目录已存在,先清空
-                    if os.path.exists(save_path):
-                        accelerator.print(f"目录已存在, 清空目录: {save_path}")
-                        shutil.rmtree(save_path)
-                    os.makedirs(save_path, exist_ok=True)
-                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                    
-                    accelerator.print(f"开始保存新的最佳checkpoint... 时间: {timestamp}")
-                    do_checkpoint(args, model, tokenizer, save_path, global_step)
+                try:
+                    accelerator.wait_for_everyone()
+                    accelerator.print(f"epoch {epoch} 将开始保存权重，等待所有进程成功")
+                except Exception as e:
+                    accelerator.print(f"epoch {epoch} 将开始保存权重，等待所有进程失败: {e}")
+                    break
                 
+                save_path = model_dir
+                # 如果目录已存在,先清空
+                if accelerator.is_main_process and os.path.exists(save_path):
+                    accelerator.print(f"目录已存在, 清空目录: {save_path}")
+                    # shutil.rmtree(save_path)
+                os.makedirs(save_path, exist_ok=True)
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    # time.sleep(10)
-    # if args['keep_num_ckpt'] > 0:
-    #     save_path=os.path.join(args['model_dir'], f'global_step_{str(global_step)}_epoch_{epoch}')
-    #     do_checkpoint(args, model, tokenizer, save_path, most_recent_ckpts_paths)
-
+                accelerator.print(f"开始保存新的最佳checkpoint... 时间: {timestamp}")
+                
+                # accelerator.wait_for_everyone()
+                s=do_checkpoint(args, model, tokenizer, save_path, global_step)
+                # accelerator.wait_for_everyone()
+                if s:
+                    accelerator.print(f"保存checkpoint成功")
+                else:
+                    accelerator.print(f"保存checkpoint失败")
+                    break
     return 
 if __name__ == '__main__':
     from transformers import HfArgumentParser
@@ -742,7 +755,8 @@ if __name__ == '__main__':
     for k,v in args.items():
         if v in [NONE_INT, NONE_STR]:
             args[k] = None
-    accelerator = Accelerator(gradient_accumulation_steps=args['gradient_accumulation_steps'], kwargs_handlers=[InitProcessGroupKwargs(timeout=timedelta(seconds=18000))]) # wait for processing upto 5hrs
+    accelerator = Accelerator(gradient_accumulation_steps=args['gradient_accumulation_steps'], kwargs_handlers=[InitProcessGroupKwargs(timeout=timedelta(seconds=5*60*60))]) # wait for processing upto 5hrs
     accelerator.print(args)
     accelerator.print(json.dumps(args, indent=2, ensure_ascii=False))
     main(args)
+# ^[^H\[\s]

@@ -1,579 +1,0 @@
-no change     /home/wangxinrong/miniconda3/condabin/conda
-no change     /home/wangxinrong/miniconda3/bin/conda
-no change     /home/wangxinrong/miniconda3/bin/conda-env
-no change     /home/wangxinrong/miniconda3/bin/activate
-no change     /home/wangxinrong/miniconda3/bin/deactivate
-no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.sh
-no change     /home/wangxinrong/miniconda3/etc/fish/conf.d/conda.fish
-no change     /home/wangxinrong/miniconda3/shell/condabin/Conda.psm1
-no change     /home/wangxinrong/miniconda3/shell/condabin/conda-hook.ps1
-no change     /home/wangxinrong/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
-no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.csh
-no change     /home/wangxinrong/.bashrc
-No action taken.
-
-CondaError: Run 'conda init' before 'conda activate'
-
-[2024-12-27 13:00:20,020] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-WARNING:torch.distributed.run:
-*****************************************
-Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
-*****************************************
-[2024-12-27 13:00:26,082] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 13:00:26,083] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 13:00:26,092] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 13:00:26,105] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 13:00:26,105] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 13:00:26,105] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 13:00:26,108] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 13:00:26,108] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 13:00:28,685] [INFO] [comm.py:637:init_distributed] cdb=None
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 13:00:28,692] [INFO] [comm.py:637:init_distributed] cdb=None
-[2024-12-27 13:00:28,692] [INFO] [comm.py:637:init_distributed] cdb=None
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 13:00:28,708] [INFO] [comm.py:637:init_distributed] cdb=None
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 13:00:28,721] [INFO] [comm.py:637:init_distributed] cdb=None
-[2024-12-27 13:00:28,722] [INFO] [comm.py:637:init_distributed] cdb=None
-[2024-12-27 13:00:28,722] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
-[2024-12-27 13:00:28,732] [INFO] [comm.py:637:init_distributed] cdb=None
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 13:00:28,757] [INFO] [comm.py:637:init_distributed] cdb=None
-Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-{'model_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'tokenizer_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'model_dir': '/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/', 'train_file': 'data/my_data/zhouyi_train.json', 'test_file': 'data/my_data/zhouyi_test.json', 'batch_size': 1, 'eval_batch_size': 1, 'n_epochs': 40, 'num_workers': 8, 'learning_rate': 1e-05, 'weight_decay': 0.0, 'warmup_step': None, 'clip_grad_norm': 1.0, 'evaluating_epoch_freq': 1, 'logging_epoch_freq': 1, 'saving_epoch_freq': 1, 'evaluating_step_freq': None, 'logging_step_freq': 10, 'saving_step_freq': None, 'seed': 42, 'max_input_length': 512, 'max_gen_length': 512, 'gradient_accumulation_steps': 2, 'keep_num_ckpt': 1, 'wandb_log': False, 'wandb_project': 'ReFT', 'wandb_run_name': 'zhouyi_glm4_sft', 'engine': 'nl'}
-{
-  "model_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
-  "tokenizer_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
-  "model_dir": "/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/",
-  "train_file": "data/my_data/zhouyi_train.json",
-  "test_file": "data/my_data/zhouyi_test.json",
-  "batch_size": 1,
-  "eval_batch_size": 1,
-  "n_epochs": 40,
-  "num_workers": 8,
-  "learning_rate": 1e-05,
-  "weight_decay": 0.0,
-  "warmup_step": null,
-  "clip_grad_norm": 1.0,
-  "evaluating_epoch_freq": 1,
-  "logging_epoch_freq": 1,
-  "saving_epoch_freq": 1,
-  "evaluating_step_freq": null,
-  "logging_step_freq": 10,
-  "saving_step_freq": null,
-  "seed": 42,
-  "max_input_length": 512,
-  "max_gen_length": 512,
-  "gradient_accumulation_steps": 2,
-  "keep_num_ckpt": 1,
-  "wandb_log": false,
-  "wandb_project": "ReFT",
-  "wandb_run_name": "zhouyi_glm4_sft",
-  "engine": "nl"
-}
-Raw data: DatasetDict({
-    train: Dataset({
-        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
-        num_rows: 12
-    })
-    test: Dataset({
-        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
-        num_rows: 1
-    })
-})
-Using instruction: Question:
-
-Using cot_trigger: 
-Answer reasoning:
-
-Using answer_trigger: 
-因此，答案是：
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.48 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.70 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.61 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:04<00:02,  1.70 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:05<00:02,  1.46 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:06<00:01,  1.29 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:07<00:00,  1.19 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:08<00:00,  1.12 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.33 examples/s]
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 106.89 examples/s]
-Processed data: DatasetDict({
-    train: Dataset({
-        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
-        num_rows: 12
-    })
-    test: Dataset({
-        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
-        num_rows: 1
-    })
-})
-train train_input_ids_max_length 846
-test test_input_ids_max_length 840
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.46 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.43 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.42 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.41 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.43 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.44 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.42 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.65 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.64 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.63 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.62 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.63 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.63 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.62 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.56 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.54 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.52 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.51 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.54 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.52 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.46 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:04<00:02,  1.63 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.62 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:04<00:02,  1.64 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.60 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.61 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.57 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.58 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.38 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.39 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.36 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.36 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.37 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.36 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.32 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.24 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.23 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.20 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.22 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.21 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.20 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.17 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.11 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.13 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.11 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.11 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.12 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.12 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.10 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.06 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.06 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.06 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.26 examples/s]
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.05 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.06 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.26 examples/s]
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.25 examples/s]
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.03 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.04 examples/s]num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.24 examples/s]
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.24 examples/s]
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.23 examples/s]
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.24 examples/s]
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 89.51 examples/s]
-Map: 100%|██████████| 1/1 [00:00<00:00, 103.02 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 89.07 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 68.62 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 104.56 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 93.43 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 99.21 examples/s]
-[2024-12-27 13:01:02,836] [INFO] [partition_parameters.py:347:__exit__] finished initializing model - num_params = 283, num_elems = 9.40B
-Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:  10%|█         | 1/10 [00:07<01:03,  7.09s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:07<01:03,  7.09s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:07<01:03,  7.09s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:07<01:03,  7.09s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:07<01:03,  7.09s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:07<01:04,  7.11s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:07<01:04,  7.12s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:07<01:04,  7.17s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:15<01:04,  8.12s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:15<01:04,  8.12s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:15<01:04,  8.12s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:15<01:05,  8.13s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:16<01:05,  8.16s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:16<01:05,  8.16s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:16<01:05,  8.16s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:16<01:05,  8.19s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:24<00:57,  8.20s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:24<00:57,  8.20s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:24<00:57,  8.19s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:24<00:57,  8.20s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:24<00:57,  8.19s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:24<00:57,  8.22s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:24<00:57,  8.22s/it]Loading checkpoint shards:  30%|███       | 3/10 [00:24<00:57,  8.23s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:30<00:45,  7.54s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:30<00:45,  7.56s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:30<00:45,  7.55s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:30<00:45,  7.54s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:30<00:45,  7.55s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:30<00:45,  7.57s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:30<00:45,  7.58s/it]Loading checkpoint shards:  40%|████      | 4/10 [00:30<00:45,  7.58s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:37<00:36,  7.22s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:37<00:36,  7.22s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:37<00:36,  7.22s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:37<00:36,  7.22s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:37<00:36,  7.22s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:37<00:36,  7.24s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:37<00:36,  7.24s/it]Loading checkpoint shards:  50%|█████     | 5/10 [00:37<00:36,  7.23s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:48<00:34,  8.58s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:48<00:34,  8.59s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:48<00:34,  8.57s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:48<00:34,  8.58s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:48<00:34,  8.59s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:48<00:34,  8.59s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:48<00:34,  8.60s/it]Loading checkpoint shards:  60%|██████    | 6/10 [00:48<00:34,  8.59s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:56<00:24,  8.18s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:56<00:24,  8.18s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:56<00:24,  8.18s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:56<00:24,  8.18s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:56<00:24,  8.18s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:56<00:24,  8.19s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:56<00:24,  8.20s/it]Loading checkpoint shards:  70%|███████   | 7/10 [00:56<00:24,  8.18s/it]Loading checkpoint shards:  80%|████████  | 8/10 [01:04<00:16,  8.36s/it]Loading checkpoint shards:  80%|████████  | 8/10 [01:04<00:16,  8.36s/it]Loading checkpoint shards:  80%|████████  | 8/10 [01:04<00:16,  8.35s/it]Loading checkpoint shards:  80%|████████  | 8/10 [01:04<00:16,  8.36s/it]Loading checkpoint shards:  80%|████████  | 8/10 [01:04<00:16,  8.37s/it]Loading checkpoint shards:  80%|████████  | 8/10 [01:04<00:16,  8.37s/it]Loading checkpoint shards:  80%|████████  | 8/10 [01:04<00:16,  8.37s/it]Loading checkpoint shards:  80%|████████  | 8/10 [01:04<00:16,  8.35s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [01:13<00:08,  8.59s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [01:13<00:08,  8.59s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [01:13<00:08,  8.59s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [01:13<00:08,  8.59s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [01:13<00:08,  8.59s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [01:13<00:08,  8.59s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [01:13<00:08,  8.60s/it]Loading checkpoint shards:  90%|█████████ | 9/10 [01:13<00:08,  8.60s/it]Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  7.95s/it]Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  8.04s/it]
-Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  7.95s/it]Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  8.04s/it]
-Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  7.95s/it]Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  8.04s/it]
-Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  7.95s/it]Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  8.04s/it]
-Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  7.95s/it]Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  8.04s/it]
-Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  7.96s/it]Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  8.04s/it]
-Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  7.94s/it]Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  8.04s/it]
-Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  7.97s/it]Loading checkpoint shards: 100%|██████████| 10/10 [01:20<00:00,  8.04s/it]
-[Vocab size]: 151344
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-***** Running training *****
-  Num examples = 12
-  Num Epochs = 40
-  Instantaneous batch size per device = 1
-  Total train batch size (w. parallel, distributed & accumulation) = 16
-  Total optimization steps = 20
-  Warm up step: 2
-  Learning rate: 1e-05
-
-Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
-Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
-Detected CUDA files, patching ldflags
-Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
-Building extension module cpu_adam...
-Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
-Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...ninja: no work to do.
-
-Loading extension module cpu_adam...
-Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
-Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
-Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
-Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
-Detected CUDA files, patching ldflags
-Emitting ninja build file /home/wangxinrong/.cache/torch_extensions/py310_cu117/cpu_adam/build.ninja...
-Time to load cpu_adam op: 2.777805805206299 seconds
-Building extension module cpu_adam...
-Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
-Using /home/wangxinrong/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
-ninja: no work to do.
-Loading extension module cpu_adam...
-Time to load cpu_adam op: 2.830929756164551 seconds
-Loading extension module cpu_adam...
-Time to load cpu_adam op: 2.880650520324707 seconds
-Loading extension module cpu_adam...
-Loading extension module cpu_adam...
-Loading extension module cpu_adam...
-Time to load cpu_adam op: 2.9172956943511963 seconds
-Time to load cpu_adam op: 2.918309211730957 seconds
-Loading extension module cpu_adam...
-Time to load cpu_adam op: 2.9238009452819824 seconds
-Time to load cpu_adam op: 2.923818588256836 seconds
-Loading extension module cpu_adam...
-Time to load cpu_adam op: 2.9279098510742188 seconds
-Adam Optimizer #0 is created with AVX512 arithmetic capability.
-Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
-[2024-12-27 13:02:31,083] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.11.1, git-hash=unknown, git-branch=unknown
-Adam Optimizer #0 is created with AVX512 arithmetic capability.
-Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
-Adam Optimizer #0 is created with AVX512 arithmetic capability.
-Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
-Adam Optimizer #0 is created with AVX512 arithmetic capability.
-Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
-Adam Optimizer #0 is created with AVX512 arithmetic capability.
-Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
-Adam Optimizer #0 is created with AVX512 arithmetic capability.
-Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
-Adam Optimizer #0 is created with AVX512 arithmetic capability.
-Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
-Adam Optimizer #0 is created with AVX512 arithmetic capability.
-Config: alpha=0.000010, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=0
-[2024-12-27 13:02:31,260] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
-[2024-12-27 13:02:31,264] [INFO] [logging.py:96:log_dist] [Rank 0] Using client Optimizer as basic optimizer
-[2024-12-27 13:02:31,264] [INFO] [logging.py:96:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
-[2024-12-27 13:02:31,288] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = DeepSpeedCPUAdam
-[2024-12-27 13:02:31,288] [INFO] [utils.py:56:is_zero_supported_optimizer] Checking ZeRO support for optimizer=DeepSpeedCPUAdam type=<class 'deepspeed.ops.adam.cpu_adam.DeepSpeedCPUAdam'>
-[2024-12-27 13:02:31,288] [INFO] [logging.py:96:log_dist] [Rank 0] Creating fp16 ZeRO stage 3 optimizer, MiCS is enabled False, Hierarchical params gather False
-[2024-12-27 13:02:31,288] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.bfloat16 ZeRO stage 3 optimizer
-[2024-12-27 13:02:31,450] [INFO] [utils.py:802:see_memory_usage] Stage 3 initialize beginning
-[2024-12-27 13:02:31,450] [INFO] [utils.py:803:see_memory_usage] MA 1.15 GB         Max_MA 3.47 GB         CA 4.63 GB         Max_CA 5 GB 
-[2024-12-27 13:02:31,450] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 111.37 GB, percent = 29.6%
-[2024-12-27 13:02:31,452] [INFO] [stage3.py:126:__init__] Reduce bucket size 500,000,000
-[2024-12-27 13:02:31,452] [INFO] [stage3.py:127:__init__] Prefetch bucket size 50,000,000
-[2024-12-27 13:02:31,582] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
-[2024-12-27 13:02:31,582] [INFO] [utils.py:803:see_memory_usage] MA 1.15 GB         Max_MA 1.15 GB         CA 4.63 GB         Max_CA 5 GB 
-[2024-12-27 13:02:31,582] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 111.37 GB, percent = 29.6%
-Parameter Offload: Total persistent parameters: 516096 in 121 params
-[2024-12-27 13:02:32,169] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
-[2024-12-27 13:02:32,169] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 1.15 GB         CA 4.63 GB         Max_CA 5 GB 
-[2024-12-27 13:02:32,169] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 112.53 GB, percent = 29.9%
-[2024-12-27 13:02:32,304] [INFO] [utils.py:802:see_memory_usage] Before creating fp16 partitions
-[2024-12-27 13:02:32,305] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
-[2024-12-27 13:02:32,305] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 112.54 GB, percent = 29.9%
-[2024-12-27 13:02:37,682] [INFO] [utils.py:802:see_memory_usage] After creating fp16 partitions: 3
-[2024-12-27 13:02:37,683] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
-[2024-12-27 13:02:37,683] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 137.9 GB, percent = 36.6%
-[2024-12-27 13:02:37,855] [INFO] [utils.py:802:see_memory_usage] Before creating fp32 partitions
-[2024-12-27 13:02:37,856] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
-[2024-12-27 13:02:37,856] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 139.68 GB, percent = 37.1%
-[2024-12-27 13:02:42,504] [INFO] [utils.py:802:see_memory_usage] After creating fp32 partitions
-[2024-12-27 13:02:42,505] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
-[2024-12-27 13:02:42,505] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 169.66 GB, percent = 45.1%
-[2024-12-27 13:02:42,673] [INFO] [utils.py:802:see_memory_usage] Before initializing optimizer states
-[2024-12-27 13:02:42,674] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
-[2024-12-27 13:02:42,674] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 171.59 GB, percent = 45.6%
-[2024-12-27 13:02:57,182] [INFO] [utils.py:802:see_memory_usage] After initializing optimizer states
-[2024-12-27 13:02:57,183] [INFO] [utils.py:803:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 4.63 GB         Max_CA 5 GB 
-[2024-12-27 13:02:57,183] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 272.83 GB, percent = 72.5%
-[2024-12-27 13:03:00,901] [INFO] [stage3.py:459:_setup_for_real_optimizer] optimizer state initialized
-  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s]  0% 0/40 [00:00<?, ?it/s][2024-12-27 13:03:07,381] [INFO] [utils.py:802:see_memory_usage] After initializing ZeRO optimizer
-[2024-12-27 13:03:07,381] [INFO] [utils.py:803:see_memory_usage] MA 0.93 GB         Max_MA 3.24 GB         CA 4.63 GB         Max_CA 5 GB 
-[2024-12-27 13:03:07,382] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 288.66 GB, percent = 76.7%
-[2024-12-27 13:03:07,382] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = DeepSpeedCPUAdam
-[2024-12-27 13:03:07,382] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using client LR scheduler
-[2024-12-27 13:03:07,382] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = None
-[2024-12-27 13:03:07,382] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[0.0, 0.0], mom=[(0.9, 0.999), (0.9, 0.999)]
-[2024-12-27 13:03:07,383] [INFO] [config.py:968:print] DeepSpeedEngine configuration:
-[2024-12-27 13:03:07,383] [INFO] [config.py:972:print]   activation_checkpointing_config  {
-    "partition_activations": false, 
-    "contiguous_memory_optimization": false, 
-    "cpu_checkpointing": false, 
-    "number_checkpoints": null, 
-    "synchronize_checkpoint_boundary": false, 
-    "profile": false
-}
-[2024-12-27 13:03:07,383] [INFO] [config.py:972:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True}
-[2024-12-27 13:03:07,383] [INFO] [config.py:972:print]   amp_enabled .................. False
-[2024-12-27 13:03:07,383] [INFO] [config.py:972:print]   amp_params ................... False
-[2024-12-27 13:03:07,383] [INFO] [config.py:972:print]   autotuning_config ............ {
-    "enabled": false, 
-    "start_step": null, 
-    "end_step": null, 
-    "metric_path": null, 
-    "arg_mappings": null, 
-    "metric": "throughput", 
-    "model_info": null, 
-    "results_dir": "autotuning_results", 
-    "exps_dir": "autotuning_exps", 
-    "overwrite": true, 
-    "fast": true, 
-    "start_profile_step": 3, 
-    "end_profile_step": 5, 
-    "tuner_type": "gridsearch", 
-    "tuner_early_stopping": 5, 
-    "tuner_num_trials": 50, 
-    "model_info_path": null, 
-    "mp_size": 1, 
-    "max_train_batch_size": null, 
-    "min_train_batch_size": 1, 
-    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
-    "min_train_micro_batch_size_per_gpu": 1, 
-    "num_tuning_micro_batch_sizes": 3
-}
-[2024-12-27 13:03:07,383] [INFO] [config.py:972:print]   bfloat16_enabled ............. True
-[2024-12-27 13:03:07,383] [INFO] [config.py:972:print]   checkpoint_parallel_write_pipeline  False
-[2024-12-27 13:03:07,383] [INFO] [config.py:972:print]   checkpoint_tag_validation_enabled  True
-[2024-12-27 13:03:07,383] [INFO] [config.py:972:print]   checkpoint_tag_validation_fail  False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7f66924eee30>
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   communication_data_type ...... None
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   curriculum_enabled_legacy .... False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   curriculum_params_legacy ..... False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   data_efficiency_enabled ...... False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   dataloader_drop_last ......... False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   disable_allgather ............ False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   dump_state ................... False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   dynamic_loss_scale_args ...... None
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   eigenvalue_enabled ........... False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   eigenvalue_gas_boundary_resolution  1
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   eigenvalue_layer_name ........ bert.encoder.layer
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   eigenvalue_layer_num ......... 0
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   eigenvalue_max_iter .......... 100
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   eigenvalue_stability ......... 1e-06
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   eigenvalue_tol ............... 0.01
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   eigenvalue_verbose ........... False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   elasticity_enabled ........... False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   flops_profiler_config ........ {
-    "enabled": false, 
-    "recompute_fwd_factor": 0.0, 
-    "profile_step": 1, 
-    "module_depth": -1, 
-    "top_modules": 1, 
-    "detailed": true, 
-    "output_file": null
-}
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   fp16_auto_cast ............... None
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   fp16_enabled ................. False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   fp16_master_weights_and_gradients  False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   global_rank .................. 0
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   grad_accum_dtype ............. None
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   gradient_accumulation_steps .. 8
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   gradient_clipping ............ 1.0
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   gradient_predivide_factor .... 1.0
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   initial_dynamic_scale ........ 1
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   load_universal_checkpoint .... False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   loss_scale ................... 1.0
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   memory_breakdown ............. False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   mics_hierarchial_params_gather  False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   mics_shard_size .............. -1
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') enabled=False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   nebula_config ................ {
-    "enabled": false, 
-    "persistent_storage_path": null, 
-    "persistent_time_interval": 100, 
-    "num_of_version_in_retention": 2, 
-    "enable_nebula_load": true, 
-    "load_path": null
-}
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   optimizer_legacy_fusion ...... False
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   optimizer_name ............... None
-[2024-12-27 13:03:07,384] [INFO] [config.py:972:print]   optimizer_params ............. None
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0}
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   pld_enabled .................. False
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   pld_params ................... False
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   prescale_gradients ........... False
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   scheduler_name ............... None
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   scheduler_params ............. None
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   sparse_attention ............. None
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   sparse_gradients_enabled ..... False
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   steps_per_print .............. inf
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   train_batch_size ............. 64
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   train_micro_batch_size_per_gpu  1
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   use_node_local_storage ....... False
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   wall_clock_breakdown ......... False
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   weight_quantization_config ... None
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   world_size ................... 8
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   zero_allow_untested_optimizer  True
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500,000,000 allgather_partitions=True allgather_bucket_size=500,000,000 overlap_comm=True load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='cpu', nvme_path=None, buffer_count=5, buffer_size=100,000,000, max_in_cpu=1,000,000,000, pin_memory=False) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='cpu', nvme_path=None, buffer_count=4, pin_memory=False, pipeline=False, pipeline_read=False, pipeline_write=False, fast_init=False) sub_group_size=1,000,000,000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50,000,000 param_persistence_threshold=100,000 model_persistence_threshold=sys.maxsize max_live_parameters=1,000,000,000 max_reuse_distance=1,000,000,000 gather_16bit_weights_on_model_save=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   zero_enabled ................. True
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   zero_force_ds_cpu_optimizer .. True
-[2024-12-27 13:03:07,385] [INFO] [config.py:972:print]   zero_optimization_stage ...... 3
-[2024-12-27 13:03:07,385] [INFO] [config.py:958:print_user_config]   json = {
-    "train_batch_size": 64, 
-    "train_micro_batch_size_per_gpu": 1, 
-    "gradient_accumulation_steps": 8, 
-    "zero_optimization": {
-        "stage": 3, 
-        "offload_optimizer": {
-            "device": "cpu", 
-            "nvme_path": null
-        }, 
-        "offload_param": {
-            "device": "cpu", 
-            "nvme_path": null
-        }, 
-        "stage3_gather_16bit_weights_on_model_save": false
-    }, 
-    "gradient_clipping": 1.0, 
-    "steps_per_print": inf, 
-    "bf16": {
-        "enabled": true
-    }, 
-    "fp16": {
-        "enabled": false
-    }, 
-    "zero_allow_untested_optimizer": true
-}
-  0% 0/40 [00:00<?, ?it/s]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:21<00:21, 21.89s/it][A  2% 1/40 [00:38<24:43, 38.04s/it]  2% 1/40 [00:38<24:43, 38.05s/it]  2% 1/40 [00:38<24:43, 38.05s/it]  2% 1/40 [00:38<24:45, 38.09s/it]  2% 1/40 [00:38<24:45, 38.09s/it]  2% 1/40 [00:38<24:45, 38.10s/it]  2% 1/40 [00:38<24:46, 38.11s/it]
-Train Loop: 100% 2/2 [00:37<00:00, 18.43s/it][A
-                                             [A跳过evaluation
-[E=1/40, S=1] {'lr': '5e-06', 'T.loss': '2.5312'}
-  2% 1/40 [00:37<24:38, 37.90s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:18<00:18, 18.30s/it][A  5% 2/40 [01:11<22:27, 35.47s/it]  5% 2/40 [01:11<22:27, 35.46s/it]  5% 2/40 [01:11<22:27, 35.47s/it]  5% 2/40 [01:11<22:27, 35.46s/it]  5% 2/40 [01:11<22:28, 35.49s/it]  5% 2/40 [01:11<22:28, 35.49s/it]  5% 2/40 [01:11<22:31, 35.56s/it]
-Train Loop: 100% 2/2 [00:33<00:00, 16.62s/it][A
-                                             [A跳过evaluation
-[E=2/40, S=2] {'lr': '1e-05', 'T.loss': '2.5312'}
-  5% 2/40 [01:11<22:27, 35.46s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:18<00:18, 18.20s/it][A  8% 3/40 [01:45<21:20, 34.62s/it]  8% 3/40 [01:45<21:20, 34.59s/it]
-Train Loop: 100% 2/2 [00:33<00:00, 16.46s/it][A  8% 3/40 [01:45<21:20, 34.62s/it]
-                                             [A跳过evaluation
-[E=3/40, S=3] {'lr': '9.4444e-06', 'T.loss': '2.5312'}
-  8% 3/40 [01:45<21:18, 34.54s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A  8% 3/40 [01:45<21:21, 34.64s/it]  8% 3/40 [01:45<21:23, 34.68s/it]  8% 3/40 [01:45<21:23, 34.69s/it]  8% 3/40 [01:45<21:23, 34.68s/it]
-Train Loop:  50% 1/2 [00:18<00:18, 18.40s/it][A
-Train Loop: 100% 2/2 [01:11<00:00, 38.84s/it][A
-                                             [A 10% 4/40 [02:56<29:30, 49.18s/it] 10% 4/40 [02:56<29:31, 49.21s/it] 10% 4/40 [02:56<29:31, 49.21s/it] 10% 4/40 [02:56<29:31, 49.20s/it] 10% 4/40 [02:56<29:30, 49.19s/it] 10% 4/40 [02:56<29:30, 49.18s/it] 10% 4/40 [02:56<29:30, 49.18s/it]跳过evaluation
-[E=4/40, S=4] {'lr': '8.8889e-06', 'T.loss': '2.5312'}
- 10% 4/40 [02:56<29:29, 49.16s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:19<00:19, 19.95s/it][A
-Train Loop: 100% 2/2 [00:35<00:00, 17.51s/it][A
-                                             [A 12% 5/40 [03:32<25:52, 44.35s/it]跳过evaluation
-[E=5/40, S=5] {'lr': '8.3333e-06', 'T.loss': '2.4531'}
- 12% 5/40 [03:32<25:51, 44.33s/it] 12% 5/40 [03:32<25:52, 44.35s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A 12% 5/40 [03:32<25:52, 44.35s/it] 12% 5/40 [03:32<25:52, 44.35s/it] 12% 5/40 [03:32<25:54, 44.42s/it] 12% 5/40 [03:32<25:55, 44.43s/it] 12% 5/40 [03:32<25:55, 44.43s/it]
-Train Loop:  50% 1/2 [00:20<00:20, 20.11s/it][A 15% 6/40 [04:08<23:30, 41.50s/it] 15% 6/40 [04:08<23:31, 41.50s/it] 15% 6/40 [04:08<23:31, 41.52s/it] 15% 6/40 [04:08<23:32, 41.53s/it] 15% 6/40 [04:08<23:32, 41.53s/it] 15% 6/40 [04:08<23:33, 41.58s/it]
-Train Loop: 100% 2/2 [00:36<00:00, 17.74s/it][A 15% 6/40 [04:08<23:33, 41.57s/it]
-                                             [A跳过evaluation
-[E=6/40, S=6] {'lr': '7.7778e-06', 'T.loss': '2.4531'}
- 15% 6/40 [04:08<23:33, 41.57s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:19<00:19, 19.32s/it][A 18% 7/40 [04:44<21:52, 39.77s/it] 18% 7/40 [04:44<21:52, 39.76s/it] 18% 7/40 [04:44<21:52, 39.78s/it] 18% 7/40 [04:44<21:52, 39.78s/it] 18% 7/40 [04:44<21:53, 39.81s/it]
- 18% 7/40 [04:45<21:54, 39.84s/it]Train Loop: 100% 2/2 [00:36<00:00, 17.90s/it][A
-                                             [A跳过evaluation
-[E=7/40, S=7] {'lr': '7.2222e-06', 'T.loss': '2.125'}
- 18% 7/40 [04:44<21:54, 39.83s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A 18% 7/40 [04:45<21:54, 39.84s/it]
-Train Loop:  50% 1/2 [00:19<00:19, 19.27s/it][A
-Train Loop: 100% 2/2 [01:08<00:00, 36.88s/it][A
-                                             [A 20% 8/40 [05:53<26:07, 48.97s/it] 20% 8/40 [05:53<26:07, 48.98s/it] 20% 8/40 [05:53<26:07, 48.98s/it] 20% 8/40 [05:53<26:06, 48.97s/it] 20% 8/40 [05:53<26:07, 48.98s/it] 20% 8/40 [05:53<26:06, 48.96s/it]跳过evaluation
-[E=8/40, S=8] {'lr': '6.6667e-06', 'T.loss': '2.125'}
- 20% 8/40 [05:53<26:06, 48.95s/it] 20% 8/40 [05:53<26:07, 48.98s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:19<00:19, 19.85s/it][A 22% 9/40 [06:30<23:17, 45.07s/it] 22% 9/40 [06:30<23:17, 45.07s/it] 22% 9/40 [06:30<23:17, 45.08s/it] 22% 9/40 [06:30<23:17, 45.08s/it] 22% 9/40 [06:30<23:18, 45.10s/it] 22% 9/40 [06:30<23:18, 45.10s/it] 22% 9/40 [06:30<23:18, 45.13s/it]
-Train Loop: 100% 2/2 [00:36<00:00, 18.07s/it][A
-                                             [A跳过evaluation
-[E=9/40, S=9] {'lr': '6.1111e-06', 'T.loss': '1.0234'}
- 22% 9/40 [06:30<23:18, 45.12s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:19<00:19, 19.73s/it][A 25% 10/40 [07:06<21:10, 42.35s/it] 25% 10/40 [07:06<21:10, 42.35s/it] 25% 10/40 [07:06<21:10, 42.36s/it] 25% 10/40 [07:06<21:10, 42.35s/it] 25% 10/40 [07:06<21:11, 42.37s/it] 25% 10/40 [07:06<21:11, 42.37s/it] 25% 10/40 [07:06<21:11, 42.39s/it][E=10/40, S=10] {'lr': '5.5556e-06', 'T.loss': '1.0234'}
-
-Train Loop: 100% 2/2 [00:36<00:00, 17.85s/it][A
-                                             [A跳过evaluation
-[E=10/40, S=10] {'lr': '5.5556e-06', 'T.loss': '1.0234'}
- 25% 10/40 [07:06<21:11, 42.39s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:19<00:19, 19.41s/it][A
-Train Loop: 100% 2/2 [00:35<00:00, 17.72s/it][A 28% 11/40 [07:42<19:33, 40.45s/it]
-                                             [A 28% 11/40 [07:42<19:33, 40.46s/it]跳过evaluation
-[E=11/40, S=11] {'lr': '5e-06', 'T.loss': '1.2109'}
- 28% 11/40 [07:42<19:32, 40.42s/it] 28% 11/40 [07:42<19:33, 40.46s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A 28% 11/40 [07:42<19:33, 40.45s/it] 28% 11/40 [07:42<19:33, 40.46s/it] 28% 11/40 [07:42<19:33, 40.48s/it] 28% 11/40 [07:42<19:34, 40.51s/it]
-Train Loop:  50% 1/2 [00:19<00:19, 19.18s/it][A
-Train Loop: 100% 2/2 [01:07<00:00, 36.15s/it][A
-                                             [A 30% 12/40 [08:49<22:39, 48.56s/it] 30% 12/40 [08:49<22:40, 48.60s/it] 30% 12/40 [08:49<22:40, 48.58s/it] 30% 12/40 [08:49<22:40, 48.60s/it]跳过evaluation
-[E=12/40, S=12] {'lr': '4.4444e-06', 'T.loss': '1.2109'}
- 30% 12/40 [08:49<22:40, 48.60s/it] 30% 12/40 [08:49<22:40, 48.60s/it] 30% 12/40 [08:49<22:40, 48.60s/it] 30% 12/40 [08:49<22:40, 48.57s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:20<00:20, 20.11s/it][A 32% 13/40 [09:26<20:15, 45.01s/it] 32% 13/40 [09:26<20:14, 45.00s/it] 32% 13/40 [09:26<20:15, 45.01s/it] 32% 13/40 [09:26<20:15, 45.01s/it] 32% 13/40 [09:26<20:15, 45.01s/it] 32% 13/40 [09:26<20:14, 44.99s/it] 32% 13/40 [09:26<20:15, 45.03s/it]
-Train Loop: 100% 2/2 [00:36<00:00, 18.10s/it][A
-                                             [A跳过evaluation
-[E=13/40, S=13] {'lr': '3.8889e-06', 'T.loss': '0.39844'}
- 32% 13/40 [09:26<20:15, 45.01s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:19<00:19, 19.42s/it][A 35% 14/40 [10:01<18:13, 42.05s/it] 35% 14/40 [10:01<18:13, 42.05s/it] 35% 14/40 [10:01<18:13, 42.05s/it] 35% 14/40 [10:01<18:13, 42.07s/it] 35% 14/40 [10:01<18:14, 42.09s/it]
-Train Loop: 100% 2/2 [00:35<00:00, 17.35s/it][A
-                                             [A 35% 14/40 [10:01<18:14, 42.10s/it] 35% 14/40 [10:01<18:14, 42.10s/it]跳过evaluation
-[E=14/40, S=14] {'lr': '3.3333e-06', 'T.loss': '0.52344'}
- 35% 14/40 [10:01<18:14, 42.09s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:19<00:19, 19.27s/it][A 38% 15/40 [10:37<16:46, 40.25s/it] 38% 15/40 [10:37<16:46, 40.25s/it] 38% 15/40 [10:37<16:46, 40.28s/it] 38% 15/40 [10:37<16:46, 40.28s/it] 38% 15/40 [10:37<16:46, 40.27s/it] 38% 15/40 [10:37<16:46, 40.28s/it]
-Train Loop: 100% 2/2 [00:36<00:00, 17.87s/it][A
-                                             [A 38% 15/40 [10:38<16:48, 40.33s/it]跳过evaluation
-[E=15/40, S=15] {'lr': '2.7778e-06', 'T.loss': '0.52344'}
- 38% 15/40 [10:37<16:47, 40.30s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:19<00:19, 19.23s/it][A
-Train Loop: 100% 2/2 [01:07<00:00, 36.54s/it][A
-                                             [A 40% 16/40 [11:45<19:27, 48.63s/it]跳过evaluation
-[E=16/40, S=16] {'lr': '2.2222e-06', 'T.loss': '0.52344'}
- 40% 16/40 [11:45<19:27, 48.65s/it] 40% 16/40 [11:45<19:27, 48.63s/it] 40% 16/40 [11:45<19:27, 48.65s/it] 40% 16/40 [11:45<19:27, 48.63s/it] 40% 16/40 [11:45<19:27, 48.64s/it] 40% 16/40 [11:45<19:26, 48.61s/it] 40% 16/40 [11:45<19:27, 48.63s/it]
-Train Loop:   0% 0/2 [00:00<?, ?it/s][A
-Train Loop:  50% 1/2 [00:20<00:20, 20.38s/it][AWARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3673717 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3673718 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3673719 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3673721 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3673722 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3673723 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3673724 closing signal SIGTERM
-ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: -9) local_rank: 3 (pid: 3673720) of binary: /home/wangxinrong/miniconda3/envs/cuda-11.7/bin/python
-Traceback (most recent call last):
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/bin/accelerate", line 8, in <module>
-    sys.exit(main())
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/accelerate_cli.py", line 48, in main
-    args.func(args)
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/launch.py", line 1153, in launch_command
-    deepspeed_launcher(args)
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/launch.py", line 846, in deepspeed_launcher
-    distrib_run.run(args)
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/run.py", line 785, in run
-    elastic_launch(
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
-    return launch_agent(self._config, self._entrypoint, list(args))
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 250, in launch_agent
-    raise ChildFailedError(
-torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
-========================================================
-train_sft_model.py FAILED
---------------------------------------------------------
-Failures:
-  <NO_OTHER_FAILURES>
---------------------------------------------------------
-Root Cause (first observed failure):
-[0]:
-  time      : 2024-12-27_13:15:30
-  host      : HS-DSS8440-009
-  rank      : 3 (local_rank: 3)
-  exitcode  : -9 (pid: 3673720)
-  error_file: <N/A>
-  traceback : Signal 9 (SIGKILL) received by PID 3673720
-========================================================

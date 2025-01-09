@@ -1,207 +1,0 @@
-no change     /home/wangxinrong/miniconda3/condabin/conda
-no change     /home/wangxinrong/miniconda3/bin/conda
-no change     /home/wangxinrong/miniconda3/bin/conda-env
-no change     /home/wangxinrong/miniconda3/bin/activate
-no change     /home/wangxinrong/miniconda3/bin/deactivate
-no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.sh
-no change     /home/wangxinrong/miniconda3/etc/fish/conf.d/conda.fish
-no change     /home/wangxinrong/miniconda3/shell/condabin/Conda.psm1
-no change     /home/wangxinrong/miniconda3/shell/condabin/conda-hook.ps1
-no change     /home/wangxinrong/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
-no change     /home/wangxinrong/miniconda3/etc/profile.d/conda.csh
-no change     /home/wangxinrong/.bashrc
-No action taken.
-
-CondaError: Run 'conda init' before 'conda activate'
-
-[2024-12-27 18:16:05,049] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-WARNING:torch.distributed.run:
-*****************************************
-Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
-*****************************************
-[2024-12-27 18:16:09,987] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 18:16:09,993] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 18:16:09,993] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 18:16:09,993] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 18:16:10,008] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 18:16:10,021] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 18:16:10,041] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2024-12-27 18:16:10,070] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 18:16:12,531] [INFO] [comm.py:637:init_distributed] cdb=None
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 18:16:12,577] [INFO] [comm.py:637:init_distributed] cdb=None
-[2024-12-27 18:16:12,577] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
-[2024-12-27 18:16:12,580] [INFO] [comm.py:637:init_distributed] cdb=None
-[2024-12-27 18:16:12,589] [INFO] [comm.py:637:init_distributed] cdb=None
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 18:16:12,615] [INFO] [comm.py:637:init_distributed] cdb=None
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 18:16:12,634] [INFO] [comm.py:637:init_distributed] cdb=None
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 18:16:12,673] [INFO] [comm.py:637:init_distributed] cdb=None
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-12-27 18:16:12,739] [INFO] [comm.py:637:init_distributed] cdb=None
-Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-{'model_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'tokenizer_name_or_path': '/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat', 'model_dir': '/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/', 'train_file': 'data/my_data/zhouyi_train.json', 'test_file': 'data/my_data/zhouyi_test.json', 'batch_size': 1, 'eval_batch_size': 1, 'n_epochs': 40, 'num_workers': 8, 'learning_rate': 1e-05, 'weight_decay': 0.0, 'warmup_step': None, 'clip_grad_norm': 1.0, 'evaluating_epoch_freq': 1, 'logging_epoch_freq': 1, 'saving_epoch_freq': 1, 'evaluating_step_freq': None, 'logging_step_freq': 10, 'saving_step_freq': None, 'seed': 42, 'max_input_length': 512, 'max_gen_length': 512, 'gradient_accumulation_steps': 2, 'keep_num_ckpt': 1, 'wandb_log': False, 'wandb_project': 'ReFT', 'wandb_run_name': 'zhouyi_glm4_sft', 'engine': 'nl'}
-{
-  "model_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
-  "tokenizer_name_or_path": "/home/wangxinrong/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat",
-  "model_dir": "/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/",
-  "train_file": "data/my_data/zhouyi_train.json",
-  "test_file": "data/my_data/zhouyi_test.json",
-  "batch_size": 1,
-  "eval_batch_size": 1,
-  "n_epochs": 40,
-  "num_workers": 8,
-  "learning_rate": 1e-05,
-  "weight_decay": 0.0,
-  "warmup_step": null,
-  "clip_grad_norm": 1.0,
-  "evaluating_epoch_freq": 1,
-  "logging_epoch_freq": 1,
-  "saving_epoch_freq": 1,
-  "evaluating_step_freq": null,
-  "logging_step_freq": 10,
-  "saving_step_freq": null,
-  "seed": 42,
-  "max_input_length": 512,
-  "max_gen_length": 512,
-  "gradient_accumulation_steps": 2,
-  "keep_num_ckpt": 1,
-  "wandb_log": false,
-  "wandb_project": "ReFT",
-  "wandb_run_name": "zhouyi_glm4_sft",
-  "engine": "nl"
-}
-Raw data: DatasetDict({
-    train: Dataset({
-        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
-        num_rows: 12
-    })
-    test: Dataset({
-        features: ['item_id', 'question', 'answer_cot', 'answer_value'],
-        num_rows: 1
-    })
-})
-Using instruction: Question:
-
-Using cot_trigger: 
-Answer reasoning:
-
-Using answer_trigger: 
-因此，答案是：
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.53 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.71 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.62 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:04<00:02,  1.71 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:05<00:02,  1.45 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:06<00:01,  1.26 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.15 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.09 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.31 examples/s]
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 114.66 examples/s]
-Processed data: DatasetDict({
-    train: Dataset({
-        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
-        num_rows: 12
-    })
-    test: Dataset({
-        features: ['item_id', 'question', 'answer_cot', 'answer_value', 'input_ids', 'labels', 'attention_mask', 'prefix', 'prefix_attention_mask', 'input_ids_max_length'],
-        num_rows: 1
-    })
-})
-train train_input_ids_max_length 846
-test test_input_ids_max_length 840
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Setting TOKENIZERS_PARALLELISM=false for forked processes.
-Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):   0%|          | 0/12 [00:00<?, ? examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:06,  1.46 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.39 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.36 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.35 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.39 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.39 examples/s]Map (num_proc=8):  17%|█▋        | 2/12 [00:01<00:07,  1.34 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.67 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.65 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.62 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:04,  1.66 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.58 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.57 examples/s]Map (num_proc=8):  33%|███▎      | 4/12 [00:02<00:05,  1.59 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.54 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.53 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.51 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:03,  1.53 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:03,  1.51 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:03<00:04,  1.50 examples/s]Map (num_proc=8):  50%|█████     | 6/12 [00:04<00:04,  1.40 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.64 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.64 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.64 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.60 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.60 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.61 examples/s]Map (num_proc=8):  67%|██████▋   | 8/12 [00:05<00:02,  1.53 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.39 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.39 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.40 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.38 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.38 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.38 examples/s]Map (num_proc=8):  75%|███████▌  | 9/12 [00:06<00:02,  1.33 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.24 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.24 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.22 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.22 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.22 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.21 examples/s]Map (num_proc=8):  83%|████████▎ | 10/12 [00:07<00:01,  1.16 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.14 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.15 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.13 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.12 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.12 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.12 examples/s]Map (num_proc=8):  92%|█████████▏| 11/12 [00:08<00:00,  1.08 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.08 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.07 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.06 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.27 examples/s]
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.06 examples/s]num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.26 examples/s]
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.05 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.26 examples/s]
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.04 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.26 examples/s]
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.24 examples/s]
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.24 examples/s]
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map (num_proc=8): 100%|██████████| 12/12 [00:09<00:00,  1.01 examples/s]Map (num_proc=8): 100%|██████████| 12/12 [00:10<00:00,  1.19 examples/s]
-num_proc must be <= 1. Reducing num_proc to 1 for dataset of size 1.
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 90.36 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 91.73 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 102.81 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 86.51 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 90.20 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 105.45 examples/s]
-Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 93.87 examples/s]
-[2024-12-27 18:16:47,496] [INFO] [partition_parameters.py:347:__exit__] finished initializing model - num_params = 283, num_elems = 9.40B
-Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:21,  2.43s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:22,  2.45s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:21,  2.44s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:22,  2.47s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:22,  2.46s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:22,  2.47s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:22,  2.48s/it]Loading checkpoint shards:  10%|█         | 1/10 [00:02<00:22,  2.53s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:04<00:18,  2.32s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:04<00:18,  2.33s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:04<00:18,  2.32s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:04<00:18,  2.32s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:04<00:18,  2.32s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:04<00:18,  2.33s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:04<00:18,  2.32s/it]Loading checkpoint shards:  20%|██        | 2/10 [00:04<00:18,  2.34s/it]WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3854501 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3854502 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3854503 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3854504 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3854505 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3854507 closing signal SIGTERM
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 3854508 closing signal SIGTERM
-ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: -9) local_rank: 5 (pid: 3854506) of binary: /home/wangxinrong/miniconda3/envs/cuda-11.7/bin/python
-Traceback (most recent call last):
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/bin/accelerate", line 8, in <module>
-    sys.exit(main())
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/accelerate_cli.py", line 48, in main
-    args.func(args)
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/launch.py", line 1153, in launch_command
-    deepspeed_launcher(args)
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/accelerate/commands/launch.py", line 846, in deepspeed_launcher
-    distrib_run.run(args)
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/run.py", line 785, in run
-    elastic_launch(
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
-    return launch_agent(self._config, self._entrypoint, list(args))
-  File "/home/wangxinrong/miniconda3/envs/cuda-11.7/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 250, in launch_agent
-    raise ChildFailedError(
-torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
-========================================================
-train_sft_model.py FAILED
---------------------------------------------------------
-Failures:
-  <NO_OTHER_FAILURES>
---------------------------------------------------------
-Root Cause (first observed failure):
-[0]:
-  time      : 2024-12-27_18:16:54
-  host      : HS-DSS8440-009
-  rank      : 5 (local_rank: 5)
-  exitcode  : -9 (pid: 3854506)
-  error_file: <N/A>
-  traceback : Signal 9 (SIGKILL) received by PID 3854506
-========================================================

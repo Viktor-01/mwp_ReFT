@@ -1,5 +1,12 @@
 #!/bin/bash
+
 export TOKENIZERS_PARALLELISM=True
+export TORCH_DISTRIBUTED_DEBUG=DETAIL
+export TORCH_CPP_LOG_LEVEL=INFO
+export NCCL_DEBUG=INFO
+export NCCL_DEBUG_SUBSYS=ALL
+export NCCL_P2P_LEVEL=NVL
+
 
 ### Required variables
 exp_name=${exp_name:-''}
@@ -31,7 +38,7 @@ evaluating_epoch_freq="1"
 saving_epoch_freq="1"
 
 logging_step_freq="10"
-evaluating_step_freq="-100"
+evaluating_step_freq="100"
 saving_step_freq="-100"
 
 wandb_log="False"
