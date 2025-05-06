@@ -1,3 +1,5 @@
+
+
 # Copyright 2023 Bytedance Ltd.
 # 
 # Licensed under the Apache License, Version 2.0 (the "License"); 
@@ -11,6 +13,22 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
 # See the License for the specific language governing permissions and 
 # limitations under the License. 
+
+
+
+# import debugpy
+# try:
+#     # 5678 is the default attach port in the VS Code debug configurations. Unless a host and port are specified, host defaults to 127.0.0.1
+#     debugpy.listen(("localhost", 9501))
+#     print("Waiting for debugger attach")
+#     debugpy.wait_for_client()
+# except Exception as e:
+#     pass  
+
+import os
+import time
+os.environ['TORCH_USE_RTLD_GLOBAL'] = 'YES'
+
 from accelerate import Accelerator, InitProcessGroupKwargs
 from accelerate.utils import pad_across_processes, broadcast
 from collections import defaultdict
@@ -36,19 +54,21 @@ import shutil
 from prettytable import PrettyTable
 tqdm = partial(tqdm, ncols=0, leave=False)
 
+
 TIMEOUT = 10
 instruction=None
 cot_trigger=None
 answer_trigger=None
 def setup_cot(src_name):
-    assert src_name in ['gsm8k', 'mathqa', 'svamp', 'mathqa-numeric']
+    assert src_name in ['gsm8k', 'mathqa', 'svamp', 'mathqa-numeric', 'zhouyi']
     global instruction
     global cot_trigger
     global answer_trigger
     # Complete output is in this form: f'{instruction}{question.strip()}{cot_trigger}{answer_cot.strip()}'
     instruction = 'Question:\n'
     cot_trigger = '\nAnswer reasoning:\n'
-    answer_trigger = '\nTherefore, the answer is: '
+    # answer_trigger = '\nTherefore, the answer is: '
+    answer_trigger = '\n因此，答案是：'
     return 
 
 post_process_final_answer_fn_mapper = {
@@ -56,6 +76,7 @@ post_process_final_answer_fn_mapper = {
     'svamp': lambda x: float(x.replace(',','').strip()),
     'mathqa': lambda x: x.lower().replace('"','').replace("'",'').strip(),
     'mathqa-numeric': lambda x: float(x),
+    'zhouyi': lambda x: x.strip(),
 }
 ### the answer_cot is a list of answer_cot
 post_process_answer_cot_fn_mapper = {
@@ -67,12 +88,14 @@ post_process_answer_cot_fn_mapper = {
     ('nl', 'svamp'): lambda answer_cot: [floatify(res.split(answer_trigger)[-1].strip()) for res in answer_cot],
     ('nl', 'mathqa'): lambda answer_cot: [res.split(answer_trigger)[-1].lower().replace('"','').replace("'",'').strip() for res in answer_cot],
     ('nl', 'mathqa-numeric'): lambda answer_cot: [floatify(res.split(answer_trigger)[-1].strip()) for res in answer_cot],
+    ('nl', 'zhouyi'): lambda answer_cot: [res.split(answer_trigger)[-1].strip() for res in answer_cot],
 }
 compare_answer_fn_mapper = {
     'gsm8k': lambda extracted_ans, target_answer: abs(extracted_ans - target_answer) <= 1e-2,
     'svamp': lambda extracted_ans, target_answer: abs(extracted_ans - target_answer) <= 1e-2,
     'mathqa': lambda extracted_ans, target_answer: extracted_ans == target_answer,
     'mathqa-numeric': lambda extracted_ans, target_answer: abs(extracted_ans - target_answer) <= 1e-2,
+    'zhouyi': lambda extracted_ans, target_answer: extracted_ans == target_answer,
 }
 
 def prepare_deepspeed_ref_model(model):
@@ -273,6 +296,13 @@ def do_checkpoint(args, model, tokenizer, save_path, most_recent_ckpts_paths=Non
 
 def rollout(args, model, ref_model, tokenizer, query_tensors, query_tensors_attention_mask, answer_values, src_name):
     model.eval()
+    accelerator.print(f"{'='*10} rollout start {'='*10}")
+    accelerator.print(f"query_tensors: {query_tensors}")
+    accelerator.print(f"query_tensors_attention_mask: {query_tensors_attention_mask}")
+    accelerator.print(f"answer_values: {answer_values}")
+    accelerator.print(f"src_name: {src_name}")
+    accelerator.print(f"{'='*10} generate starting {'='*10}")
+    start_time = time.time()
     with torch.no_grad():
         gen_output = accelerator.unwrap_model(model).generate(
             input_ids=query_tensors,
@@ -286,6 +316,11 @@ def rollout(args, model, ref_model, tokenizer, query_tensors, query_tensors_atte
             eos_token_id=tokenizer.eos_token_id,
             max_length=args['max_gen_length'],
         )
+        end_time = time.time()
+        gen_output = gen_output[0]
+        gen_output = tokenizer.decode(gen_output, skip_special_tokens=True)
+        accelerator.print(f"{'='*10} gen_output{'='*10}\n{gen_output} \n{'='*10}")
+        accelerator.print(f"{'='*10} rollout time: {end_time - start_time} {'='*10}")
         # completed_tensors, logits_per_steps = gen_output[0], gen_output[1]
         completed_tensors = gen_output
         completed_tensors = pad_across_processes(completed_tensors, dim=1, pad_index=tokenizer.pad_token_id, pad_first=False)
@@ -766,21 +801,19 @@ def main(args):
         wandb.init(project=args['wandb_project'], name=args['wandb_run_name'])
         wandb.config.update(args)
         
-    tokenizer = AutoTokenizer.from_pretrained(args['tokenizer_name_or_path'], use_fast=True)
-    tokenizer.pad_token_id = 1
-    tokenizer.eos_token_id = 2
+    tokenizer = AutoTokenizer.from_pretrained(args['tokenizer_name_or_path'], use_fast=True, trust_remote_code=True)
+    # tokenizer.pad_token_id = 1
+    # tokenizer.eos_token_id = 2
 
     (train_dataset, train_dataloader), (test_dataset, test_dataloader) = prepare_datasets_and_data_loaders(args, tokenizer)
 
     MODEL_CLASS = AutoModelForCausalLMWithValueHead
-    model = MODEL_CLASS.from_pretrained(args['model_name_or_path'])
-    # accelerator.print(f'[Vocab size]: {len(tokenizer)}')
-    # model.resize_token_embeddings(len(tokenizer))
+    model = MODEL_CLASS.from_pretrained(args['model_name_or_path'], trust_remote_code=True)
 
     # initialize ref model (if any)
     ref_model = None
     if args['ref_model_name_or_path']:
-        ref_model = AutoModelForCausalLMWithValueHead.from_pretrained(args['ref_model_name_or_path'])
+        ref_model = AutoModelForCausalLMWithValueHead.from_pretrained(args['ref_model_name_or_path'], trust_remote_code=True)
         # from copy import deepcopy
         # ref_model = deepcopy(model)
 
@@ -806,11 +839,21 @@ def main(args):
     scheduler = get_constant_schedule_with_warmup(optimizer, num_warmup_steps=warmup_step)
     model, optimizer, train_dataloader, test_dataloader = accelerator.prepare(model, optimizer, train_dataloader,
                                                                               test_dataloader)
+    accelerator.print(f"{'='*10} main_model has been prepared {'='*10}")
     if ref_model is not None:
         if accelerator.distributed_type == "DEEPSPEED":
             ref_model = prepare_deepspeed_ref_model(ref_model)
+            
         else:
             ref_model = accelerator.prepare(ref_model)
+        accelerator.print(f"{'='*10} ref_model has been prepared {'='*10}")
+    # test
+    # prompt = '你好'    
+    # model_input_ids = tokenizer.encode(prompt, return_tensors='pt').to(model.device)
+    # model_attention_mask = torch.ones_like(model_input_ids)
+    # model_output = accelerator.unwrap_model(model).generate(input_ids=model_input_ids, attention_mask=model_attention_mask, max_length=10)
+    # print(tokenizer.decode(model_output[0], skip_special_tokens=True))
+    # exit()
 
     global_step = 0
     global_iter_num = 0
@@ -822,7 +865,7 @@ def main(args):
     summary_log_dict = {}
     os.makedirs(model_dir, exist_ok=True)
     most_recent_ckpts_paths = []
-    with tqdm(range(1, n_epochs+1), total=n_epochs, disable=False) as t:
+    with tqdm(range(1, n_epochs+1), total=n_epochs, disable=False, desc='Training Epochs') as t:
         for epoch in t:
             kwargs = {
                 'args': args,
@@ -883,7 +926,57 @@ def main(args):
                     save_path = os.path.join(args['model_dir'], f'global_step_{str(global_step)}_epoch_{epoch}')
                     do_checkpoint(args, model, tokenizer, save_path, most_recent_ckpts_paths)
 
-    return 
+    return
+
+# load config
+# from accelerate.commands.config import load_config_from_file
+# from accelerate.utils import DeepSpeedPlugin
+# config_path = "/home/hanxianlin/workspace/reft/divination/mwp_ReFT/default_config_deepspeed_ga2.yaml"
+# config = load_config_from_file(config_path)
+# deepspeed_config = config.deepspeed_config
+
+
+
+# exp_name="zhouyi_rl" 
+# train_file='data/my_data/zhouyi_train.json' 
+# test_file='data/my_data/zhouyi_test.json' 
+# engine='nl' 
+# model_name_or_path='/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/epoch_25' 
+# ref_model_name_or_path='/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/epoch_25' 
+# tokenizer_name_or_path='/share/finetune/ppo_paper_final_new/_models_outputs_sft/zhouyi_glm4_sft/epoch_25' 
+# n_epochs='1' 
+# kl_coef='0.01' 
+# model_dir="/share/finetune/ppo_paper_final_new/_models_outputs_sft/${exp_name}/"
+# config_file="/home/hanxianlin/workspace/reft/divination/mwp_ReFT/default_config_deepspeed_ga2.yaml"
+
+# deepspeed_config = {
+#         "gradient_accumulation_steps": 1,
+#         "gradient_clipping": 1.0,
+#         "offload_optimizer_device": "cpu",
+#         "offload_param_device": "cpu",
+#         "zero3_init_flag": True,
+#         "zero_stage": 3,
+#         "zero3_save_16bit_model": True,
+#         "zero_optimization": {
+#             "stage": 3,
+#             "save_optimizer_state": False,
+#             "overlap_comm": True,
+#             "contiguous_gradients": True,
+#             "reduce_bucket_size": 5e7,
+#             "stage3_prefetch_bucket_size": 5e7,
+#             "stage3_param_persistence_threshold": 1e5,
+#             "stage3_gather_16bit_weights_on_model_save": True
+#         },
+#         "hybrid_engine": {
+#             "enabled": True,
+#             "max_out_tokens": 512,
+#             "inference_tp_size": 1,
+#             "release_inference_cache": False,
+#             "pin_parameters": True,
+#             "tp_gather_partition_size": 8
+#         }
+#     }
+# deepspeed_plugin = DeepSpeedPlugin(deepspeed_config)
 
 if __name__ == '__main__':
     from transformers import HfArgumentParser
@@ -941,6 +1034,10 @@ if __name__ == '__main__':
         if v in [NONE_INT, NONE_STR]:
             args[k] = None
     accelerator = Accelerator(kwargs_handlers=[InitProcessGroupKwargs(timeout=timedelta(seconds=18000))])
+    # accelerator = Accelerator(kwargs_handlers=[InitProcessGroupKwargs(timeout=timedelta(seconds=18000))], deepspeed_plugin=deepspeed_plugin)
     accelerator.print(args)
     accelerator.print(json.dumps(args, indent=2, ensure_ascii=False))
     main(args)
+    
+    
+# ^[^H\[\s]

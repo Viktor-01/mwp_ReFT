@@ -4,6 +4,5 @@ wandb/
 src/__pycache__/
 
 .idea
-train_sft_model.py
 .log
 logs/

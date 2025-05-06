@@ -1,6 +1,17 @@
 #!/bin/bash
 export TOKENIZERS_PARALLELISM=True
 
+# export TOKENIZERS_PARALLELISM=True
+# export TORCH_DISTRIBUTED_DEBUG=DETAIL
+# export TORCH_CPP_LOG_LEVEL=INFO
+# export NCCL_DEBUG=INFO
+# export NCCL_DEBUG_SUBSYS=ALL
+# export NCCL_P2P_LEVEL=NVL
+
+# export CUDA_VISIBLE_DEVICES=0,1,2,3,
+export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+
+
 ### Required variables
 exp_name=${exp_name:-''}
 train_file=${train_file:-''}
@@ -14,11 +25,12 @@ kl_coef=${kl_coef:-''} # For NL should put 0.05, For Python put 0.01
 
 ### Default variables
 model_dir="/share/finetune/ppo_paper_final_new/_models_outputs_rl/${exp_name}/"
-config_file="./default_config_deepspeed.yaml"
+# config_file="/home/hanxianlin/workspace/reft/divination/mwp_ReFT/default_config_deepspeed.yaml"
+config_file="/home/hanxianlin/workspace/reft/divination/mwp_ReFT/default_config_deepspeed_ga2.yaml"
 
-batch_size="4"
-mini_batch_size="4"
-eval_batch_size="8"
+batch_size="1"
+mini_batch_size="1"
+eval_batch_size="1"
 ppo_epochs="2"
 num_workers="0"
 learning_rate="3e-7"
@@ -43,7 +55,7 @@ logging_step_freq="1"
 evaluating_step_freq="-100"
 saving_step_freq="-100"
 
-wandb_log="True"
+wandb_log="False"
 wandb_project="ReFT"
 wandb_run_name="${exp_name}"
 #########

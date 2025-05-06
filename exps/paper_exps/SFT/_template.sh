@@ -19,7 +19,7 @@ n_epochs=${n_epochs:-''}
 
 ### Default variables
 model_dir="/share/finetune/ppo_paper_final_new/_models_outputs_sft/${exp_name}/"
-config_file="/home/wangxinrong/workspace/reft/divination/mwp_ReFT/default_config_deepspeed_ga2.yaml"
+config_file="/home/hanxianlin/workspace/reft/divination/mwp_ReFT/default_config_deepspeed_ga2.yaml"
 batch_size="1"
 eval_batch_size="1"
 gradient_accumulation_steps="2"

@@ -12,14 +12,14 @@
 # See the License for the specific language governing permissions and 
 # limitations under the License. 
 
-import debugpy
-try:
-    # 5678 is the default attach port in the VS Code debug configurations. Unless a host and port are specified, host defaults to 127.0.0.1
-    debugpy.listen(("localhost", 9501))
-    print("Waiting for debugger attach")
-    debugpy.wait_for_client()
-except Exception as e:
-    pass  
+# import debugpy
+# try:
+#     # 5678 is the default attach port in the VS Code debug configurations. Unless a host and port are specified, host defaults to 127.0.0.1
+#     debugpy.listen(("localhost", 9501))
+#     print("Waiting for debugger attach")
+#     debugpy.wait_for_client()
+# except Exception as e:
+#     pass  
 
 import traceback
 from accelerate import Accelerator, InitProcessGroupKwargs
@@ -218,13 +218,6 @@ def prepare_datasets_and_data_loaders(args, tokenizer):
             'forward_kwargs': forward_kwargs,
             'generate_prefix_kwargs': generate_prefix_kwargs,
         }
-    # 1. 创建分布式采样器
-    train_sampler = DistributedSampler(
-        tokenized_dataset['train'],
-        num_replicas=accelerator.num_processes,
-        rank=accelerator.process_index,
-        shuffle=True
-    )
 
     train_dataloader = DataLoader(
         tokenized_dataset['train'], 
@@ -243,29 +236,14 @@ def prepare_datasets_and_data_loaders(args, tokenizer):
     return (tokenized_dataset['train'], train_dataloader), (tokenized_dataset['test'], test_dataloader)
 
 
-def do_checkpoint(args, model, tokenizer, save_path, global_step):
-    try:
-        # 确保进程按顺序打印
-        for rank in range(accelerator.num_processes):
-            if accelerator.process_index == rank:
-                accelerator.print(f"\n{'='*50}")
-                accelerator.print(f"[进程 {rank} 的参数信息]")
-                accelerator.print(f"{'='*50}\n")
-                
-                # 1. 打印总参数量
-                total_params = sum(p.numel() for p in model.parameters())
-                accelerator.print(f"总参数量: {total_params}")
-                                    
-    except Exception as e:
-        accelerator.print(f"[进程 {accelerator.process_index}] 打印参数信息失败: {e}")
-        return False
-            
+def do_checkpoint(args, model, tokenizer, save_path, global_step):            
     try:
         accelerator.wait_for_everyone()
         accelerator.print(f"Rank {accelerator.process_index} do_checkpoint 同步成功")
     except Exception as e:
         accelerator.print(f"Rank {accelerator.process_index} do_checkpoint 同步失败: {e}")
         return False
+    
     # 保存config tokenizer 
     try:
         if accelerator.is_main_process:
@@ -275,32 +253,46 @@ def do_checkpoint(args, model, tokenizer, save_path, global_step):
     except:
         accelerator.print(f"Rank {accelerator.process_index} do_checkpoint config tokenizer 保存失败")
         return False
-    try:
-        if accelerator.is_main_process:
-            unwrapped_model = accelerator.unwrap_model(model)
-        # 打印state_dict
-        accelerator.print(f"{'='*50} unwrapped_model.named_parameters()")
-        for name, param in unwrapped_model.named_parameters():
-            accelerator.print(f"参数 {name}: shape {param.shape}")
-        accelerator.print(f"{'='*50} model.named_parameters()")
-        for name, param in model.named_parameters():
-            accelerator.print(f"参数 {name}: shape {param.shape}")
-        accelerator.print(f"{'='*50}")
+
+    # try:        
+    #     # unwrapped_model = accelerator.unwrap_model(model)
+    #     # if accelerator.is_main_process:
+    #     #     # 打印state_dict
+    #     #     # unwrap_model
+    #     #     accelerator.print(f"{'='*50} unwrapped_model.named_parameters()")
+    #     #     for name, param in unwrapped_model.named_parameters():
+    #     #         accelerator.print(f"参数 {name}: shape {param.shape}")
+    #     #     accelerator.print(f"{'='*50} model.named_parameters()")
+    #     #     # 打印model
+    #     #     for name, param in model.named_parameters():
+    #     #         accelerator.print(f"参数 {name}: shape {param.shape}")
+    #     #     accelerator.print(f"{'='*50}")
         
-        accelerator.print(f"Rank {accelerator.process_index} do_checkpoint state_dict 收集成功")
-    except:
-        accelerator.print(f"Rank {accelerator.process_index} do_checkpoint state_dict 收集失败")
-        return False
-    try:        
+    #     # 1. 打印总参数量
+    #     # total_params = sum(p.numel() for p in model.parameters())
+    #     # accelerator.print(f"总参数量: {total_params}")
+    #     # 打印state_dict        
+    #     state_dict = accelerator.get_state_dict(model)
+    #     accelerator.print(f"{'='*50} state_dict")
+    #     for k, v in state_dict.items():
+    #         accelerator.print(f"参数 {k}: shape {v.shape}")
+    #     accelerator.print(f"{'='*50}")
+    #     accelerator.print(f"Rank {accelerator.process_index} do_checkpoint state_dict 收集成功")
+    # except:
+    #     accelerator.print(f"Rank {accelerator.process_index} do_checkpoint state_dict 收集失败")
+    #     return False
+    try:
         # if accelerator.is_main_process:
+        unwrapped_model = accelerator.unwrap_model(model)
         unwrapped_model.save_pretrained(
             save_path,
             is_main_process=accelerator.is_main_process,
             save_function=accelerator.save,
             # 且分为n个模型文件
             max_shard_size="2GB",  # 添加此参数来控制分片大小
-            safe_serialization=True,  # 使用安全的序列化方式
+            safe_serialization=False,  # 使用安全的序列化方式
             state_dict = accelerator.get_state_dict(model)
+            
             )
         accelerator.print('save checkpoint success!')
         accelerator.wait_for_everyone()
@@ -435,7 +427,7 @@ def train_one_epoch(args, model, train_dataset, train_dataloader, optimizer, sch
     return epoch_result_dict, global_step, evaluate_result_dict
 
 def evaluate_generation(args, model, dataset, dataloader, tokenizer):
-    # return {'value_accuracy': 0}
+    return {'value_accuracy': 0}
 
     model.eval()
     predictions = []
@@ -534,6 +526,7 @@ def evaluate_generation(args, model, dataset, dataloader, tokenizer):
 
 
 def main(args):
+    last_save_path = None
     set_seed(args['seed'] + accelerator.process_index)
     if torch.distributed.get_rank() == 0 and args['wandb_log']:
         wandb.init(project=args['wandb_project'], name=args['wandb_run_name'])
@@ -558,7 +551,8 @@ def main(args):
     (train_dataset, train_dataloader), (test_dataset, test_dataloader) = prepare_datasets_and_data_loaders(args, tokenizer)
     config = AutoConfig.from_pretrained(
         args['model_name_or_path'],
-        trust_remote_code=True
+        trust_remote_code=True,
+        vocab_size=151552  # 显式指定词表大小
     )
     
     # 添加缺失的配置
@@ -576,14 +570,13 @@ def main(args):
     model = model.bfloat16()
     
     accelerator.print(f'[Vocab size]: {len(tokenizer)}')    
-    model.resize_token_embeddings(len(tokenizer))
+    # model.resize_token_embeddings(len(tokenizer))
 
     if accelerator.is_main_process and args['wandb_log']:
         wandb.run.summary.update({
             'pad_token_id': tokenizer.pad_token_id,
             'eos_token_id': tokenizer.eos_token_id,
             'unk_token_id': tokenizer.unk_token_id,
-            'vocab_size': len(tokenizer)
         })
 
     n_epochs = args['n_epochs']
@@ -625,7 +618,24 @@ def main(args):
     most_recent_ckpts_paths = []
     lowest_loss = None
     with tqdm(range(1, n_epochs+1), total=n_epochs, disable=not accelerator.is_main_process) as t:
-        for epoch in t:
+        for epoch in t:       
+            # 打印本轮数据及,各个显卡或进程分配的数据ID
+            # accelerator.print(f"当前EPOCH:{epoch} train_dataloader共有{len(train_dataloader)}个数据，分为了{len(train_dataloader)/args['batch_size']}批次,剩余: {len(train_dataloader)%args['batch_size']}个数据")
+            # 打印数据集和数据加载器的详细信息
+            accelerator.print(f"\n{'='*50} Epoch {epoch} 数据统计 {'='*50}")
+            accelerator.print(f"训练集总样本数: {len(train_dataset)}")
+            accelerator.print(f"每个批次大小(batch_size): {args['batch_size']}")
+            accelerator.print(f"进程数量: {accelerator.num_processes}")
+            accelerator.print(f"每个进程实际批次大小: {args['batch_size'] // accelerator.num_processes}")
+            accelerator.print(f"DataLoader迭代次数: {len(train_dataloader)}")
+            accelerator.print(f"总批次数: {len(train_dataloader) * accelerator.num_processes}")
+            accelerator.print(f"实际训练样本总数: {len(train_dataloader) * args['batch_size']}")
+            
+            if epoch == 29:
+                accelerator.print(f"跳过EPOCH:{epoch}")
+                continue                        
+            # 同步      
+            accelerator.wait_for_everyone()
             kwargs = {
                 'args': args,
                 'model': model, 
@@ -694,24 +704,25 @@ def main(args):
                     accelerator.print(f"epoch {epoch} 将开始保存权重，等待所有进程失败: {e}")
                     break
                 
-                save_path = model_dir
-                # 如果目录已存在,先清空
-                if accelerator.is_main_process and os.path.exists(save_path):
-                    accelerator.print(f"目录已存在, 清空目录: {save_path}")
-                    # shutil.rmtree(save_path)
-                os.makedirs(save_path, exist_ok=True)
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                accelerator.print(f"开始保存新的最佳checkpoint... 时间: {timestamp}")
-                
-                # accelerator.wait_for_everyone()
+                save_path = os.path.join(model_dir, f'epoch_{epoch}')                
+                os.makedirs(save_path, exist_ok=True)            
+                if accelerator.is_main_process:
+                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    accelerator.print(f"开始保存新的最佳checkpoint... 时间: {timestamp}")
+                accelerator.wait_for_everyone()
                 s=do_checkpoint(args, model, tokenizer, save_path, global_step)
                 # accelerator.wait_for_everyone()
                 if s:
                     accelerator.print(f"保存checkpoint成功")
+                    if accelerator.is_main_process and last_save_path and os.path.exists(last_save_path):
+                        shutil.rmtree(last_save_path, ignore_errors=True)
+                        accelerator.print(f"删除上一个checkpoint: {last_save_path}")
+                        last_save_path = save_path
+                    accelerator.wait_for_everyone()
                 else:
                     accelerator.print(f"保存checkpoint失败")
                     break
-    return 
+        return 
 if __name__ == '__main__':
     from transformers import HfArgumentParser
     NONE_INT = -100 
